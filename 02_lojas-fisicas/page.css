@@ -1,0 +1,173 @@
+.sessao-imagem {
+    position: relative;
+    background-color: rgba(10, 54, 37, 1);
+}
+
+.sessao-imagem img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.sessao-imagem h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.sessao-corpo {
+    padding: 40px 0px 100px;
+    background-color: #d3d3d393;
+}
+
+.article-cima {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 0px 20px;
+}
+
+.sessao-corpo h1 {
+    text-align: center;
+    margin: 0px 0px 60px;
+    font-size: 35px;
+    color: #0A3625;
+}
+
+.article-cima div {
+    max-width: 220px;
+    background: #0A3625;
+    border-radius: 10px;
+    padding: 15px 25px 15px;
+    margin: 0px 20px 20px;
+    height: 90px;
+    position: relative;
+    box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.3);
+}
+
+.article-cima div h2 {
+    font-size: 18px;
+    color: #FDF10F;
+}
+
+.article-cima div p {
+    color: #ffffffe1;
+    font-size: 13px;
+}
+
+.article-cima div a {
+    background-color: #FFE607;
+    border-radius: 30px;
+    color: black;
+    padding: 5px 10px 5px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+}
+
+.horario {
+    color: #0A3625;
+    text-align: center;
+    font-weight: 200;
+    margin: 50px 0px 30px;
+}
+
+.div-seta {
+    display: flex;
+    justify-content: center;
+}
+
+.div-seta img {
+    background-color: #44B9EB;
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    padding: 10px 10px 10px;
+}
+
+.article-meio {
+    display: flex;
+    justify-content: center;
+}
+
+.div-main {
+    background-color: white;
+    display: flex;
+    padding: 30px 70px 30px 30px;
+    border-radius: 12px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 3px 10px 14px rgba(0, 0, 0, 0.3);
+}
+
+.div-main strong {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div-main img {
+    width: 30px;
+    height: 100%;
+}
+
+.div-main div {
+    padding-left: 20px;
+}
+
+.article-baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.article-baixo p {
+    padding: 10px 0px 40px;
+    font-size: 14px;
+}
+
+.article-baixo img {
+    width: 30px;
+    padding: 0px 20px 0px;
+}
+
+@media (max-width: 580px) {
+    .sessao-imagem h1 {
+        font-size: 14px;
+    }
+
+    .sessao-corpo h1 {
+        font-size: 26px;
+    }
+
+    .div-main {
+        padding: 15px 20px 15px 15px;
+        box-shadow: 3px 10px 14px rgba(0, 0, 0, 0.3);
+    }
+
+    .div-main strong {
+        font-size: 16px;
+    }
+
+    .div-main p {
+        font-size: 14px;
+    }
+
+    .horario {
+        margin: 50px 20px 30px;
+        font-size: 18px;
+    }
+
+    .article-baixo h3 {
+        font-size: 18px;
+    }
+
+    .article-baixo p {
+        font-size: 12px;
+    }
+
+}

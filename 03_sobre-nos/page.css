@@ -1,0 +1,158 @@
+.sessao-imagem {
+    position: relative;
+    background-color: rgba(10, 54, 37, 1);
+}
+
+.sessao-imagem img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.sessao-imagem div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    color: #ffffff;
+
+}
+
+.sessao-imagem h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.sessao-imagem p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.sessao-imagem h1 span {
+    color: #FDF10F;
+}
+
+main {
+    background-color: #d3d3d393;
+    padding: 80px 80px;
+    color: #0A3625;
+}
+
+main .p1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p span {
+    font-weight: 900;
+}
+
+main .section-topo{
+    margin-bottom: 120px;
+}
+
+main .section-topo div{
+    margin-top: 50px;
+}
+
+section div h2{
+    font-weight: 400;
+}
+
+section div h2 span{
+    font-weight: 900;
+}
+
+.section-topo div p{
+    margin-top: 15px;
+}
+
+.div-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-bottom div{
+    width: 35%;
+}
+
+.section-bottom img{
+    width: 100px;
+    margin: 70px auto 0px;
+    display: block;
+}
+
+@media screen and (max-width: 680px){
+    .sessao-imagem div {
+        top: 20%;
+    }
+    
+    .sessao-imagem h1 {
+        font-size: 30px;
+    }
+    
+    .sessao-imagem p {
+        font-size: 10px;
+    }
+
+    main {
+        padding: 50px 30px;
+    }
+
+    main .p1 {
+        font-size: 12px;
+    }
+
+    main .section-topo{
+        margin-bottom: 40px;
+    }
+    
+    main .section-topo div{
+        margin-top: 30px;
+    }
+    
+    section div h2{
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    section div h2 span{
+        font-weight: 900;
+    }
+    
+    .section-topo div p{
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .section-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .div-bottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div-bottom h2{
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .div-bottom p{
+        font-size: 12px;
+    }
+    
+    .div-bottom div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .section-bottom img{
+        width: 50px;
+        margin: 0px auto 30px;
+    }
+}
