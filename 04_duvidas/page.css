@@ -1,7 +1,7 @@
 .sessao-imagem {
-    background-image: url(imagens/image20.png);
+    background-image: url(../imagens/image20.png);
     background-size: cover;
-    background-color: #039960;
+    background-color: #0A3625;
     padding: 40px 0px 30px;
     display: block;
     width: 100%;

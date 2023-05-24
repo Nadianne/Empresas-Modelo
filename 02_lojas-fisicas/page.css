@@ -1,6 +1,7 @@
 .sessao-imagem {
     position: relative;
     background-color: rgba(10, 54, 37, 1);
+    background-size: cover;
 }
 
 .sessao-imagem img {
