@@ -154,14 +154,13 @@ nav {
     overflow-x: hidden;
   }
 
-  /*
-  ### Nao está sendo usado ###
+  
   a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
   }
-  */
+  
   nav a:hover {
     opacity: 0.7;
   }
