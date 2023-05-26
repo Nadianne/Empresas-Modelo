@@ -56,6 +56,7 @@ main {
     background-color: #d3d3d393;
     color: #0A3625;
     padding-bottom: 35px;
+    padding-top: 100px;
 }
 
 main .span1 {
@@ -71,26 +72,49 @@ main .span2 {
 
 .body-topo{
     display: flex;
-    background-color: rgba(255, 255, 0, 0.26);
+    width: 100%;
 }
 
-.categorias{
-    width: 200px;
-    background-color: aqua;
-    padding: 0 0 0 50px;
+.body-topo .categorias{
+    width: 180px;
+    justify-content: start;
+    margin-left: 30px;
+}
+
+.body-topo .categorias div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.body-topo .categorias div::after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #d3d3d3;
+}
+
+.body-topo .categorias h2{
+    font-weight: 900;
+}
+
+.body-topo .categorias p{
+    color: black;
 }
 
 .melhores-produtos {
     margin: 0px 5% 0px;
     overflow-x: auto;
-    width: 65%;
+    width: 80%;
     white-space: nowrap;
+    height: 300px;
     padding-bottom: 5px;
-    background-color: coral;
 }
 
 .melhores-produtos h2{
     margin-bottom: 20px;
+    font-weight: 900;
 }
 
 
@@ -99,84 +123,93 @@ main .span2 {
     margin-top: 40px;
     margin-bottom: 20px;
 }
-.selecao-sofa {
+.selecao-cama {
     display: flex;
-    background-color: #0A3625;
+    background-color: #FFE607;
     margin: 60px 0;
+    color: #0A3625;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.selecao-sofa img {
+.selecao-cama img {
     width: 60%;
 }
 
-.selecao-sofa div {
-    background-color: #0A3625;
+.selecao-cama div {
+    background-color: #FFE607;
     width: 40%;
+    display: block;
+    
 }
 
-.selecao-sofa .span-1 {
-    text-transform: uppercase;
-    color: #FAFF00;
+.selecao-cama h1{
     font-weight: 900;
     font-size: 46px;
-    margin: 10% 0 0 12%;
 }
 
-
-.selecao-sofa h2 {
+.selecao-cama h2 {
     display: block;
     font-weight: 900;
-    color: white;
-    font-size: 26px;
+    font-size: 38px;
+}
+
+.selecao-cama p{
+    font-size: 38px;
     font-weight: 500;
-    margin: -12px 0 0px 15%;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
-.selecao-sofa h1 {
-    color: white;
-    font-weight: 500;
-    margin: -11px 0 0px 19%;
-    font-size: 46px;
-}
 
-.selecao-sofa span {
-    text-transform: uppercase;
-    font-weight: 900;
-}
 
-.selecao-sofa .renove-sala {
+
+
+.selecao-cama .renove-sala {
     margin: -11px 0 0px 27%;
     font-size: 22px;
     padding-bottom: 20px;
+}
+
+.invis2{
+    display: none;
+}
+
+.mais-vendidos {
+    margin: 0px 5% 0px;
+    overflow-x: auto;
+    width: 90%;
+    white-space: nowrap;
+    height: 270px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 915px) {
     main .opcoes a {
         width: 130px;
     }
+    .mais-vendidos{
+        height: 200px;
+    }
 
-    .selecao-sofa {
+    .invis2{
+        display: block;
+    }
+
+    .selecao-cama {
         margin: 30px 0;
     }
 
-    .selecao-sofa .span-1 {
-        font-size: 30px;
-        margin: 5% 0 0 5%;
+    .selecao-cama h1{
+        font-size: 36px;
+    }
+    .selecao-cama h2{
+        font-size: 32px;
     }
 
-    .selecao-sofa h2 {
-        font-size: 20px;
-        margin: -9px 0 0px 9%;
-    }
-
-    .selecao-sofa h1 {
-        margin: -8px 0 0px 13%;
-        font-size: 30px;
-    }
-
-    .selecao-sofa .renove-sala {
-        margin: -11px 0 0px 19%;
-        font-size: 18px;
+    .selecao-cama p{
+        font-size: 32px;
     }
 
 }
@@ -188,56 +221,36 @@ main .span2 {
         border-radius: 15px;
     }
 
+    .mais-vendidos{
+        height: 180px;
+    }
+
     .sessao-imagem h1 {
-        font-size: 26px;
+        font-size: 28px;
     }
 
     .sessao-imagem p {
-        font-size: 12px;
+        font-size: 15px;
     }
 
-    .preferencia div {
-        font-size: 12px;
-    }
-
-    .preferencia img {
-        width: 25px;
-        margin-right: 5px;
-    }
-
-    .selecao-sofa {
-        margin: 20px 0;
+    .selecao-cama {
+        margin: 40px 0;
         display: flex;
-        flex-direction: column-reverse;
-        background-color: rgba(255, 255, 255, 0);
+        background-color: #FFE607;
     }
 
-    .selecao-sofa img {
-        width: 100%;
+    .selecao-cama img {
+        width: 60%;
     }
 
-    .selecao-sofa div {
-        width: 100%;
-        align-self: center;
+    .selecao-cama h1{
+        font-size: 29px;
+    }
+    .selecao-cama h2{
+        font-size: 24px;
     }
 
-    .selecao-sofa .span-1 {
-        font-size: 30px;
-        margin: 5% 0 0 20%;
-    }
-
-    .selecao-sofa h2 {
-        font-size: 20px;
-        margin: -9px 0 0px 24%;
-    }
-
-    .selecao-sofa h1 {
-        margin: -8px 0 0px 29%;
-        font-size: 30px;
-    }
-
-    .selecao-sofa .renove-sala {
-        margin: -11px 0 0px 35%;
-        font-size: 18px;
+    .selecao-cama p{
+        font-size: 24px;
     }
 }
