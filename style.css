@@ -147,11 +147,18 @@ nav {
   background: #fff;
   margin: 8px;
   transition: 0.3s;
+} 
+body {
+  overflow-x: hidden;
+  
+  max-width: 100%;
 }
 
 @media (max-width: 999px) {
-  body {
+
+  body{
     overflow-x: hidden;
+    max-width: 100%;
   }
 
   
@@ -196,20 +203,22 @@ nav {
  
 }
 
-  .nav-list {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background: #0A3625;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
+
+.nav-list {
+  position: absolute;
+  top: 8vh;
+  right: 0; 
+  width: 50vw;
+  height: 92vh;
+  background: #0a3625;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  transform: translateY(-900px);
+  transition: transform 0.5s ease-in;
+  overflow-x: hidden;
+}
 
   .card{
     background: #e4e0e0 ;
