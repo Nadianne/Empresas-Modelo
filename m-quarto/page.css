@@ -58,38 +58,6 @@ main {
     padding-bottom: 35px;
 }
 
-main .opcoes {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    position: relative;
-}
-
-main .opcoes a {
-    color: black;
-    background-color: #FDF10F;
-    padding: 10px 0px 10px;
-    width: 200px;
-    text-align: center;
-    border-radius: 50px;
-    margin-top: -20px;
-}
-
-.preferencia {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-
-.preferencia div {
-    display: flex;
-}
-
-.preferencia img {
-    width: 40px;
-    margin-right: 10px;
-}
-
 main .span1 {
     display: block;
     font-weight: 500;
@@ -101,20 +69,36 @@ main .span2 {
     color: #0A3625;
 }
 
-.produto {
-    margin-left: 5%;
-    margin-top: 40px;
-    margin-bottom: 20px;
+.body-topo{
+    display: flex;
+    background-color: rgba(255, 255, 0, 0.26);
+}
+
+.categorias{
+    width: 200px;
+    background-color: aqua;
+    padding: 0 0 0 50px;
 }
 
 .melhores-produtos {
     margin: 0px 5% 0px;
     overflow-x: auto;
-    width: 90%;
+    width: 65%;
     white-space: nowrap;
     padding-bottom: 5px;
+    background-color: coral;
 }
 
+.melhores-produtos h2{
+    margin-bottom: 20px;
+}
+
+
+.produto {
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 .selecao-sofa {
     display: flex;
     background-color: #0A3625;
@@ -219,11 +203,6 @@ main .span2 {
     .preferencia img {
         width: 25px;
         margin-right: 5px;
-    }
-
-    .melhores-produtos div {
-        width: 80px;
-        margin-right: 20px;
     }
 
     .selecao-sofa {
