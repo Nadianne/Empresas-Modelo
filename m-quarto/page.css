@@ -84,11 +84,11 @@ main .span2 {
 .body-topo .categorias div{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .categorias label{
-    font-weight: 600;
+    font-weight: 500;
 }
 
 input[type="radio"]{
@@ -105,7 +105,6 @@ input[type="radio"]{
   
   input[type="radio"]:checked{
     background-color: #0A3625;
-    font-weight: 900;
   }
 
 /* .body-topo .categorias div::after{
@@ -156,8 +155,10 @@ input[type="radio"]{
 }
 
 .artc-topo{
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .melhores-produtos {
@@ -165,6 +166,7 @@ input[type="radio"]{
     width: 80%;
     padding-bottom: 5px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .melhores-produtos h2{
