@@ -208,7 +208,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   z-index: 1;
-  transform: translateY(-900px);
+  transform: translateY(-1800px);
   transition: transform 0.5s ease-in;
   overflow-x: hidden;
 }
