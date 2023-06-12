@@ -1,4 +1,5 @@
 var melhoresProdutos = document.querySelector('.melhores-produtos');
+var subcategorias = document.querySelector('.artc-subcategorias')
 
 var labelGuardaRoupa = document.querySelector('label[for="guarda-roupa"]');
 var guardaRoupa = document.getElementById("guarda-roupa");
@@ -230,25 +231,37 @@ path = "../imagens-moveis/Cômoda-4-Gavetas-Azul-Petróleo";
     }
   });
 
+function setMelhoresProdutos(ii, jj){
+    for(var i = 0;i < ii;i++){
+        var novoArtigo = document.createElement('article')
+        novoArtigo.classList.add('artc-topo');
+        for(var j = 0;j<jj;j++){
+            novoArtigo.appendChild(criarNovaDiv(path + j + '.png',newText[subcategoriaPos][i][j]));
+        }
+        melhoresProdutos.appendChild(novoArtigo);
+    }
+}
 
 guardaRoupa.addEventListener("change", function() {
     melhoresProdutos.innerHTML = ''; // Limpa o conteúdo existente
     melhoresProdutos.appendChild(createH2("Guarda-roupa de casal"));
     //<h2>Produtos indicados:</h2>
-    var newText = [
+    subcategoriaPos = 0;
+    newText = [[
 ['L 1 Guarda Roupa Casal 8 Portas e 4 Gavetas','L 1 Guarda Roupa Casal 7 Portas e 3 Gavetas','L 1 Guarda Roupa Casal 6 Portas e 2 Gavetas'],
 ['L 2 Guarda Roupa Casal 8 Portas e 4 Gavetas','L 2 Guarda Roupa Casal 7 Portas e 3 Gavetas','L 2 Guarda Roupa Casal 6 Portas e 2 Gavetas'],
 ['L 2 Guarda Roupa Casal 8 Portas e 4 Gavetas','L 3 Guarda Roupa Casal 7 Portas e 3 Gavetas','L 3 Guarda Roupa Casal 6 Portas e 2 Gavetas'],
+],
+[
+['L 1 Guarda Roupa Solteiro 8 Portas e 4 Gavetas','L 1  Roupa Solteiro 7 Portas e 3 Gavetas','L 1  Roupa Solteiro 6 Portas e 2 Gavetas'],
+['L 2 Guarda Roupa Solteiro 8 Portas e 4 Gavetas','L 2 Guarda Roupa Solteiro 7 Portas e 3 Gavetas','L 2  Roupa Solteiro 6 Portas e 2 Gavetas'],
+['L 2 Guarda Roupa Solteiro 8 Portas e 4 Gavetas','L 3  Roupa Solteiro 7 Portas e 3 Gavetas','L 3  Roupa Solteiro 6 Portas e 2 Gavetas'],
+],
 ];
-path = "../imagens-moveis/guarda-roupa-casal-8portas-e-4-gavetas";
-    for(var i = 0;i < 3;i++){
-        var novoArtigo = document.createElement('article')
-        novoArtigo.classList.add('artc-topo');
-        for(var j = 0;j<3;j++){
-            novoArtigo.appendChild(criarNovaDiv(path + j + '.png',newText[i][j]));
-        }
-        melhoresProdutos.appendChild(novoArtigo);
-    }
+    path = "../imagens-moveis/guarda-roupa-casal-8portas-e-4-gavetas";
+    setMelhoresProdutos(3,3);
+    setSubcategorias();
+
 
     if(this.checked){
         ultimoLabel.style.fontWeight = 500;
@@ -256,6 +269,93 @@ path = "../imagens-moveis/guarda-roupa-casal-8portas-e-4-gavetas";
         ultimoLabel.style.fontWeight = 900;
     }
   });
+
+function setSubcategorias(){
+    subcategorias.innerHTML = "";
+    originalPath = path;
+    subcategorias.appendChild(createH3("Subcategorias"));
+    subText = ["Casal","Solteiro"];
+    criarDivSubCategorias();
+}
+
+function criarDivSubCategorias(){
+    for (var i = 0; i < subText.length; i++) {
+        (function (index) {
+          var novaDiv = document.createElement('div');
+          var label = document.createElement('label');
+          label.textContent = subText[index];
+          label.setAttribute('for', "id" + index);
+          var radio = document.createElement('input');
+          radio.type = 'radio';
+          radio.name = 'subcat';
+          radio.id = "id" + index;
+          radio.addEventListener("change", function () {
+            melhoresProdutos.innerHTML = ''; // Limpa o conteúdo existente
+            melhoresProdutos.appendChild(createH2("Guarda-roupa de casal"));
+            path = originalPath;
+            if (index != 0) {
+              path = path + index;
+            }
+            subcategoriaPos = index;
+            setMelhoresProdutos(3, 3);
+          });
+          if (index == 0) {
+            radio.checked = true;
+          }
+          novaDiv.appendChild(label);
+          novaDiv.appendChild(radio);
+          subcategorias.appendChild(novaDiv);
+        })(i);
+      }
+      
+}
+
+// function criarDivSubCategorias(){
+//     for(var i = 0;i < subText.length;i++){
+//         var novaDiv = document.createElement('div');
+//         var label = document.createElement('label');
+//         label.textContent = subText[i];
+//         label.setAttribute('for',"id" + i);
+//         var radio = document.createElement('input');
+//         radio.type = 'radio';
+//         radio.name = 'subcat';
+//         radio.id = "id" + i;
+//         radio.addEventListener("change",function(i){
+//             path = originalPath;
+//             console.log("Oi"+i);
+//             if(i != 0){
+//                 path = path + i;
+//             }
+//             subcategoriaPos = i;
+//             setMelhoresProdutos(3,3);
+//         });
+//         if(i == 0){
+//             radio.checked = true;
+//         }
+//         novaDiv.appendChild(label);
+//         novaDiv.appendChild(radio);
+//         subcategorias.appendChild(novaDiv);
+//     }
+// }
+
+var subText = [];
+var newText = [];
+var path = "";
+var originalPath = "";
+var subcategoriaPos = 0;
+  /* 
+<article class="artc-subcategorias">
+          <h3>Subcategorias</h3>
+          <div>
+            <label for="s-guarda-roupa">Casal</label>
+            <input type="radio" name="subcat" id="s-guarda-roupa">
+          </div>
+          <div>
+            <label for="s-guarda-roupa">Solteiro</label>
+            <input type="radio" name="subcat" id="s-guarda-roupa">
+          </div>
+        </article>
+  */
 
 
 
@@ -288,4 +388,10 @@ function criarNovaDiv(caminhoImagem, textoParagrafo) {
     var novoH2 =  document.createElement('h2');
     novoH2.textContent = texto
     return novoH2;
+  }
+
+  function createH3(texto){
+    var novoH3 =  document.createElement('h3');
+    novoH3.textContent = texto
+    return novoH3;
   }

@@ -103,20 +103,16 @@ input[type="radio"]{
     margin-right: 5px;
   }
   
-  input[type="radio"]:checked{
+input[type="radio"]:checked{
     background-color: #0A3625;
-  }
-
-/* .body-topo .categorias div::after{
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #d3d3d3;
-} */
+}
 
 .body-topo .categorias h2{
     font-weight: 900;
+}
+
+.body-topo .categorias h3{
+    margin-top: 50px;
 }
 
 .body-topo .categorias p{
