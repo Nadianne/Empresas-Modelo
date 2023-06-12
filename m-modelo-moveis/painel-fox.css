@@ -1,0 +1,151 @@
+
+.PainelNogal p {
+    font-size: 25px; 
+    white-space: normal; 
+    margin-left: 500px;
+    margin-bottom: 250px;
+    font-weight: bold;
+  }
+
+  
+
+  .PainelNogal h1 {
+    font-size: 15px;
+    white-space: normal; 
+    margin-left: -180px;
+    margin-bottom: 150px;
+    font-weight: medium;
+  }
+
+  .PainelNogal h2 {
+    font-size: 12px;
+    white-space: normal; 
+    margin-left: -320px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+  }
+
+  .PainelNogal .text-container {
+    
+    margin-left: -420px;
+    margin-bottom: 250px;
+  }
+
+  @media screen and (max-width: 915px) {
+
+    main .compra {
+      font-weight: 800;
+      color:#ffffff;
+  }
+
+  .PainelNogal .bordered-img {
+      width: 200px;
+      margin-top: 45px;
+      margin-bottom: 35px;
+      margin-left: 200px;
+      transition: all 0.3s ease;
+  }
+
+  .PainelNogal .compra {
+      margin-left: -90px;
+      margin-bottom: -80px;
+      border: 2px solid;
+      border-radius: 30px; 
+      background-color:  #0A3625;
+      border: 2px solid  #0A3625;
+      border-radius: 30px;
+  }
+  
+  .PainelNogal p {
+      font-size: 12px; 
+      margin-left: 450px;
+      margin-bottom: 150px;
+      font-weight: bold;
+  }
+
+  .PainelNogal h1 {
+      font-size: 8px;
+      white-space: normal; 
+      margin-left: -70px;
+      margin-bottom: 100px;
+      font-weight: medium;
+  }
+
+  .PainelNogal h2 {
+      font-size: 9px;
+      white-space: normal; 
+      margin-left: -170px;
+      margin-bottom: 30px;
+      font-weight: lighter;
+  }
+
+  .PainelNogal .text-container {
+      margin-left: -400px;
+      margin-bottom: 250px;
+  }
+
+
+
+  @media screen and (max-width: 630px) {
+
+    
+  main .compra {
+    font-weight: 800;
+    color:#ffffff;
+ 
+}
+
+    .PainelNogal .compra{
+        margin-left: -70px;
+        margin-bottom: -80px;
+        border: 2px solid;
+        border-radius: 30px; 
+        background-color:  #0A3625;
+        border: 2px solid  #0A3625;
+        border-radius: 30px;
+    }
+    
+
+       
+.PainelNogal p {
+    font-size: 10px; 
+    margin-left: 460px;
+    margin-bottom: 150px;
+    font-weight: bold;
+  }
+
+  
+
+  .PainelNogal h1 {
+    font-size: 6px;
+    white-space: normal; 
+    margin-left: -60px;
+    margin-bottom: 100px;
+    font-weight: medium;
+  }
+
+  .PainelNogal h2 {
+    font-size: 7px;
+    white-space: normal; 
+    margin-left: -128px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+  }
+
+  .PainelNogal .text-container {
+    
+    margin-left: -420px;
+    margin-bottom: 250px;
+  }
+
+    .PainelNogal .bordered-img {
+        width: 150px;
+        margin-top: 45px;
+        margin-bottom: 35px;
+        margin-left: 30px;
+        transition: all 0.3s ease;
+      }
+
+
+    }
+  }
