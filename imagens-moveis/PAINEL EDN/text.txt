@@ -1,0 +1,8 @@
+Descrição do conteúdo para não se perder, exemplo:
+t00 = "painel susp 120cm torino nogal"
+t10 = "painel susp 120cm FOX NEW"
+
+
+t00 - painel susp 120cm fox new
+t10 - painel susp 120cm torino nogal
+t20 - tv flavia 42 rippas preto

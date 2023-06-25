@@ -107,14 +107,6 @@ main .span2 {
     margin-bottom: 20px;
 }
 
-.melhores-produtos {
-    margin: 0px 5% 0px;
-    overflow-x: auto;
-    width: 90%;
-    white-space: nowrap;
-    padding-bottom: 5px;
-}
-
 .selecao-sofa {
     display: flex;
     background-color: #0A3625;
@@ -417,11 +409,6 @@ main .span2 {
     .preferencia img {
         width: 25px;
         margin-right: 5px;
-    }
-
-    .melhores-produtos div {
-        width: 80px;
-        margin-right: 20px;
     }
 
     .selecao-sofa {

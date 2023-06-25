@@ -1,16 +1,17 @@
-
-#overlay {
+#Overlay {
     display: block;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    z-index: 15;
 }
 
-#details-produto{
+#Overlay #details-produto{
     display: flex;
     width: 90%;
     max-width: 900px;
@@ -24,50 +25,169 @@
     padding: 50px 50px 20px 50px;
     justify-content: space-between;
     text-align: justify;
+    overflow: auto;
+    z-index: 20;
 }
 
-#close-produto{
+#Overlay #close-produto{
     margin-top: -30px;
     left: 95%;
+    transform: translate(-70%,0);
     width: 25px;
     position: absolute;
 }
 
-#imagens-details-produto{
-    width: 45%;
+#Overlay #close-produto:hover{
+    /* background-color: red; */
+    filter: invert(50%);
 }
 
-#imagens-details-produto img{
+#Overlay #imagens-details-produto{
+    width: 45%;
+    display: block;
+}
+
+#Overlay #imagem-detail-before{
     width: 80%;
     max-width: 300px;
+    display: flex;
+    margin: 0 auto;
 }
-#imagens-details-produto div img{
+#Overlay #imagens-details-produto div img{
     width: 40%;
 }
-#imagens-details-produto div{
+#Overlay #imagens-details-produto div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#detalhes-produto-info{
+#Overlay #detalhes-produto-info{
     width: 48%;
 }
 
-#detalhes-produto-especificacoes{
-    display: inline-block;
+#Overlay #detalhes-produto-especificacoes{
+    display: block;
     border-left: 5px solid #0A3625;
-    border-right: 5px solid #0A3625;
-    border-radius: 18px;
-    margin: 30px 0;
-    padding: 0 15px;
+    margin: 25px 0px 50px 0px;
+    padding: 0 10px;
 }
 
+#Overlay #detalhes-produto-info h1{
+    font-weight: normal;
+}
 
-@media screen and (max-width: 500px){
-    #details-produto{
-        display: block;
+#Overlay #detalhes-produto-info span{
+    font-weight: 900;
+}
+
+#Overlay #quero-comprar{
+    color: white;
+    background-color: #039960;
+    width: 160px;
+    font-weight: 900;
+    padding: 2px 15px;
+    border-radius: 32px;
+    font-size: 22px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button-pop-up{
+    background-color: #039960;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 900;
+    display: block;
+    border-radius: 32px;
+    font-size: 22px;
+    padding: 0 20px;
+    margin: 0 auto;
+    white-space: normal;
+}
+
+.button-pop-up:hover{
+    background-color: rgb(0, 85, 45);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 915px) {
+    .button-pop-up {
+        font-size: 14px;
+        padding: 0 10px;
     }
-    #imagens-details-produto{
+}
+@media screen and (max-width: 630px) {
+    .button-pop-up {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 715px){
+    #Overlay #details-produto{
+        display: block;
+        width: 80%;
+    }
+    #Overlay #imagens-details-produto{
+        /* background-color: red; */
+        display: flex;
         width: 100%;
     }
+    #Overlay #imagens-details-produto div{
+        display: block;
+    }
+    #Overlay #imagens-details-produto div img{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #Overlay #imagem-detail-before{
+        width: 50%;
+        max-width:none;
+        display: flex;
+        margin: 0 auto;
+        /* background-color: red; */
+    }
+    #Overlay #detalhes-produto-info{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #Overlay #detalhes-produto-info h1{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    #Overlay #detalhes-produto-info p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    #Overlay #detalhes-produto-info #detalhes-produto-especificacoes p{
+        text-align: justify;
+    }
+
+    #Overlay #detalhes-produto-especificacoes{
+        padding: 0 10px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    #Overlay #quero-comprar{
+        display: flex;
+        width: 120px;
+        padding: 2px 15px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #Overlay #close-produto{
+        margin-top: -30px;
+        left: 85%;
+        width: 25px;
+        position: absolute;
+    }
 }
+/* &nbsp; */
+
+/* "https://chat.whatsapp.com/EyT71Xs9DoDFVWtpNpmovy" */

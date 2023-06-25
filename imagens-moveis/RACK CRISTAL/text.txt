@@ -1,0 +1,4 @@
+Descrição do conteúdo para não se perder, exemplo:
+r00 = "rack cristal permobili"
+
+0 - rack cristal permobili

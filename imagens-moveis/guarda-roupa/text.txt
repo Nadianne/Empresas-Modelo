@@ -1,0 +1,26 @@
+Descrição do conteúdo para não se perder, exemplo:
+c00 = "0 - casal..."
+c10 = "1 - casal..."
+
+
+0 - casal
+1 - casal
+2 - casal
+3 - casal
+4 - casal
+5 - casal
+6 - casal
+7 - casal
+8 - casal
+9 - casal
+10 - casal
+11 - casal
+12 - casal
+13 - casal
+14 - casal
+
+0 - solteiro
+1 - solteiro
+2 - solteiro
+3 - solteiro
+4 - solteiro

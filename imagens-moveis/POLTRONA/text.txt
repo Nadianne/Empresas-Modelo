@@ -1,0 +1,6 @@
+Descrição do conteúdo para não se perder, exemplo:
+p00 = "poltrona decorativa"
+p10 = "poltrona berlim"
+
+0 - poltrona decorativa
+1 - poltrona berlim
