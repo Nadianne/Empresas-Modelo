@@ -17,9 +17,9 @@ function alterarPopUp(){
     for(var i = 0; i < paragrafoPopUpText.length;i++){
         paragrafoPopUpDisplay[i].innerHTML = paragrafoPopUpText[i];
     }
-    imagensPopUp[0].src = pathImgPopUp + "0.png";
-    imagensPopUp[1].src = pathImgPopUp + "1.WEBP";
-    imagensPopUp[2].src = pathImgPopUp + "2.WEBP";
+    imagensPopUp[0].src = pathImgPopUp + "0.webp";
+    imagensPopUp[1].src = pathImgPopUp + "1.webp";
+    imagensPopUp[2].src = pathImgPopUp + "2.webp";
     overLay.style.display = "block";
 }
 
