@@ -214,7 +214,7 @@ function criarNovaDiv(caminhoImagem, textoParagrafo, index) {
   novoProduto.classList.add('produto-generico', 'protudos-das-categorias');
 
   var novaImagem = document.createElement('img');
-  novaImagem.src = caminhoImagem + "0.webp";
+  novaImagem.src = caminhoImagem + "0.png";
   novaImagem.alt = 'Nova Imagem';
 
   var novoParagrafo = document.createElement('p');
@@ -287,9 +287,9 @@ function alterarPopUp() {
   for (var i = 0; i < paragrafoPopUpText.length; i++) {
     paragrafoPopUpDisplay[i].innerHTML = paragrafoPopUpText[i];
   }
-  imagensPopUp[0].src = pathImgPopUp + "0.webp";
-  imagensPopUp[1].src = pathImgPopUp + "1.webp";
-  imagensPopUp[2].src = pathImgPopUp + "2.webp";
+  imagensPopUp[0].src = pathImgPopUp + "0.png";
+  imagensPopUp[1].src = pathImgPopUp + "1.png";
+  imagensPopUp[2].src = pathImgPopUp + "2.png";
   overLay.style.display = "block";
 }
 
