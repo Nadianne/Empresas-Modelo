@@ -31,140 +31,129 @@ guardaRoupa.addEventListener("change", function () {
   produtosIndicados.innerHTML = '';
   subCategoriasTitulo = ["Guarda-roupa de Casal", "Guarda-roupa de Solteiro"];
   subcategoriaIndex = 0;
-  tamProdutosIndicados = [14,4];
+  tamProdutosIndicados = [12,4];
   imgAllPath = ["../imagens-moveis/guarda-roupa/c","../imagens-moveis/guarda-roupa/s"];
   produtosIndicados.appendChild(createH2(subCategoriasTitulo[subcategoriaIndex]));
   definicaoDoProduto = [[
-    '0 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '1 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '2 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '3 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '4 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '5 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '6 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '7 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '8 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '9 Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '10Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '11Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '12Guarda Roupa Casal 8 Portas e 4 Gavetas',
-    '13Guarda Roupa Casal 8 Portas e 4 Gavetas'
+    'Guarda-Roupa Casal com Espelho',
+    'Guarda-Roupa Casal com Espelho 3 Portas',
+    'Guarda-Roupa Casal Creta 2 Portas',
+    'Guarda-roupa Casal Oslos 6 Portas',
+    'Guarda-roupa Casal com Espelho 6 Portas',
+    'Guarda-Roupa Made Marcs Bergone',
+    'Guarda-Roupa Casal 2 Portas 4 Gavetas',
+    'Guarda-roupa Casal MDF 2 portas',
+    'Guarda-Roupa Verona com 1 Espelho,',
+    'Guarda-roupa Casal MDF 2 Portas',
+    'Guarda-roupa Casal com espelho',
+    'Guarda Roupa Tuboarte'
   ],
   [
-    '0 Guarda Roupa Solteiro 8 Portas e 4 Gavetas',
-    '1 Guarda Roupa Solteiro 8 Portas e 4 Gavetas',
-    '2 Guarda Roupa Solteiro 8 Portas e 4 Gavetas',
-    '3 Guarda Roupa Solteiro 8 Portas e 4 Gavetas',
-    '4 Guarda Roupa Solteiro 8 Portas e 4 Gavetas',
+    'Guarda-roupa Solteiro 2 portas',
+    'Guarda-roupa Solteiro Isabela',
+    'Guarda Roupa Royalli',
+    'Guarda Roupa Solteiro 3 portas',
+
   ]
   ];
   h1PopUpAll = [
     [
-    "0 Guarda Roupa de casal <span>UI AI</span>",
-    "1 Guarda Roupa de casal",
-    "2 Guarda Roupa de <span>casal</span>",
-    "3 Guarda Roupa <span>de casal</span>",
-    "4 Guarda Roupa <span>de casal</span>",
-    "5 Guarda Roupa <span>de casal</span>",
-    "6 Guarda Roupa <span>de casal</span>",
-    "7 Guarda Roupa <span>de casal</span>",
-    "8 Guarda Roupa <span>de casal</span>",
-    "9 Guarda Roupa <span>de casal</span>",
-    "10 Guarda Roupa <span>de casal</span>",
-    "11 Guarda Roupa <span>de casal</span>",
-    "12 Guarda Roupa <span>de casal</span>",
-    "13 Guarda Roupa <span>de casal</span>",
+    "Guarda-Roupa Casal <span>com Espelho</span>",
+    "Guarda-Roupa Casal com Espelho <span>3 Portas</span>",
+    "Guarda-Roupa Casal Creta <span>2 Portas</span>",
+    "Guarda-roupa Casal Oslos<span>6 Porta</span>",
+    "Guarda-roupa Casal com Espelho <span>6 Portas</span>",
+    "Guarda-Roupa Made Marcs Bergone<span>6 Porta</span>",
+    "Guarda Roupa Casal <span>2 Portas 4 Gavetas</span>",
+    "Guarda-Roupa Casal <span>Bergone</span>",
+    "Guarda-Roupa Verona com<span> 1 Espelho</span>",
+    "Guarda-roupa Casal MDF <span>2 Portas</span>",
+    "Guarda-roupa Casal <span>com espelho</span>",
+    "Guarda Roupa <span>Tuboarte</span>",
+   
+
   ],
     [
-    "0 Guarda Solteiro de Roupa <span>SEM UI AI</span>",
-    "1 Guarda Solteiro de Roupa",
-    "2 Guarda Solteiro de <span>Roupa</span>",
-    "3 Guarda Solteiro <span>de Roupa</span>",
-    "4 Guarda Solteiro <span>de Roupa</span>",
+    "Guarda-roupa Solteiro <span>2 portas</span>",
+    "Guarda-roupa Solteiro <span>Isabela</span>",
+    "Guarda Roupa <span>Royalli</span>",
+    "Guarda-Roupa Solteiro <span>3 portas</span>",
+
   ],
 ];
   paragrafoPopUpAllText = [
     [
       [
-        "0 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 0cm", "Largura: 0cm", "Profundidade: 0cm",
+        "O Guarda-Roupa Móveis Europa é um móvel que irá superar todas as suas expectativas nos quesitos organização e beleza. Ele é moderno e funcional, por contar com espaços para guardar roupas e sapatos.",
+        "Dimensões: Altura: 235cm", "Largura: 275cm", "Profundidade: 63cm",
       ],
       [
-        "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 1cm", "Largura: 1cm", "Profundidade: 1cm",
+        "Roupeiro 100% em MDF. Oferece beleza, durabilidade e resistência. Perfil puxador em alumínio na cor Bronze; sistema de rodízios de portas de correr que evita o descarrilamento e proporciona um deslizamento suave e silencioso",
+        "Dimensões: Altura: 235cm", "Largura: 228cm", "Profundidade: 56cm",
       ],
       [
-        "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 2cm", "Largura: 2cm", "Profundidade: 2cm",
+        "O Guarda-Roupa Casal Creta 2 Portas 4 Gavetas 100% Mdf Brauna/Off White - Europa Móveis é produzido em 100% MDF na escala de brilho Semi-Brilho.",
+        "Dimensões: Altura: 235,00cm", "Largura: 251,00cm", "Profundidade: 64cm",
       ],
       [
-        "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 3cm", "Largura: 3cm", "Profundidade: 3cm",
+        "O Guarda-Roupa Casal Oslo 6 Portas 4 Gavetas 100% Mdf Peroba/Off White - Madermaques é produzido em 100% mdf na escala de brilho Semi-Brilho",
+        "Dimensões: Altura: 235cm", "Largura: 210cm", "Profundidade: 50cm",
       ],
       [
-        "4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 4cm", "Largura: 4cm", "Profundidade: 4cm",
+        "O guarda-roupa possui o tamanho de casal, seu material é feito em MDF com revestimento em laca e acabamento em verniz UV na cor peroba e off-white.",
+        "Dimensões: Altura: 235cm", "Largura: 240cm", "Profundidade: 55cm",
       ],
       [
-        "5 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 5cm", "Largura: 5cm", "Profundidade: 5cm",
+        "Guarda-Roupa Muito espaçoso e capaz de atender todas as necessidades de quem busca manter roupas e acessórios muito bem organizados e fáceis de localizar! ",
+        "Dimensões: Altura: 237cm", "Largura: 274cm", "Profundidade: 61cm",
       ],
       [
-        "6 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 6cm", "Largura: 6cm", "Profundidade: 6cm",
+        "Guarda roupa verona com 1 espelho, ideal para quem precisa de organização com espaço.",
+        "Dimensões: Altura: 218cm", "Largura: 202cm", "Profundidade: 51cm",
       ],
       [
-        "7 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 7cm", "Largura: 7cm", "Profundidade: 7cm",
+        "O Guarda roupa Casal Moscou é composto por duas portas de correr e todo fabricado em MDF. As portas deslizantes em trilho inferior de alumínio com roldanas com molas com sistema anti-descarrilhamento ,que permite sofisticação e maior facilidade de abertura.",
+        "Dimensões: Altura: 237cm", "Largura: 228cm", "Profundidade: 55,8cm",
       ],
       [
-        "8 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 8cm", "Largura: 8cm", "Profundidade: 8cm",
+        "Guarda roupa Maranello da Europa vai levar qualidade e sofisticação para o seu quarto. Ele possui 3 portas de correr, tem espelho e um amplo espaço interno. ",
+        "Dimensões: Altura: 219,5cm", "Largura: 223,5cm", "Profundidade: 56,1cm",
       ],
       [
-        "9 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 9cm", "Largura: 9cm", "Profundidade: 9cm",
+        "Roupeiro alba 6 portas a decor mobille apresenta design moderno é compactado  ideal para duas pessoas. Com espaços para ele é para ela.",
+        "Dimensões: Altura: 218,5cm", "Largura: 182,5cm", "Profundidade: 56,5cm"
       ],
       [
-        "10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 10cm", "Largura: 10cm", "Profundidade: 10cm",
+        "Já pensou em um móvel que seja bonito, durável e ainda ajude a organizar o ambiente? O guarda roupa Titanium 6 gavetas da D'Doro tem tudo isso.",
+        "Dimensões: Altura: 230cm", "Largura: 220cm", "Profundidade: 62cm",
       ],
       [
-        "11 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 11cm", "Largura: 11cm", "Profundidade: 11cm",
-      ],
-      [
-        "12 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 12cm", "Largura: 12cm", "Profundidade: 12cm",
-      ],
-      [
-        "13 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 13cm", "Largura: 13cm", "Profundidade: 13cm",
+        "Na hora de mobiliar o seu quarto é importante pensar em peças que tragam aconchego e segurança, mas que também deixem a decoração com um toque leve e sofisticado.",
+        "Dimensões: Altura: 208cm", "Largura: 161cm", "Profundidade: 41,5cm",
       ],
     ],
     [
       [
-        "0 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 0cm", "Largura: 0cm", "Profundidade: 0cm",
+        "Guarda-roupa Solteiro Kiev 2 Portas 4 Gavetas 100% Mdf Brauna/preto - Europa Móveis é Produzido Em 100% Mdf Na Escala De Brilho Semi-brilho.",
+        "Dimensões: Altura: 235cm", "Largura: 170cm", "Profundidade: 56cm",
       ],
       [
-        "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 1cm", "Largura: 1cm", "Profundidade: 1cm",
+        "Guarda-roupa solteiro isabela 2 portas 4 gavetas off white - pnr móveis é produzido em mdf na escala de brilho semi-brilho",
+        "Dimensões: Altura: 235cm", "Largura: 170cm", "Profundidade: 56cm",
       ],
       [
-        "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 2cm", "Largura: 2cm", "Profundidade: 2cm",
+        "Royalli.",
+        "Dimensões: Altura: 205cm", "Largura: 124cm", "Profundidade: 54cm",
       ],
       [
-        "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 3cm", "Largura: 3cm", "Profundidade: 3cm",
+        "Guarda-Roupa Solteiro Moval Lima 3 Portas 2 Gavetas Se você procura um Guarda-Roupa Solteiro com design moderno e compacto e excelente distribuição interna, o modelo Lima da marca Moval é uma excelente opção!",
+        "Dimensões: Altura: 182cm", "Largura: 82cm", "Profundidade: 47cm",
       ],
-      [
-        "4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-        "Dimensões: Altura: 4cm", "Largura: 4cm", "Profundidade: 4cm",
-      ],
+
     ]
   ];
+
+  
   
   path = imgAllPath[subcategoriaIndex];
   setProdutosIndicados(tamProdutosIndicados[subcategoriaIndex]);
@@ -299,8 +288,8 @@ function alterarPopUp() {
     paragrafoPopUpDisplay[i].innerHTML = paragrafoPopUpText[i];
   }
   imagensPopUp[0].src = pathImgPopUp + "0.png";
-  imagensPopUp[1].src = pathImgPopUp + "1.png";
-  imagensPopUp[2].src = pathImgPopUp + "2.png";
+  imagensPopUp[1].src = pathImgPopUp + "1.WEBP";
+  imagensPopUp[2].src = pathImgPopUp + "2.WEBP";
   overLay.style.display = "block";
 }
 
