@@ -43,7 +43,7 @@ guardaRoupa.addEventListener("change", function () {
     'Guarda-Roupa Made Marcs Bergone',
     'Guarda-Roupa Casal 2 Portas 4 Gavetas',
     'Guarda-roupa Casal MDF 2 portas',
-    'Guarda-Roupa Verona com 1 Espelho,',
+    'Guarda-Roupa Verona com 1 Espelho',
     'Guarda-roupa Casal MDF 2 Portas',
     'Guarda-roupa Casal com espelho',
     'Guarda Roupa Tuboarte'

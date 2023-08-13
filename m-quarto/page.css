@@ -123,6 +123,10 @@ input[type="radio"]:not(:checked):hover{
     color: black;
 }
 
+.produtos-indicado h2{
+    margin-bottom: 15px;
+}
+
 .produtos-indicado {
     margin: 0px 5% 0 5%;
     display: block;
