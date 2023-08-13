@@ -152,9 +152,6 @@ guardaRoupa.addEventListener("change", function () {
 
     ]
   ];
-
-  
-  
   path = imgAllPath[subcategoriaIndex];
   setProdutosIndicados(tamProdutosIndicados[subcategoriaIndex]);
   setSubcategorias(["Casal", "Solteiro"]);
@@ -261,7 +258,6 @@ var tamProdutosIndicados = [];
 /*
 Funções de modal/pop-up
 */
-
 var overLay = document.getElementById("Overlay");
 var closeProduto = document.getElementById("close-produto");
 var paragrafoPopUpDisplay = document.querySelectorAll("#detalhes-produto-info p");
@@ -292,14 +288,3 @@ function alterarPopUp() {
   imagensPopUp[2].src = pathImgPopUp + "2.webp";
   overLay.style.display = "block";
 }
-
-// var paineisTorino = document.querySelectorAll(".painel-torino");
-// paineisTorino.forEach(function (painelTorino) {
-//   painelTorino.addEventListener("click", function () {
-//     h1PopUpText = "Painel Suspenso <span>Torino</span>";
-//     paragrafoPopUpText = ["Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
-//       "Dimensões: Altura: 150cm", "Largura: 30cm", "Profundidade: 3 cm"];
-//     pathImgPopUp = "../imagens-moveis/PAINEL EDN/t";
-//     alterarPopUp();
-//   });
-// });
