@@ -4,7 +4,7 @@ global.guardaRoupa.addEventListener("change", function () {
     global.setSubCategoriasTitulo(["Guarda-roupa de Casal", "Guarda-roupa de Solteiro"])
     global.setSubcategoriaIndex(0);
     global.setTamProdutosIndicados([12, 4]);
-    global.setImgAllPath(["../imagens-moveis/guarda-roupa/casal/c", "../imagens-moveis/guarda-roupa/solteiro/s"]);
+    global.setImgAllPath(["../imagens-moveis/guarda-roupa/c", "../imagens-moveis/guarda-roupa/s"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
@@ -26,7 +26,7 @@ global.guardaRoupa.addEventListener("change", function () {
         'Guarda-roupa Solteiro Isabela',
         'Guarda Roupa Royalli',
         'Guarda Roupa Solteiro 3 portas',
-    ]
+    ],
     ]);
     
     global.setH1PopUpAll([
@@ -129,9 +129,3 @@ global.guardaRoupa.addEventListener("change", function () {
         global.setChecked(global.labelGuardaRoupa);
     }
 });
-
-function funcStart ()
-{
-    global.guardaRoupa.dispatchEvent(new Event("change"));
-}
-funcStart();

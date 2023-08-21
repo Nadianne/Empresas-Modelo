@@ -4,26 +4,26 @@ export var subcategorias = document.querySelector('.artc-subcategorias')
 export var labelGuardaRoupa = document.querySelector('label[for="guarda-roupa"]');
 export var guardaRoupa = document.getElementById("guarda-roupa");
 
-var Comoda = document.getElementById("Cômoda");
-var labelComoda = document.querySelector('label[for="Cômoda"]');
+export var Comoda = document.getElementById("Cômoda");
+export var labelComoda = document.querySelector('label[for="Cômoda"]');
 
-var Cabeceira = document.getElementById("Cabeceira");
-var labelCabeceira = document.querySelector('label[for="Cabeceira"]');
+export var Cabeceira = document.getElementById("Cabeceira");
+export var labelCabeceira = document.querySelector('label[for="Cabeceira"]');
 
-var Cama = document.getElementById("Cama");
-var labelCama = document.querySelector('label[for="Cama"]');
+export var Cama = document.getElementById("Cama");
+export var labelCama = document.querySelector('label[for="Cama"]');
 
-var Beliche = document.getElementById("Beliche");
-var labelBeliche = document.querySelector('label[for="Beliche"]');
+export var Beliche = document.getElementById("Beliche");
+export var labelBeliche = document.querySelector('label[for="Beliche"]');
 
-var Cadeira = document.getElementById("Cadeira");
-var labelCadeira = document.querySelector('label[for="Cadeira"]');
+export var Cadeira = document.getElementById("Cadeira");
+export var labelCadeira = document.querySelector('label[for="Cadeira"]');
 
-var Multiuso = document.getElementById("Multiuso");
-var labelMultiuso = document.querySelector('label[for="Multiuso"]');
+export var Multiuso = document.getElementById("Multiuso");
+export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
 
-var Colchão = document.getElementById("Colchão");
-var labelColchao = document.querySelector('label[for="Colchão"]');
+export var Colchão = document.getElementById("Colchão");
+export var labelColchao = document.querySelector('label[for="Colchão"]');
 
 export var ultimoLabel = labelGuardaRoupa;
 
