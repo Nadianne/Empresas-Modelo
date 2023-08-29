@@ -59,7 +59,7 @@ export var tamProdutosIndicados = [];
 /**********************************************/
 export function setSubcategorias(nomesSubCategorias) {
   subcategorias.innerHTML = "";
-  if(nomesSubCategorias.length == null)
+  if(nomesSubCategorias.length == 0)
     return;
   subcategorias.appendChild(createH3("Subcategorias"));
   subCategoriasLabel = nomesSubCategorias;

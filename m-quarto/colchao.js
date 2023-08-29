@@ -1,14 +1,14 @@
 import * as global from './global.js';
-global.Comoda.addEventListener("change", function () {
+global.Colchão.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Cômoda"])
+    global.setSubCategoriasTitulo(["Colchão"])
     global.setSubcategoriaIndex(0);
     global.setTamProdutosIndicados([4]);
-    global.setImgAllPath(["../imagens-moveis/comoda/"]);
+    global.setImgAllPath(["../imagens-moveis/colchao/casal/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Cômoda Madri Plus',
+        'Colchão Casal',
         'Cômoda Com 5 Gavetas ',
         'Cômoda 4 Gavetas',
         'Cômoda 5 Gavetas',
@@ -20,7 +20,7 @@ global.Comoda.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Cômoda Madri Plus <span>5 gavetas</span>",
+            "Colchão Casal <span>Ortopedico Ortobom </span>",
             "Cômoda Com 5 Gavetas<span>Requinte Com Pé</span>",
             "Cômoda 4 Gavetas<span>Colmeia E Chave Branco</span>",
             "Cômoda 5 Gavetas<span> Seul Móveis Sul</span>",
@@ -30,8 +30,8 @@ global.Comoda.addEventListener("change", function () {
     global.setParagrafoPopUpAllText([
         [
             [
-                "Que tal a Cômoda Madri Plus?Aliada da organização do seu dormitório, a Cômoda Madri Plus é a peça que faltava para garantir um dia a dia mais otimizado e um ambiente bem decorado.",
-                "Dimensões:<br> Altura: 107cm", "Largura: 95cm", "Profundidade: 43cm",
+                "Tecido com tratamento Aloe Vera aplicado nas fibras do tecido auxilia no processo de hidratação da pele, estimulando o crescimento de novas células de pele e removendo as células mortas, além de se composto de bálsamos e umidificantes.",
+                "Dimensões:<br> Altura:0,27m", "Largura:1,38m", "Comprimento: 1,88m",
             ],
             [
                 "A Cômoda Requinte é um produto espaçoso pensado para o armazenamento de uma maneira funcional e prática, para isto ela conta com 5 gavetas, todas com corrediças telescópicas, mais duráveis e funcionais.",
