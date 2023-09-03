@@ -24,7 +24,7 @@ global.guardaRoupa.addEventListener("change", function () {
     [
         'Guarda-roupa Solteiro 2 portas',
         'Guarda-roupa Solteiro Isabela',
-        'Guarda Roupa Royalli',
+        'Guarda Roupa Royalli Baby',
         'Guarda Roupa Solteiro 3 portas',
     ]
     ]);

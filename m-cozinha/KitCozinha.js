@@ -1,7 +1,7 @@
 import * as global from './global.js';
-global.Cabeceira.addEventListener("change", function () {
+global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Cabeceira"])
+    global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
     global.setTamProdutosIndicados([5]);
     global.setImgAllPath(["../imagens-moveis/cabeceira/"]);
