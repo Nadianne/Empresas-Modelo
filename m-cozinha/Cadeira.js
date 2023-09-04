@@ -1,15 +1,15 @@
 import * as global from './global.js';
-global.Multiuso.addEventListener("change", function () {
+global.Cadeira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Multiuso"])
+    global.setSubCategoriasTitulo(["Cadeira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
-    global.setImgAllPath(["../imagens-moveis/multiuso/"]);
+    global.setTamProdutosIndicados([2]);
+    global.setImgAllPath(["../imagens-moveis/cadeira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Armário Utilitário Multiuso',
-        'Armário Multiuso Lages Carraro',
+        'Cadeira Carraro Neo ',
+        'Cadeiras Sala Jantar',
         'Armário Utilitário Multiuso',
         'Armário Multiuso Com Chave',
         'Armário Multiuso Ariel',
@@ -20,8 +20,8 @@ global.Multiuso.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Armário Utilitário <span> Multiuso Carraro</span>",
-            "Armário Multiuso <span>Lages</span>",
+            "Cadeira Carraro Neo <span>Grafite E Preto</span>",
+            "Cadeiras Sala Jantar <span>Cromado/Courano Preto</span>",
             "Armário Utilitário<span>Multiuso</span>",
             "Armário Multiuso <span>Com chave</span>",
             "Armário Multiuso Ariel <span>2 Portas</span>",
@@ -31,12 +31,12 @@ global.Multiuso.addEventListener("change", function () {
     global.setParagrafoPopUpAllText([
         [
             [
-                "O Armário Utilitário Multiuso Carraro é a peça ideal para ser utilizada em diferentes cômodos da casa, ajudando a manter todos os objetos em ordem.",
-                "Dimensões:<br> Altura: 169cm ", "Largura: 56cm", "Comprimento: 37,8cm",
+                "A cadeira conta com uma estrutura rica em sofisticação com seu assento estofado e o lindo encosto em MDP com tela sintética que proporciona o aconchego que você e sua família merecem para curtir aquela deliciosa refeição juntos.",
+                "Dimensões:<br> Altura: 90cm ", "Largura: 48cm", "Comprimento:  56,50cm",
             ],
             [
-                "O multiuso Lages é o que você procurava por possuir um padrão moderno, contendo duas portas com dois puxadores em abs e cinco prateleiras.",
-                "Dimensões:<br> Altura: 186,2cm", "Largura: 64cm", "Profundidade: 36,7cm",
+                "Cadeira Sala de Jantar Cromado/Preto - Carraro",
+                "Dimensões:<br> Altura: 98,00cm", "Largura: 37,00cm", "Profundidade: 50,00cm",
             ],
             [
                 "O Armário Utilitário Multiuso Carraro é a peça ideal para ser utilizada em qualquer cômodo da casa, ajudando a manter todos os objetos em ordem e assim facilitando as tarefas do dia a dia.",
@@ -57,6 +57,6 @@ global.Multiuso.addEventListener("change", function () {
     global.setProdutosIndicados(global.tamProdutosIndicados[global.subcategoriaIndex]);
     global.setSubcategorias([]);
     if (this.checked) {
-        global.setChecked(global.labelGuardaRoupa);
+        global.setChecked(global.labelFruteira);
     }
 });

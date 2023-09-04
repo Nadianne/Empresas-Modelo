@@ -3,15 +3,15 @@ global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
-    global.setImgAllPath(["../imagens-moveis/cabeceira/"]);
+    global.setTamProdutosIndicados([4]);
+    global.setImgAllPath(["../imagens-moveis/kit/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Cabeceira Casal com Mesas ',
-        'Cabeceira Solteiro com Mesa',
-        'Cabeceira casal Casal/Queen',
-        'Cabeceira Panan Gênova',
+        'Armário De Cozinha 8 Portas  ',
+        'Cozinha Compacta 6 Portas',
+        'Cozinha Kits Paraná 12 Portas com 4 Prateleiras',
+        'Cozinha intense compacta 10 portas',
         'Cabeceira Casal 4 Gavetas',
         
     ],
@@ -20,10 +20,10 @@ global.KitCozinha.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Cabeceira Casal com Mesas <span>de Apoio Carla </span>",
-            "Cabeceira Solteiro com Mesa<span> 100% MDF</span>",
-            "Cabeceira Casal/Queen<span>Extensível com Mesas</span>",
-            "Cabeceira Panan<span> Gênova</span>",
+            "Armário De Cozinha 8 Portas <span>2 Gavetas 1 Nicho </span>",
+            "Cozinha Compacta 6 Portas <span>Sabrina</span>",
+            "Cozinha Kits Paraná <span>Versalhes</span>",
+            "Cozinha intense compacta <span> 10 portas</span>",
             "Cabeceira Casal <span>4 Gavetas</span>",
         ],
     
@@ -31,20 +31,20 @@ global.KitCozinha.addEventListener("change", function () {
     global.setParagrafoPopUpAllText([
         [
             [
-                "Que tal a Cabeceira Carla? Dona de um design charmoso, a Cabeceira Carla vai dar o acabamento perfeito para a parede em que sua cama fica encostada e deixar o seu dormitório ainda mais aconchegante. ",
-                "Dimensões:<br> Altura: 110cm", "Largura: 228cm", "Profundidade: 43cm",
+                "Armário de cozinha 8 portas 2 gavetas 1 nicho para forno bruna angelin/off white. Kit cozinha bruna possui nicho superior, adega arramada para dar um toque de beleza e praticidade para acomodar seus vinhos. ",
+                "Dimensões:<br> Altura: 200,00cm", "Largura: 180,00cm", "Peso do Produto: 76,36 Kg",
             ],
             [
-                "As cabeceiras são grandes aliadas na hora de decorar pois além de serem compactas e versáteis, oferecem um conforto a mais no seu momento de descanso.",
-                "Dimensões:<br> Altura: 115cm", "Largura: 128.6cm", "Profundidade: 30.5cm",
+                "Para que você mantenha seu produto sempre em ótimo estado, recomendamos que use apenas um pano seco ou levemente umedecido, sem o uso de quaisquer produtos abrasivos.",
+                "Dimensões:<br> Altura: 200,00cm", "Largura: 146,50cm", "Profundidade: 43,00cm",
             ],
             [
-                "Cabeceira que traz uma proposta clean e moderna em seu estilo, com 3 prateleiras de cada lado, possibilitando explorar as mais diversas formas de decoração.",
-                "Dimensões:<br> Altura: 115cm", "Largura: 218cm", "Profundidade: 33cm",
+                "A Cozinha e Balcao Versalhes trazem a praticidade e funcionalidade que voce precisa, suas portas superiores se tornam o diferencial do produto pelo vidro espelhado, trazendo o destaque para a cozinha.",
+                "Dimensões:<br> Altura: 193,00cm", "Largura: 250,7cm", "Profundidade: 42,3cm",
             ],
             [
-                "A Cabeceira Panan Gênova é peça que falta para você que deseja um ambiente moderno e sofisticado.",
-                "Dimensões:<br> Altura: 120cm", "Largura: 277m", "Profundidade: 47,5m",
+                "O Armário de Cozinha Intense, amplo e versátil veio para garantir praticidade em seu dia a dia! Possui 10 portas e 2 gavetas espaçosas com corrediças telescópicas que oferecem um deslizar suave das gavetas.",
+                "Dimensões:<br> Altura: 204,5cm", "Largura: 222,2cm", "Profundidade: 46,8cm",
             ],
             [
                 "Ajustável para colchão box 1,38 a 1,58m, possui dois aparadores de cabeceira com tampo e base de 25mm e duas gavetas em cada lado.",
@@ -57,6 +57,6 @@ global.KitCozinha.addEventListener("change", function () {
     global.setProdutosIndicados(global.tamProdutosIndicados[global.subcategoriaIndex]);
     global.setSubcategorias([]);
     if (this.checked) {
-        global.setChecked(global.labelGuardaRoupa);
+        global.setChecked(global.labelFruteira);
     }
 });
