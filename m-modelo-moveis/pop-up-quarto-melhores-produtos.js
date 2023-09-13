@@ -17,9 +17,9 @@ function alterarPopUp(){
     for(var i = 0; i < paragrafoPopUpText.length;i++){
         paragrafoPopUpDisplay[i].innerHTML = paragrafoPopUpText[i];
     }
-    imagensPopUp[0].src = pathImgPopUp + "0.png";
-    imagensPopUp[1].src = pathImgPopUp + "1.png";
-    imagensPopUp[2].src = pathImgPopUp + "2.png";
+    imagensPopUp[0].src = pathImgPopUp + "0.webp";
+    imagensPopUp[1].src = pathImgPopUp + "1.webp";
+    imagensPopUp[2].src = pathImgPopUp + "2.webp";
     overLay.style.display = "block";
 }
 
@@ -29,7 +29,7 @@ paineisTorino.forEach(function(painelTorino) {
         h1PopUpText = "Painel Suspenso <span>Torino</span>";
         paragrafoPopUpText = ["Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique ducimus neque eveniet distinctio vel quam dolor minus, ea autem minima dignissimos illum quaerat veniam nemo. Repellat quis laboriosam suscipit iusto",
         "Dimensões: Altura: 150cm", "Largura: 30cm", "Profundidade: 3 cm"];
-        pathImgPopUp = "../imagens-moveis/PAINEL EDN/t0";
+        pathImgPopUp = "../imagens-moveis/rack/00";
         alterarPopUp();
     });
 });

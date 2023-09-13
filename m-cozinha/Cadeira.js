@@ -3,14 +3,14 @@ global.Cadeira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Cadeira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([2]);
+    global.setTamProdutosIndicados([3]);
     global.setImgAllPath(["../imagens-moveis/cadeira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
         'Cadeira Carraro Neo ',
         'Cadeiras Sala Jantar',
-        'Armário Utilitário Multiuso',
+        'Conjunto de Cadeiras',
         'Armário Multiuso Com Chave',
         'Armário Multiuso Ariel',
         
@@ -22,7 +22,7 @@ global.Cadeira.addEventListener("change", function () {
         [
             "Cadeira Carraro Neo <span>Grafite E Preto</span>",
             "Cadeiras Sala Jantar <span>Cromado/Courano Preto</span>",
-            "Armário Utilitário<span>Multiuso</span>",
+            "Conjunto de Cadeiras de Aço <span>Carraro</span>",
             "Armário Multiuso <span>Com chave</span>",
             "Armário Multiuso Ariel <span>2 Portas</span>",
         ],
@@ -39,8 +39,8 @@ global.Cadeira.addEventListener("change", function () {
                 "Dimensões:<br> Altura: 98,00cm", "Largura: 37,00cm", "Profundidade: 50,00cm",
             ],
             [
-                "O Armário Utilitário Multiuso Carraro é a peça ideal para ser utilizada em qualquer cômodo da casa, ajudando a manter todos os objetos em ordem e assim facilitando as tarefas do dia a dia.",
-                "Dimensões:<br> Altura: 174cm", "Largura: 56m", "Profundidade: 38m",
+                "O Conjunto de Cadeiras Vercelli da Carraro, trará sofisticação e qualidade para sua casa! Com o acabamento em pintura Epóx, o Conjunto da Carraro apresenta estofado e encosto com Courinho + Tecido.",
+                "Dimensões:<br> Altura: 57cm", "Largura: 46cm", "Profundidade: 90cm",
             ],
             [
                 "O Armário Multiuso 2 Portas com Chave Max Plus da Zanzini é ideal para quem procura um móvel que se destaca no ambiente, possuindo a função multiuso, ou seja, pode ser considerado um produto para cozinha, escritório, área de serviço e afins.",

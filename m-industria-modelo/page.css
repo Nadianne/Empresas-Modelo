@@ -12,7 +12,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(../imagens/image19.png);
+    background-image: url(../imagens/madeira.png);
     background-size: cover;
     opacity: 0.4;
     z-index: -1;
@@ -105,14 +105,6 @@ main .span2 {
     margin-left: 5%;
     margin-top: 40px;
     margin-bottom: 20px;
-}
-
-.melhores-produtos {
-    margin: 0px 5% 0px;
-    overflow-x: auto;
-    width: 90%;
-    white-space: nowrap;
-    padding-bottom: 5px;
 }
 
 .selecao-sofa {
@@ -338,8 +330,8 @@ main .span2 {
 
 @media screen and (max-width: 630px) {
     main .opcoes a {
-        font-size: 14px;
-        width: 70px;
+        font-size: 10px;
+        width: 100px;
         border-radius: 15px;
     }
 
@@ -417,11 +409,6 @@ main .span2 {
     .preferencia img {
         width: 25px;
         margin-right: 5px;
-    }
-
-    .melhores-produtos div {
-        width: 80px;
-        margin-right: 20px;
     }
 
     .selecao-sofa {

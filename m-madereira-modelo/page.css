@@ -107,14 +107,6 @@ main .span2 {
     margin-bottom: 20px;
 }
 
-.melhores-produtos {
-    margin: 0px 5% 0px;
-    overflow-x: auto;
-    width: 90%;
-    white-space: nowrap;
-    padding-bottom: 5px;
-}
-
 .selecao-sofa {
     display: flex;
     background-color: #0A3625;
@@ -151,7 +143,7 @@ main .span2 {
 .selecao-sofa h1 {
     color: white;
     font-weight: 500;
-    margin: -11px 0 0px 13%;
+    margin: -11px 0 0px 19%;
     font-size: 46px;
 }
 
@@ -338,8 +330,8 @@ main .span2 {
 
 @media screen and (max-width: 630px) {
     main .opcoes a {
-        font-size: 14px;
-        width: 70px;
+        font-size: 10px;
+        width: 0px;
         border-radius: 15px;
     }
 
@@ -417,11 +409,6 @@ main .span2 {
     .preferencia img {
         width: 25px;
         margin-right: 5px;
-    }
-
-    .melhores-produtos div {
-        width: 80px;
-        margin-right: 20px;
     }
 
     .selecao-sofa {

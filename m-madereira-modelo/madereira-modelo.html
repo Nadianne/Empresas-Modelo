@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="../style-scrollbar.css" />
   <link rel="stylesheet" href="page.css" />
+  <link rel="stylesheet" href="../pop-up.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 </head>
 
@@ -32,6 +33,34 @@
     </nav>
   </header>
 
+  <div id="Overlay">
+    <div id="details-produto">
+      <img id="close-produto" src="../svg/close-produto.png" alt="fechar-produto">
+      <div id="imagens-details-produto">
+        <img src="../imagens-moveis/guarda-roupa/c0.png" id="imagem-detail-before" alt="guarda-roupa">
+        <div>
+          <img src="../imagens-moveis/guarda-roupa/c0p0.png" alt="guarda-roupa">
+          <img src="../imagens-moveis/guarda-roupa/c0p1.png" alt="guarda-roupa">
+        </div>
+      </div>
+      <div id="detalhes-produto-info">
+        <h1>Guarda Roupa <span>Casal</span></h1>
+        <br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Guarda Roupa Casal Hera tem maior resistência, durabilidade, e acabamento.
+          Revestimento interno e externo: produto feito em MDP com pintura em estufa
+          modernas com UV(ultra violeta). Modelo com corrediça telescópica em aço, 4
+          gavetas espalosas, puxadores em madeira, divisão ele/ela.
+        </p>
+        <div id="detalhes-produto-especificacoes">
+          <p>Dimensões: Altura: 215 cm</p>
+          <p>Largura: 220 cm</p>
+          <p>Profundidade: 46,5 cm</p>
+        </div>
+        <a href="https://chat.whatsapp.com/EyT71Xs9DoDFVWtpNpmovy" target="_blank" id="quero-comprar">Quero comprar!</a>
+      </div>
+    </div>
+  </div>
+
   <section class="sessao-imagem">
     <div>
       <h1><span class="span-0"> O melhor para</span> <span class="span-1">sua</span> <span class="span-2">construção!</span>
@@ -42,10 +71,10 @@
 
   <main>
     <section class="opcoes">
-      <a href="../m-mdf/mdf.html">Mdf</a>
-      <a href="#">Ferramentas Elétricas</a>
-      <a href="#">Eucalipto Tratado</a>
-      <a href="#">Compensado Naval</a>
+      <a href="#">Ferramentas</a>
+      <a href="#">Piso e revestimento</a>
+      <a href="#">Elétrica</a>
+      <a href="#">Banheiro</a>
     </section>
 
     <section class="preferencia">
@@ -63,53 +92,17 @@
       </div>
     </section>
 
-    <p class="produto">Os <span class="span2">melhores</span> produtos:</p>
-
-    <section class="melhores-produtos">
-      <div class="produto-generico">
-        <img src="../imagens-madereira/Ferramentas/serra circular black decker.png" alt="serra-circular">
-        <p>Serra circular</p>
-        <p>BLACK DECKER</p>
-        <a href="saiba-mais.html" class="span2">Saiba mais!</a>
-      </div>
-      <div class="produto-generico">
-        <img src="../imagens-madereira/Ferramentas/furadeira black decker.png" alt="furadeira">
-        <p>Furadeira</p>
-        <p>BLACK DECKER</p>
-        <a href="saiba-mais-painel-fox.html" class="span2">Saiba mais!</a>
-      </div>
-      <div class="produto-generico">
-        <img src="../imagens-madereira/Ferramentas/serra marmore black decker.png" alt="Serra- marmore">
-        <p>Serra Mármore</p>
-        <p>BLACK DECKER</p>
-        <a href="saiba-mais-rack-cristal.html" class="span2">Saiba mais!</a>
-      </div>
-      <div class="produto-generico">
-        <img src="../imagens-madereira/Compensado Naval/compensado-naval-00.png" alt="Compensado Naval">
-        <p>Compensado Naval</p>
-        <p>12mm</p>
-        <a href="saiba-mais-sofa.html" class="span2">Saiba mais!</a>
-      </div>
-      <div class="produto-generico">
-        <img src="../imagens-madereira/mdf/mdf 00.jpg" alt="mdf">
-        <p>Mdf Macanaíba</p>
-        <p>PLACAS DO BRASIL</p>
-        <a href="saiba-mais-rack-poltrona.html" class="span2">Saiba mais!</a>
-      </div>
-      <div class="produto-generico">
-        <img src="../imagens-madereira/mdf/mdf 01.jfif" alt="mdf">
-        <p>Mdf Nogueira Arroio</p>
-        <p>PLACAS DO BRASIL</p>
-        <a href="saiba-mais-rack-poltrona.html" class="span2">Saiba mais!</a>
-      </div>
+   
+      
     </section>
 
     <section class="selecao-sofa">
-      <img src="../imagens-madereira/parafusadeira.png" alt="imagem-de-parafusadeira">
+      <img src="../imagens-moveis/ferrametas.png" alt="imagem-de-sofa">
       <div>
         <h1 class="span-1"><span>confira</span></h1>
         <h2>nossa seleção</h2>
         <h1>de <span>ferramentas</span></h1>
+        <h2 class="renove-sala">para sua construção!</h2>
       </div>
     </section>
 
@@ -167,6 +160,7 @@
 
   </section>
   <script src="../mobile-navbar.js"></script>
+  <script src="pop-up-quarto-melhores-produtos.js"></script>
 </body>
 
 </html>
