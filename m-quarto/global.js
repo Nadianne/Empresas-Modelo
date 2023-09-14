@@ -1,8 +1,8 @@
 export var produtosIndicados = document.querySelector('.produtos-indicado');
 export var subcategorias = document.querySelector('.artc-subcategorias')
 
-export var labelGuardaRoupa = document.querySelector('label[for="guarda-roupa"]');
 export var guardaRoupa = document.getElementById("guarda-roupa");
+export var labelGuardaRoupa = document.querySelector('label[for="guarda-roupa"]');
 
 export var Comoda = document.getElementById("Cômoda");
 export var labelComoda = document.querySelector('label[for="Cômoda"]');

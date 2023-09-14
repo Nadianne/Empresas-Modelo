@@ -1,8 +1,8 @@
 export var produtosIndicados = document.querySelector('.produtos-indicado');
 export var subcategorias = document.querySelector('.artc-subcategorias')
 
-export var Fruteira = document.querySelector('label[for="Fruteira"]');
-export var labelFruteira = document.getElementById("Fruteira");
+export var Fruteira = document.getElementById("Fruteira");
+export var labelFruteira = document.querySelector('label[for="Fruteira"]');
 
 export var Mesa = document.getElementById("Mesa");
 export var labelMesa = document.querySelector('label[for="Mesa"]');
