@@ -3,7 +3,7 @@ global.Chuveiro.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Chuveiro"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([4]);
+    global.setTamProdutosIndicados([2]);
     global.setImgAllPath(["../imagens-madereira/chuveiro/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
