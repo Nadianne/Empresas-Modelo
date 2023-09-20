@@ -17,7 +17,15 @@
     opacity: 0.4;
     z-index: -1;
 }
-
+.botao-voltar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d9ff00;
+    color: #1f0202;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .sessao-imagem h1 {
     font-size: 40px;
     color: white;

@@ -233,6 +233,15 @@ main .span2 {
     color:#ffffff;
  
 }
+.botao-voltar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d9ff00;
+    color: #1f0202;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 .PainelNogal .compra{
     margin-left: -120px;
@@ -245,7 +254,13 @@ main .span2 {
 }
 @media screen and (max-width: 915px) {
     main .opcoes a {
-        width: 130px;
+        color: black;
+        background-color: #FDF10F;
+        padding: 5px 0px 5px;
+        width: 200px;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: -20px;
     }
 
     main .compra {
@@ -330,9 +345,14 @@ main .span2 {
 
 @media screen and (max-width: 630px) {
     main .opcoes a {
-        font-size: 10px;
-        width: 0px;
-        border-radius: 15px;
+        font-size: 11px;
+        color: black;
+        background-color: #FDF10F;
+        padding: 3px 0px 2px;
+        width: 100px;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: -20px;
     }
 
     

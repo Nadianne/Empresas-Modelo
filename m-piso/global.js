@@ -1,21 +1,31 @@
 export var produtosIndicados = document.querySelector('.produtos-indicado');
 export var subcategorias = document.querySelector('.artc-subcategorias')
 
-export var Kit = document.getElementById("Kit");
-export var labelKit = document.querySelector('label[for="Kit"]');
+export var piso = document.getElementById("piso");
+export var labelpiso = document.querySelector('label[for="piso"]');
 
-export var Chuveiro = document.getElementById("Chuveiro");
-export var labelChuveiro = document.querySelector('label[for="Chuveiro"]');
+export var Comoda = document.getElementById("Cômoda");
+export var labelComoda = document.querySelector('label[for="Cômoda"]');
 
-export var Armario = document.getElementById("Armario");
-export var labelArmario = document.querySelector('label[for="Armario"]');
+export var Cabeceira = document.getElementById("Cabeceira");
+export var labelCabeceira = document.querySelector('label[for="Cabeceira"]');
 
-export var Gabinete = document.getElementById("Gabinete");
-export var labelGabinete = document.querySelector('label[for="Gabinete"]');
+export var Cama = document.getElementById("Cama");
+export var labelCama = document.querySelector('label[for="Cama"]');
 
+export var Beliche = document.getElementById("Beliche");
+export var labelBeliche = document.querySelector('label[for="Beliche"]');
 
+export var Cadeira = document.getElementById("Cadeira");
+export var labelCadeira = document.querySelector('label[for="Cadeira"]');
 
-export var ultimoLabel = labelKit;
+export var Multiuso = document.getElementById("Multiuso");
+export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
+
+export var Colchão = document.getElementById("Colchão");
+export var labelColchao = document.querySelector('label[for="Colchão"]');
+
+export var ultimoLabel = labelpiso;
 
 /**********************************************/
 export function setSubCategoriasTitulo(content) { subCategoriasTitulo = content; }
