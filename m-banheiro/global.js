@@ -13,6 +13,9 @@ export var labelArmario = document.querySelector('label[for="Armario"]');
 export var Gabinete = document.getElementById("Gabinete");
 export var labelGabinete = document.querySelector('label[for="Gabinete"]');
 
+export var Vaso = document.getElementById("Vaso");
+export var labelVaso = document.querySelector('label[for="Vaso"]');
+
 
 
 export var ultimoLabel = labelKit;

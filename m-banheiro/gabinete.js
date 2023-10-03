@@ -1,7 +1,7 @@
 import * as global from './global.js';
 global.Gabinete.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Gabinete"])
+    global.setSubCategoriasTitulo(["Gabinete e Lavatório"])
     global.setSubcategoriaIndex(0);
     global.setTamProdutosIndicados([2]);
     global.setImgAllPath(["../imagens-madereira/gabinete/"]);

@@ -1,18 +1,19 @@
 import * as global from './global.js';
 global.Vaso.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Armários"])
+    global.setSubCategoriasTitulo(["Vaso"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([2]);
+    global.setTamProdutosIndicados([6]);
     global.setImgAllPath(["../imagens-madereira/vaso/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
         'Vaso Sanitário ',
         'Kit deca aspem',
-        'Armário astra  ',
-        'Cômoda 5 Gavetas',
-        'Guarda-roupa Casal com Espelho 6 Portas',
+        'Kit Vaso Sanitário',
+        'Bacia Sanitária Sottile',
+        'Kit completo Bacia ',
+        'Vaso Sanitário',
         
     ],
    
@@ -22,8 +23,10 @@ global.Vaso.addEventListener("change", function () {
         [
             "Vaso Sanitário <span>Convencional Marrom</span>",
             "Kit deca aspem <span> Branco </span>",
-            "Armário astra <span> Pvc Sobrepor/embutir</span>",
-            "Cômoda 5 Gavetas<span> Seul Móveis Sul</span>",
+            "Bacia Sanitária com caixa <span>  Vertical Aspen Deca</span>",
+            "Bacia Sanitária Sottile <span>  Kit Japi Branco</span>",
+            "Kit completo Bacia <span> Seul Móveis Sul</span>",
+            "Vaso Sanitário com Caixa <span> Acoplada 3/6L Saída Vertical</span>",
         ],
     
     ]);
@@ -38,12 +41,20 @@ global.Vaso.addEventListener("change", function () {
                 "Dimensões:<br> Altura: 38,00cm", "Largura: 37,50cm", "Comprimento: 64,00cm",
             ],
             [
-                "O Armário Plástico Versátil da Astra possui porta com abertura e espelho em toda a superfície do armário.",
-                "Dimensões:<br> Altura: 35.5cm", "Largura: 10cm", "Comprimento: 30.5cm",
+                "Deixe seu banheiro como você sempre sonhou! O kit vaso sanitário com caixa acoplada Aspen da Deca apresenta saída de esgoto vertical e botão superior de duplo acionamento da descarga. ",
+                "Dimensões:<br> Altura: 74,50cm", "Largura: 37,50cm", "Profundidade: 64,00cm",
             ],
             [
-                "Cômoda Seul possui 5 gavetas com corrediças metálicas sendo ideal para acondicionar e organizar objetos, indicado para compor ambientes em seu quarto ou closet.",
-                "Dimensões:<br> Altura: 67,5cm", "Largura: 91,5cm", "Profundidade:  37,7cm",
+                "Linhas suaves atreladas a um design imponente e robusto alcançam o patamar de luxo e sofisticação almejado, figurando entre as principais opções de louça do mercado.Bacia sanitária com caixa acoplada, anel de vedação, engate flexível, assento sanitário e parafusos.",
+                "Dimensões:<br> Altura: 40.5 cm", "Largura: 645cm", "Comprimento:  38.2cm",
+            ],
+            [
+                "Uma linha com design e tecnologia projetados para tornar o ambiente moderno. Seu formato destaca a louça; valorizando seu banheiro.",
+                "Dimensões:<br> Altura: 380mm", "Largura: 385mm", "Comprimento: 520mm",
+            ],
+            [
+                "Procurando a melhor opção para seu banheiro? O vaso sanitário com caixa acoplada Izy da Deca apresenta saída de esgoto vertical e botão superior de duplo acionamento da descarga. A Louça sanitária perfeita pra você!",
+                "Dimensões:<br> Altura: 74,50cm", "Largura: 37,50cm", "Profundidade: 64,50cm",
             ],
            
         ]
