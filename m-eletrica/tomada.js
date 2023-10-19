@@ -1,9 +1,9 @@
 import * as global from './global.js';
 global.Tomada.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Tomadas"])
+    global.setSubCategoriasTitulo(["Tomadas e interruptor"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([8]);
+    global.setTamProdutosIndicados([13]);
     global.setImgAllPath(["../imagens-madereira/Tomada/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -14,8 +14,13 @@ global.Tomada.addEventListener("change", function () {
         'Tomada dupla 2P+T 10A/250V',
         'Interruptor 2 teclas com tomada de 1 sessão ',
         'Interruptor 1 tecla com tomada de 2 sessões ',
-        'Conjunto 1 Interruptor Simples + 1 Tomada 10A ',
+        'Conjunto 1 Interruptor Simples + 1 Tomada',
         'Interruptor 1 tecla simples bipolar  ',
+        'Tomada Padrão 2P + T 10A 250V  ',
+        'Tomada Dupla Modular 2P+T 20A 250v  ',
+        'Tomada 2P+T com Placa 20A 250V',
+        'Interruptor 3 teclas simples 16A',
+        'Interruptor Simples 1 Tecla 16A',
     ],
 
     ]);
@@ -30,6 +35,11 @@ global.Tomada.addEventListener("change", function () {
             "Interruptor 1 tecla <span> com tomada de 2 sessões simples</span>",
             "Conjunto 1 Interruptor Simples<span>  + 1 Tomada 10A</span>",
             "Interruptor 1 tecla simples <span> bipolar 20A</span>",
+            "Tomada Padrão 2P + T 10A <span> 250V Evidence</span>",
+            "Tomada Dupla Modular 2P+T 20A <span> distanciadas Modular</span>",
+            "Tomada 2P+T com Placa Modulare <span> 20A 250V</span>",
+            "Interruptor Simples 16A 4X2 3 Teclas Branco Modulare Fame. <span> Bivolt</span>",
+            "Interruptor Simples 1 Tecla Fame 16A. <span> 250V 4x2</span>",
 
         ],
 
@@ -67,6 +77,26 @@ global.Tomada.addEventListener("change", function () {
             [
                 "Interruptor Bipolar Simples 1 Tecla Linha Blanc",
                 "Tamanho:4x2", "Peso do Produto: 0,10 Kg", "Dimensões AxLxP (mm): 120x80",
+            ],
+            [
+                "A Série Evidence FAME é uma linha composta por Suportes, Placas e Módulos com acabamento brilhante.",
+                "Altura:21 cm", "Largura:11,50 cm", "Comprimento:4,50 cm",
+            ],
+            [
+                "Produtos de qualidade, com certificação INMETRO. Tomadas e interruptores modulares são peças seguras, práticas e de fácil instalação.",
+                "Altura:13 cm", "Largura:7 cm", "Comprimento:3.5 cm",
+            ],
+            [
+                "Série Modulare um conjunto de Placas-Suporte e Mecanismos, com design moderno e arrojado que possibilitam inúmeras combinações, instalação prática e acabamento perfeito, sem aparência dos parafusos.",
+                "Altura:12 cm", "Largura:7 cm", "Comprimento:8 cm",
+            ],
+            [
+                "Interruptor Simples 16A 4X2 3 Teclas Branco Modulare Fame Bivolt. Materiais Plásticos e Ligas de Metálicas.",
+                "Altura:12 cm", "Largura:3,5 cm", "Comprimento:8 cm",
+            ],
+            [
+                "A Série Evidence da Fame uma linha com acabamento brilhante que recebe tratamento Anti – U.V.A. e U.V.B. que não amarela com o tempo e com sistema de encaixe modular.",
+                "Altura:12 cm", "Profundidade:3,8 cm", "Comprimento:8 cm",
             ],
         ],
    

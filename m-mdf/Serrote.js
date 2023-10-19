@@ -1,14 +1,14 @@
 import * as global from './global.js';
-global.Mesa.addEventListener("change", function () {
+global.Serrote.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Mesa"])
+    global.setSubCategoriasTitulo(["Serrote"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([3]);
-    global.setImgAllPath(["../imagens-moveis/Mesa/"]);
+    global.setTamProdutosIndicados([1]);
+    global.setImgAllPath(["../imagens-madereira/Serrote/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Mesa Carraro',
+        'Serrote De Costa 14 Polegadas ',
         'Mesa de Jantar ',
         'Mesa Redonda Copa ',
         'Cômoda 5 Gavetas',
@@ -20,7 +20,7 @@ global.Mesa.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Mesa Carraro <span>Lion</span>",
+            "Serrote De Costa 14 Polegadas <span>VONDER</span>",
             "Mesa de Jantar <span>Alvin </span>",
             "Mesa Redonda Copa <span>Carraro</span>",
             "Cômoda 5 Gavetas<span> Seul Móveis Sul</span>",
@@ -30,8 +30,8 @@ global.Mesa.addEventListener("change", function () {
     global.setParagrafoPopUpAllText([
         [
             [
-                "O Conjunto Sala de Jantar Lion Carraro é perfeito para quem prefere o tradicional aliado ao sofisticado, já que conta com estrutura, tampo e estofado em cores parecidas, facilitando a combinação com diversas decorações.",
-                "Dimensões:<br> Altura: 77,5cm", "Largura: 136cm", "Profundidade: 80cm",
+                "Serrote de costa 14 VONDER Destaques e diferenciais: Cabo ergonômico de plástico rígido ABS recoberto com borracha termplástica Aplicações e dicas de uso: Indicado para fazer cortes precisos em madeiras e chapas derivadas.",
+                "Comprimento de corte do serrote: 14 - 355 mm", "Comprimento de corte do serrote: 14 - 355 mm", " Material da lâmina do serrote: Aço temperado <br> Material do cabo do serrote: Plástico rígido ABS ",
             ],
             [
                 " A mesa de jantar Alvin é opção certa para você! Com design moderno, ela possui a estrutura em aço e o tampo em vidro, o que é super moderno, elegante.",
@@ -52,6 +52,6 @@ global.Mesa.addEventListener("change", function () {
     global.setProdutosIndicados(global.tamProdutosIndicados[global.subcategoriaIndex]);
     global.setSubcategorias([]);
     if (this.checked) {
-        global.setChecked(global.labelFruteira);
+        global.setChecked(global.labelPincel);
     }
 });

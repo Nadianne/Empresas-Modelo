@@ -1,17 +1,17 @@
 export var produtosIndicados = document.querySelector('.produtos-indicado');
 export var subcategorias = document.querySelector('.artc-subcategorias')
 
-export var Tomada = document.getElementById("Tomada");
-export var labelTomada = document.querySelector('label[for="Tomada"]');
+export var mdf = document.getElementById("mdf");
+export var labelmdf = document.querySelector('label[for="mdf"]');
 
-export var Lampada = document.getElementById("Lampada");
-export var labelLampada = document.querySelector('label[for="Lampada"]');
+export var Chave = document.getElementById("Chave");
+export var labelChave = document.querySelector('label[for="Chave"]');
 
-export var KitCozinha = document.getElementById("KitCozinha");
-export var labelKitCozinha = document.querySelector('label[for="KitCozinha"]');
+export var Serrote = document.getElementById("Serrote");
+export var labelSerrote = document.querySelector('label[for="Serrote"]');
 
-export var Cama = document.getElementById("Cama");
-export var labelCama = document.querySelector('label[for="Cama"]');
+export var Rolo = document.getElementById("Rolo");
+export var labelRolo = document.querySelector('label[for="Rolo"]');
 
 export var Beliche = document.getElementById("Beliche");
 export var labelBeliche = document.querySelector('label[for="Beliche"]');
@@ -25,7 +25,7 @@ export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
 export var Colchão = document.getElementById("Colchão");
 export var labelColchao = document.querySelector('label[for="Colchão"]');
 
-export var ultimoLabel = labelTomada;
+export var ultimoLabel = labelmdf;
 
 /**********************************************/
 export function setSubCategoriasTitulo(content) { subCategoriasTitulo = content; }
@@ -108,7 +108,7 @@ export function criarNovaDiv(caminhoImagem, textoParagrafo, index) {
   novoProduto.classList.add('produto-generico', 'protudos-das-categorias');
 
   var novaImagem = document.createElement('img');
-  novaImagem.src = caminhoImagem + "0.webp";
+  novaImagem.src = caminhoImagem + "0.png";
   novaImagem.alt = "imagem de " + subCategoriasTitulo[subcategoriaIndex];
 
   var novoParagrafo = document.createElement('p');
@@ -172,8 +172,8 @@ export function alterarPopUp() {
   for (var i = 0; i < paragrafoPopUpText.length; i++) {
     paragrafoPopUpDisplay[i].innerHTML = paragrafoPopUpText[i];
   }
-  imagensPopUp[0].src = pathImgPopUp + "0.webp";
-  imagensPopUp[1].src = pathImgPopUp + "1.webp";
-  imagensPopUp[2].src = pathImgPopUp + "2.webp";
+  imagensPopUp[0].src = pathImgPopUp + "0.png";
+  imagensPopUp[1].src = pathImgPopUp + "1.png";
+  imagensPopUp[2].src = pathImgPopUp + "2.png";
   overLay.style.display = "block";
 }

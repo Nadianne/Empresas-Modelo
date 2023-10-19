@@ -3,7 +3,7 @@ global.Armario.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Armários"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([2]);
+    global.setTamProdutosIndicados([3]);
     global.setImgAllPath(["../imagens-madereira/armario/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -20,7 +20,7 @@ global.Armario.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Armário astra <span>Embutir/sobrepor</span>",
+            "Armário astra  <span> Embutir/sobrepor</span>",
             "Armário astra <span> Perfil </span>",
             "Armário astra <span> Pvc Sobrepor/embutir</span>",
             "Cômoda 5 Gavetas<span> Seul Móveis Sul</span>",

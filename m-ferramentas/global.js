@@ -1,17 +1,17 @@
 export var produtosIndicados = document.querySelector('.produtos-indicado');
 export var subcategorias = document.querySelector('.artc-subcategorias')
 
-export var Tomada = document.getElementById("Tomada");
-export var labelTomada = document.querySelector('label[for="Tomada"]');
+export var Pincel = document.getElementById("Pincel");
+export var labelPincel = document.querySelector('label[for="Pincel"]');
 
-export var Lampada = document.getElementById("Lampada");
-export var labelLampada = document.querySelector('label[for="Lampada"]');
+export var Chave = document.getElementById("Chave");
+export var labelChave = document.querySelector('label[for="Chave"]');
 
-export var KitCozinha = document.getElementById("KitCozinha");
-export var labelKitCozinha = document.querySelector('label[for="KitCozinha"]');
+export var Serrote = document.getElementById("Serrote");
+export var labelSerrote = document.querySelector('label[for="Serrote"]');
 
-export var Cama = document.getElementById("Cama");
-export var labelCama = document.querySelector('label[for="Cama"]');
+export var Rolo = document.getElementById("Rolo");
+export var labelRolo = document.querySelector('label[for="Rolo"]');
 
 export var Beliche = document.getElementById("Beliche");
 export var labelBeliche = document.querySelector('label[for="Beliche"]');
@@ -25,7 +25,7 @@ export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
 export var Colchão = document.getElementById("Colchão");
 export var labelColchao = document.querySelector('label[for="Colchão"]');
 
-export var ultimoLabel = labelTomada;
+export var ultimoLabel = labelPincel;
 
 /**********************************************/
 export function setSubCategoriasTitulo(content) { subCategoriasTitulo = content; }

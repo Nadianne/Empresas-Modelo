@@ -3,7 +3,7 @@ global.Lampada.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Lâmpada"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([4]);
+    global.setTamProdutosIndicados([6]);
     global.setImgAllPath(["../imagens-madereira/Lampada/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -12,7 +12,8 @@ global.Lampada.addEventListener("change", function () {
         'Lâmpada LED 12W',
         'Lâmpada Led 100W ',
         'Lâmpada Led 40W ',
-        'Cabeceira Casal 4 Gavetas',
+        'Lâmpada Led 70W',
+        'Lâmpada Led 15W',
         
     ],
    
@@ -23,8 +24,9 @@ global.Lampada.addEventListener("change", function () {
             "Lâmpada Demi Led <span> 9w bivolt </span>",
             "Lâmpada Demi LED  <span>12W</span>",
             "Lâmpada Led<span> 6500k 100W</span>",
-            "'Lâmpada Led Bulbo E27 <span> 40W 6500K</span>",
-            "Cabeceira Casal <span>4 Gavetas</span>",
+            "Lâmpada Led Bulbo E27 <span> 40W 6500K</span>",
+            "Lâmpada Led Bulbo <span> 70W 100-240V E27</span>",
+            "Lâmpada LED Yt Bulbo 15W E27 <span> 6500K CLA60 Demi</span>",
         ],
     
     ]);
@@ -47,9 +49,15 @@ global.Lampada.addEventListener("change", function () {
                 "Potência: 40W", "Frequência: 50/60Hz ", "Tensão: Bivolt",
             ],
             [
-                "Ajustável para colchão box 1,38 a 1,58m, possui dois aparadores de cabeceira com tampo e base de 25mm e duas gavetas em cada lado.",
-                "Dimensões:<br> Altura: 108cm", "Largura: 151m", "Profundidade: 405mm",
+                "As bulbos t led de alta potência são ideais para galpões, oficinas e outros grandes ambientes, tem ótimo fluxo luminoso e dissipadores em alumínio, que farão com que tenham uma boa durabilidade.",
+                "Potência - 70w <br> Fluxo luminoso - 6300lm", "Eficiência luminosa - 90lm/w <br> Tensão elétrica - 100-240v", "Frequência - 50/60hz",
             ],
+            [
+                "As bulbos t led de alta potência são ideais para galpões, oficinas e outros grandes ambientes, tem ótimo fluxo luminoso e dissipadores em alumínio, que farão com que tenham uma boa durabilidade.",
+                "Potência - 15w <br> Fluxo luminoso - 1350lm", "Eficiência luminosa - 90lm/w <br> Tensão elétrica - 100-240v", "Frequência - 50/60hz",
+            ],
+            
+        
            
         ]
     ]);

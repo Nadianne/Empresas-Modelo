@@ -12,12 +12,20 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(../imagens-madereira/Madeira.png);
+    background-image: url(../m-eletrica/eletrica.jpg);
     background-size: cover;
     opacity: 0.4;
     z-index: -1;
 }
-
+.botao-voltar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d9ff00;
+    color: #1f0202;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 .sessao-imagem h1 {
     font-size: 40px;
     color: white;
@@ -54,7 +62,6 @@
 
 main {
     background-color: #d3d3d393;
-    color: #0A3625;
     padding-bottom: 35px;
     padding-top: 100px;
 }
@@ -70,138 +77,92 @@ main .span2 {
     color: #0A3625;
 }
 
-.body-topo{
+.body-topo {
     display: flex;
     width: 100%;
+    color: #0A3625;
 }
 
-.body-topo .categorias{
+.body-topo .categorias {
     width: 180px;
     justify-content: start;
     margin-left: 30px;
 }
 
-.body-topo .categorias div{
+.body-topo .categorias div {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.categorias label{
+.categorias label {
     font-weight: 500;
 }
 
-input[type="radio"]{
+label[for="guarda-roupa"] {
+    font-weight: bold;
+}
+
+input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
     background-color: #D9D9D9;
     width: 20px;
     height: 20px;
-    border: 2px solid #949494;
-    border-radius: 4px;
+    border: 3px solid #949494;
+    border-radius: 50%;
     outline: none;
     margin-right: 5px;
-  }
-  
-input[type="radio"]:checked{
+}
+
+input[type="radio"]:checked {
     background-color: #0A3625;
 }
 
-.body-topo .categorias h2{
+input[type="radio"]:not(:checked):hover {
+    background-color: #0a36255e;
+    transition: 1000ms;
+}
+
+.body-topo .categorias h2 {
     font-weight: 900;
 }
 
-.body-topo .categorias h3{
+.body-topo .categorias h3 {
     margin-top: 50px;
 }
 
-.body-topo .categorias p{
+.body-topo .categorias p {
     color: black;
 }
 
-.preferencia div {
-    font-size: 12px;
+.produtos-indicado h2 {
+    margin-bottom: 15px;
 }
 
-.preferencia img {
-    width: 25px;
-    margin-right: 5px;
-}
-
-.preferencia {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-
-.preferencia div {
-    display: flex;
-}
-
-.preferencia img {
-    width: 40px;
-    margin-right: 10px;
-}
-
-
-.produto-topo{
-    width: 180px;
-    background-color: white;
-    border-radius: 30px 30px 0 0;
-    margin-bottom: 30px;
-}
-
-.produto-topo img {
-    width: 80%;
+.produtos-indicado {
+    margin: 0px 5% 0 5%;
     display: block;
-    margin: 20px auto 0;
+    width: 90%;
+    padding-bottom: 20px;
 }
 
-.produto-topo p {
-    display: block;
-    margin: 10px 10%;
-    font-size: 13px;
-    white-space: normal;
+.protudos-das-categorias {
+    margin-bottom: 25px;
 }
 
-.produto-topo a {
-    color: white;
-    background-color: #039960;
-    font-weight: 900;
-    display: block;
-    text-align: center;
-    border-radius: 32px;
-    font-size: 22px;
-    white-space: normal;
-}
-
-.artc-topo{
-    max-width: 1000px;
+.artc-topo {
+    max-width: 1420px;
     display: flex;
-    justify-content: space-between;
-   flex-wrap: wrap;
-}
-
-.melhores-produtos {
-    margin: 15px 2% 10px;
-    width: 80%;
-    padding-bottom: 10px;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
-
-.melhores-produtos h2{
-    margin-bottom: 20px;
-    font-weight: 900;
-    display: block;
-}
-
 
 .produto {
     margin-left: 5%;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
+
 .selecao-cama {
     display: flex;
     background-color: #FFE607;
@@ -220,10 +181,10 @@ input[type="radio"]:checked{
     background-color: #FFE607;
     width: 40%;
     display: block;
-    
+
 }
 
-.selecao-cama h1{
+.selecao-cama h1 {
     font-weight: 900;
     font-size: 46px;
 }
@@ -234,7 +195,7 @@ input[type="radio"]:checked{
     font-size: 38px;
 }
 
-.selecao-cama p{
+.selecao-cama p {
     font-size: 38px;
     font-weight: 500;
     margin-top: -10px;
@@ -260,7 +221,8 @@ input[type="radio"]:checked{
     main .opcoes a {
         width: 130px;
     }
-    .mais-vendidos{
+
+    .mais-vendidos {
         height: 200px;
     }
 
@@ -268,14 +230,15 @@ input[type="radio"]:checked{
         margin: 30px 0;
     }
 
-    .selecao-cama h1{
+    .selecao-cama h1 {
         font-size: 36px;
     }
-    .selecao-cama h2{
+
+    .selecao-cama h2 {
         font-size: 32px;
     }
 
-    .selecao-cama p{
+    .selecao-cama p {
         font-size: 32px;
     }
 
@@ -288,7 +251,7 @@ input[type="radio"]:checked{
         border-radius: 15px;
     }
 
-    .mais-vendidos{
+    .mais-vendidos {
         height: 180px;
     }
 
@@ -310,14 +273,15 @@ input[type="radio"]:checked{
         width: 60%;
     }
 
-    .selecao-cama h1{
+    .selecao-cama h1 {
         font-size: 29px;
     }
-    .selecao-cama h2{
+
+    .selecao-cama h2 {
         font-size: 24px;
     }
 
-    .selecao-cama p{
+    .selecao-cama p {
         font-size: 24px;
     }
 }
