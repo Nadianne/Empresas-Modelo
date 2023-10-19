@@ -8,16 +8,27 @@
 main {
   background-color: #ebe9e993;
 }
-
-
-.container-feedback{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.scroll-container {
+  width: 100%;
+  overflow-x: scroll;
   padding-bottom: 10px;
-
 }
 
+.container-feedback {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: fit-content; /* Define a largura mínima necessária para conter os itens */
+}
+
+.coment {
+  background: #0A3625 ;
+  color: #fff;
+  width: 350px;
+  margin: 10px;
+  border-radius: 15px;
+  margin-right: 10px; /* Espaçamento entre os comentários */
+  box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.1);
+}
 .estrelas{
   width: 190px;
   padding-top: 10px;
@@ -28,16 +39,7 @@ main {
  
 }
 
-.coment{
-  background: #0A3625 ;
-  width: 400px;
-  color: #fff;
-  margin: 10px;
-  border-radius: 10px;
-  margin: 5px 1px 15px 10px;
-  box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.1);
 
-}
 
 
 .card{
