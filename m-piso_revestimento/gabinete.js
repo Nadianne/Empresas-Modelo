@@ -3,14 +3,14 @@ global.Gabinete.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Gabinete"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([2]);
+    global.setTamProdutosIndicados([5]);
     global.setImgAllPath(["../imagens-madereira/gabinete/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
         'Gabinete Mini Chopin ',
         'Kit Sicília Suspenso ',
-        'Armário astra  ',
+        'Lavatório Ravena ',
         'Cômoda 5 Gavetas',
         'Guarda-roupa Casal com Espelho 6 Portas',
         

@@ -3,16 +3,20 @@ global.Revestimento.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Revestimento"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([2]);
+    global.setTamProdutosIndicados([9]);
     global.setImgAllPath(["../imagens-madereira/revestimento/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Revestimento de Parede  ',
-        'Chuveiro Elétrico Ducha Fame',
-        'Lâmpada Led 100W ',
-        'Lâmpada Led 40W ',
-        'Cabeceira Casal 4 Gavetas',
+        'Revestimento HD Ômega  ',
+        'Revestimento triunfo 33X57 ',
+        'Revestimento Madrepérola  ',
+        'Revestimento triunfo vintage ',
+        'Revestimento Triunfo Alpes ',
+        'Revestimento Triunfo Liblon ',
+        'Revestimento Triunfo Unique  ',
+        'Revestimento triunfo bello  ',
+        'Revestimento HD Elegance ',
         
     ],
    
@@ -20,35 +24,55 @@ global.Revestimento.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Revestimento de Parede <span>  Triunfo Bold-</span>",
-            "Chuveiro Elétrico Ducha Fame <span>Preto C/ Cano 4t 5400w</span>",
-            "Lâmpada Led<span> 6500k 100W</span>",
-            "'Lâmpada Led Bulbo E27 <span> 40W 6500K</span>",
-            "Cabeceira Casal <span>4 Gavetas</span>",
+            "Revestimento HD Ômega <span> 33x57 - Triunfo</span>",
+            "Revestimento triunfo 33X57  <span> HD VIDRIO</span>",
+            "Revestimento de Parede  <span> Triunfo HD Madrepérola</span>",
+            "Revestimento triunfo vintage <span> prata 33x57</span>",
+            "Revestimento Triunfo Alpes  <span> 33x57 Brilhante </span>",
+            "Revestimento Triunfo Liblon  <span> Plus 33x57 </span>",
+            "Revestimento Triunfo Unique  <span> 33x57 HD</span>",
+            "Revestimento triunfo bello  <span> 33x57 Bello</span>",
+            "Revestimento HD  <span> 33x57 Elegance Extra</span>",
         ],
     
     ]);
     global.setParagrafoPopUpAllText([
         [
             [
-                "O Chuveiro Elétrico Multitemperatura 220V 6400W Branco Top Jet Lorenzetti é a solução para você que preza por um banho quentinho e com muito conforto.",
-                "Marca: Lorenzetti", "Material: PVC", "Linha: Multitemperatura",
+                "<br>Revestimento indicado para paredes internas e externas cobertas.",
+                "<br>Marca: Triunfo", "Tipologia: Brilhante", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
             ],
             [
-                "Chuveiro Elétrico Ducha Faminho Preto 4t 6800w 220v C/ Cano de 30CM.",
-                "Voltagem: 220V - MN", "Tipo de resistência: Refil ", "Tensão: 220V",
+                "<br>Com um design HD Vidrio Bege, este revestimento oferece uma estética moderna e atemporal. Suas dimensões de 33x57 cm proporcionam uma cobertura eficiente de 2,50 metros quadrados por caixa, tornando-o uma opção prática e econômica para projetos de revestimento de interiores.",
+                "Esperssura: 6,8 mm", "Material: Argila", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
             ],
             [
-                "Ideal para iluminação geral e decorativa em substituição às lâmpadas incandescentes, econômicas.",
-                "Potência: 100W", "Frequência: 50/60Hz ", "Tensão: Bivolt",
+                "<br>Revestimento de parede bold 33x57cm HD Madrepérola Lyara branco e preto Triunfo.Fácil aplicação e conservação.Design em alta definição",
+                "Marca: Triunfo", "Tipologia: Brilhante", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
             ],
             [
-                "Ideal para iluminação geral e decorativa em substituição às lâmpadas incandescentes, econômicas.",
-                "Potência: 40W", "Frequência: 50/60Hz ", "Tensão: Bivolt",
+                "<br>Ideal para iluminação geral e decorativa em substituição às lâmpadas incandescentes, econômicas.",
+                "Marca: Triunfo", "Tipologia: Brilhante", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
             ],
             [
-                "Ajustável para colchão box 1,38 a 1,58m, possui dois aparadores de cabeceira com tampo e base de 25mm e duas gavetas em cada lado.",
-                "Dimensões:<br> Altura: 108cm", "Largura: 151m", "Profundidade: 405mm",
+                "<br>Revestimento de parede bold 33x57cm Alpes branco Triunfo. Fácil aplicação e conservação.",
+                "Marca: Triunfo", "Tipologia: Brilhante", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
+            ],
+            [
+                "<br>Revestimento 33x57 Leblon Plus RMA Extra TRIUNFO.",
+                "Marca: Triunfo", "Tipologia: Brilhante", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
+            ],
+            [
+                "<br>Revestimento 33x57 Unique HD Brilhante Extra TRIUNFO.",
+                "Marca: Triunfo <br> Indicação de Uso: Área Interna", "Tipologia: Brilhante", "Formato: 33 x 57cm <br> Caixa: 2.50 metros",
+            ],
+            [
+                "<br>O revestimento impressiona com seu design diferenciado que combina com diversos ambientes, deixando um ar moderno e contemporâneo. Os revestimentos são altamente resistentes.",
+                "Marca: Triunfo", "Formato: 33 x 57cm", "Caixa: 2.50 metros",
+            ],
+            [
+                "<br>Revestimento 33x57 Elegance HD Extra TRIUNFO.",
+                "Marca: Triunfo", "Formato: 33 x 57cm", "Caixa: 2.50 metros",
             ],
            
         ]
