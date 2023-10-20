@@ -3,21 +3,15 @@ global.furadeira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Furadeira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([10]);
-    global.setImgAllPath(["../imagens-madereira/Chave/"]);
+    global.setTamProdutosIndicados([4]);
+    global.setImgAllPath(["../imagens-industria/Furadeira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Chave fixa 14x15mm',
-        'Chave de fenda 1/4x6. ',
-        'Chave fixa 18x19 ',
-        'Chave Fixa 20 x 22mm  ',
-        'Chave fixa 16x17mm ',
-        'Chave fixa 8x9mm ',
-        'Chave fixa 10x11mm',
-        'Chave fixa 12x13mm',
-        'Chave de fenda 3/16x3',
-        'Chave de fenda 3/16x4',
+        'Furadeira De Impacto Black Decker ',
+        'Furadeira  127v Black Decker',
+        'Furadeira de Impacto 550W Black Decker',
+        'Furadeira De Impacto Black Decker 560W 110V ',
         
     ],
    
@@ -25,37 +19,30 @@ global.furadeira.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Chave fixa 14x15mm <span>cromada vonder</span>",
-            "Chave de fenda vonder estrela <span> 1/4x6</span>",
-            "Chave fixa 18x19 <span> cromada vonder</span>",
-            "Chave Fixa 20 x 22mm  <span> cromada vonder</span>",
-            "Chave fixa 16x17mm <span> cromada vonder </span>",
-            "Chave fixa 6x7mm <span>cromada vonder </span>",
-            "Chave fixa 8x9mm <span>cromada vonder</span>",
-            "Chave fixa 10x11mm <span> cromada vonder </span>",
-            "Chave fixa 12x13mm <span>cromada vonder</span>",
-            "Chave de fenda vonder estrela <span>3/16x3</span>",
-            "Chave de fenda vonder estrela <span> 1/16x4</span>",
+            "Furadeira De Impacto <span>Black Decker </span>",
+            "Furadeira <span>Black Decker</span>",
+            "Furadeira de Impacto 550W <span>Black Decker</span>",
+            "Furadeira De Impacto <span>Black Decker 560W 110V</span>",
         ],
     
     ]);
     global.setParagrafoPopUpAllText([
         [
             [
-                "Chave fixa é indicada para apertar e soltar porcas e parafusos sextavados. Produzida em aço cromo vanádio, proporciona maior resistência e durabilidade.",
-                "Medida da chave: 14mm x 15mm", "Medida da chave: 14mm x 15mm", "Acabamento: Cromado fosco <br> Comprimento: 148,5mm",
+                "Furadeira De Impacto 1/2 560w VVR 110v Black Decker Tm555brA Furadeira de Impacto ½” TM555BR Black Decker é fabricada com materiais de alta qualidade, proporcionando muita resistência e durabilidade da ferramenta. ",
+                "Potência: 560W;", "Voltagem: 127;", "Velocidade: 0-2800/ min (rpm);",
             ],
             [
-                "Aplicações e dicas de uso: Indicada para fixar e soltar parafusos com fenda simples Destaques e diferenciais: Produzida em aço cromo vanádio, proporcionando maior resistência e durabilidade. Possui acabamento niquelado que confere maior resistência contra oxidação/corrosão.",
-                "Largura da ponta (B): 1/4″ – 6,3 mm", "Comprimento da haste (L1): 4″ – 101 mm ", "Material da haste: Aço cromo vanádio (CRV)",
+                "A Furadeira de Impacto Bosch GSB 450 RE, com potência de 450 W, é a melhor escolha para quem busca a confiança da marca Bosch por um preço arrasador. Mais confortável, com apenas 1,6 Kg, perfura alvenaria, madeira e metal, com e sem impacto, graças ao botão comutador. Realize, também, parafusamentos através da função de reversão e faça trabalhos contínuos com o auxílio do botão trava. Tudo isso com 1 ano de garantia e suporte da Assistência Técnica Bosch, que oferece o serviço mais rápido e barato que a concorrência.",
+                "Potência nominal absorvida: 450 W", "Nº de rotações em vazio, 1ª velocidade: 0 – 3.100 r.p.m", "Mandril de encaixe do veio da broca: 3/8-24 UNF",
             ],
             [
-                "Chave fixa encartelada, ideal apertar e soltar porcas e parafusos. Indicada tanto para uso profissional como domestico.  Ferramenta fabricada em aço cromo vanádio, proporcionando qualidade e durabilidade. Seu acabamento cromado oferece proteção contra corrosão e oxidação. Design atraente possui pontas estreitas, facilita o uso em locais de difícil acesso.",
+                "Furadeira de impacto mandril de 1/2 ( 13mm ), Potência: 550W, Velocidade variável e reversível 0 - 2.800 RPM; Impactos por minuto: 0 - 45.000 IPM. Acompanha Maleta, Empunhadura lateral, limitador de profundidade, e chave de mandril.",
                 "Tamanho: 18 x 19mm", "Comprimento: 221mm", "Material: Aço cromado vanádio",
             ],
             [
-                "Indicada para apertar ou afrouxar porcas e parafusos de perfil quadrado ou sextavado, possui cabeças estreitas e com medidas diferentes em cada extremidade.",
-                "Fabricado em aço gedore-vanádio", "Acabamento niquelado e cromado", "Medidas: 20 x 22mm",
+                "Furadeira De Impacto 1/2 560w VVR 127v Black Decker Tm555brA Furadeira de Impacto ½” TM555BR Black Decker é fabricada com materiais de alta qualidade, proporcionando muita resistência e durabilidade da ferramenta. ",
+                "Potência: 560W;", "Voltagem: 127;", "Velocidade: 0-2800/ min (rpm);",
             ],
             [
                 "Produzida em aço cromo vanádio, proporcionando maior resistência e durabilidade. Possui acabamento cromado fosco, que confere maior resistência contra oxidação/corrosão, e pontas estreitas, que possibilitam o uso em locais de difícil acesso. Indicada para apertar e soltar porcas e parafusos sextavados. Nunca utilizar prolongadores sobre a chave, pois isso aumentará o torque aplicado e diminuirá a vida útil da ferramenta.",
