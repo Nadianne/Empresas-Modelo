@@ -8,12 +8,12 @@ global.Lateral.addEventListener("change", function () {
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Assoalho de compensado naval 12mm - 2,44 x 1,00 ',
-        'Assoalho de compensado naval 12mm - 2,97 x 0,80',
-        'Assoalho de compensado naval 12mm - 2,97 x 1,00 ', 
-        'Assoalho de compensado naval 14mm - 2,25 x 0,80',
-        'Assoalho de compensado naval 14mm - 2,25 x 1,00',
-        'Assoalho de compensado naval 14mm - 2,44 x 0,80',
+        'Assoalho de compensado lateral 12mm - 2,44 x 1,00 ',
+        'Assoalho de compensado lateral 12mm - 2,97 x 0,80',
+        'Assoalho de compensado lateral 12mm - 2,97 x 1,00 ', 
+        'Assoalho de compensado lateral 14mm - 2,25 x 0,80',
+        'Assoalho de compensado lateral 14mm - 2,25 x 1,00',
+        'Assoalho de compensado lateral 14mm - 2,44 x 0,80',
         
     ],
    
@@ -21,12 +21,12 @@ global.Lateral.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Assoalho de compensado naval <span>12mm - 2,44 x 1,00 </span>",
-            "Assoalho de compensado naval <span>12mm - 2,97 x 0,80 </span>",
-            "Assoalho de compensado naval <span>12mm - 2,97 x 1,00 </span>",
-            "Assoalho de compensado naval <span>14mm - 2,25 x 0,80 </span>",
-            "Assoalho de compensado naval <span>14mm - 2,25 x 1,00 </span>",
-            "Assoalho de compensado naval <span>14mm - 2,44 x 0,80 </span>",
+            "Assoalho de compensado lateral <span>12mm - 2,44 x 1,00 </span>",
+            "Assoalho de compensado lateral <span>12mm - 2,97 x 0,80 </span>",
+            "Assoalho de compensado lateral <span>12mm - 2,97 x 1,00 </span>",
+            "Assoalho de compensado lateral <span>14mm - 2,25 x 0,80 </span>",
+            "Assoalho de compensado lateral <span>14mm - 2,25 x 1,00 </span>",
+            "Assoalho de compensado lateral <span>14mm - 2,44 x 0,80 </span>",
                
 
         ],
