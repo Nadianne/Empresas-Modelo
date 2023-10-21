@@ -3,7 +3,7 @@ global.Assoalhado.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Assoalhado"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
+    global.setTamProdutosIndicados([4]);
     global.setImgAllPath(["../imagens-industria/Assoalhado/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
