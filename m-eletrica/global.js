@@ -7,23 +7,6 @@ export var labelTomada = document.querySelector('label[for="Tomada"]');
 export var Lampada = document.getElementById("Lampada");
 export var labelLampada = document.querySelector('label[for="Lampada"]');
 
-export var KitCozinha = document.getElementById("KitCozinha");
-export var labelKitCozinha = document.querySelector('label[for="KitCozinha"]');
-
-export var Cama = document.getElementById("Cama");
-export var labelCama = document.querySelector('label[for="Cama"]');
-
-export var Beliche = document.getElementById("Beliche");
-export var labelBeliche = document.querySelector('label[for="Beliche"]');
-
-export var Cadeira = document.getElementById("Cadeira");
-export var labelCadeira = document.querySelector('label[for="Cadeira"]');
-
-export var Multiuso = document.getElementById("Multiuso");
-export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
-
-export var Colchão = document.getElementById("Colchão");
-export var labelColchao = document.querySelector('label[for="Colchão"]');
 
 export var ultimoLabel = labelTomada;
 

@@ -12,7 +12,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(../m-eletrica/eletrica.jpg);
+    background-image: url(../imagens/Elétrica.png);
     background-size: cover;
     opacity: 0.4;
     z-index: -1;
@@ -48,7 +48,7 @@
 }
 
 .sessao-imagem p {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .sessao-imagem div {
@@ -106,7 +106,7 @@ label[for="guarda-roupa"] {
 input[type="radio"] {
     appearance: none;
     -webkit-appearance: none;
-    background-color: #D9D9D9;
+    background-color: #d4c9c9;
     width: 20px;
     height: 20px;
     border: 3px solid #949494;
@@ -120,7 +120,7 @@ input[type="radio"]:checked {
 }
 
 input[type="radio"]:not(:checked):hover {
-    background-color: #0a36255e;
+    background-color: #0a362517;
     transition: 1000ms;
 }
 
@@ -148,7 +148,7 @@ input[type="radio"]:not(:checked):hover {
 }
 
 .protudos-das-categorias {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .artc-topo {
@@ -159,7 +159,7 @@ input[type="radio"]:not(:checked):hover {
 
 .produto {
     margin-left: 5%;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
