@@ -13,17 +13,23 @@ export var labelfuradeira = document.querySelector('label[for="furadeira"]');
 export var plaina_lixadeira = document.getElementById("plaina_lixadeira");
 export var labelplaina_lixadeira = document.querySelector('label[for="plaina_lixadeira"]');
 
-export var Beliche = document.getElementById("Beliche");
-export var labelBeliche = document.querySelector('label[for="Beliche"]');
+export var politriz = document.getElementById("politriz");
+export var labelpolitriz = document.querySelector('label[for="politriz"]');
 
-export var Cadeira = document.getElementById("Cadeira");
-export var labelCadeira = document.querySelector('label[for="Cadeira"]');
+export var desengrossadeira = document.getElementById("desengrossadeira");
+export var labeldesengrossadeira = document.querySelector('label[for="desengrossadeira"]');
 
-export var Multiuso = document.getElementById("Multiuso");
-export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
+export var coladeira = document.getElementById("coladeira");
+export var labelcoladeira = document.querySelector('label[for="coladeira"]');
 
-export var Colchão = document.getElementById("Colchão");
-export var labelColchao = document.querySelector('label[for="Colchão"]');
+export var Tupia = document.getElementById("Tupia");
+export var labelTupia = document.querySelector('label[for="Tupia"]');
+
+export var aparador = document.getElementById("aparador");
+export var labelaparador = document.querySelector('label[for="aparador"]');
+
+export var trena = document.getElementById("trena");
+export var labeltrena = document.querySelector('label[for="trena"]');
 
 export var ultimoLabel = labelserra;
 

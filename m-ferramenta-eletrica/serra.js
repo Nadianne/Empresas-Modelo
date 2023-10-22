@@ -3,7 +3,7 @@ global.serra.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Serra"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
+    global.setTamProdutosIndicados([6]);
     global.setImgAllPath(["../imagens-industria/serra/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -13,6 +13,7 @@ global.serra.addEventListener("change", function () {
         'Serra Circular BLACK & DECKER ',
         'Serra Circular Com Mesa 10 Scd 1800',
         'Serra de fita vertical para madeira ',
+        'Serra Mármore BLACK & DECKER  ',
        
     ],
 
@@ -25,7 +26,7 @@ global.serra.addEventListener("change", function () {
             "Serra Circular <span>BLACK & DECKER  1400W 220V </span>",
             "Serra Circular Com Mesa <span>10 Scd 1800</span>",
             "Serra de fita vertical para madeira <span>375 Watts</span>",
-               
+            "Serra Mármore Profissional 4.3/8 <span>Black+decker 1100w</span>",
 
         ],
 
@@ -51,6 +52,10 @@ global.serra.addEventListener("change", function () {
             [
                 "A Serra de fita vertical para madeira 375 Watts capacidade de 100mm - RZ-SF10/M2 da Razi realiza cortes com muita precisão e qualidade garantidas da marca, que é especializada na comercialização de equipamentos para os setores moveleiro, madeireiro e metal mecânico, se consolidando como uma das principais empresas do segmento no Brasil.",
                 "Motor 1/2CV – 220V monofásico ","Altura Máxima de Corte 100mm"," Largura máxima de corte 240mm ",
+            ],
+            [
+                "A serra mármore BD115B2 é ideal para cortes e instalações e cortes de pisos, revestimentos, peças de mármore, granitos, azulejos e concretos. Possui motor de alta potência projetada para corte pesado. Conta com botão de segurança para evitar que o gatilho seja acionado acidentalmente.",
+                "Potência: 1.100W","Velocidade: 13.000 RPM","Diâmetro do disco: 4-1/2 Pol.  <br>  Capacidade de corte a 90°: 34mm",
             ],
           
            

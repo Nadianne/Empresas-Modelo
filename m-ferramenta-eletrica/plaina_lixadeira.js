@@ -11,6 +11,7 @@ global.plaina_lixadeira.addEventListener("change", function () {
         'Plaina Elétrica Profissional 650w ',
         'Lixadeira Orbital 1/4 Lixa 200W 127V',
         'Lixadeira Roto Orbital 200W ',
+        'Plaina Elétrica Black e Decker',
         
         
     ],

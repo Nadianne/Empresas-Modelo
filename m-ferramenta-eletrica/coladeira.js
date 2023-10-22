@@ -1,15 +1,15 @@
 import * as global from './global.js';
-global.parafusadeira.addEventListener("change", function () {
+global.coladeira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["Parafusadeira"])
+    global.setSubCategoriasTitulo(["Coladeira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([7]);
-    global.setImgAllPath(["../imagens-industria/Parafusadeira/"]);
+    global.setTamProdutosIndicados([1]);
+    global.setImgAllPath(["../imagens-industria/coladeira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
-        'Parafusadeira / furadeira Black Decker',
-        'Parafusadeira e Furadeira Black Decker',
+        'Coladeira de Borda coleiro duplo 220v mon ',
+        'Plaina Desengrossadeira Orion 5,5CV',
         'Parafusadeira E Furadeira Stanley',
         'Parafusadeira Furadeira Black Decker',
         'Parafusadeira Furadeira Black Decker',
@@ -22,8 +22,8 @@ global.parafusadeira.addEventListener("change", function () {
     
     global.setH1PopUpAll([
         [
-            "Parafusadeira / furadeira <span>Black Decker</span>",
-            "Parafusadeira e Furadeira <span>Black Decker</span>",
+            "Coladeira de Borda coleiro <span> 220v mon</span>",
+            "Plaina Desengrossadeira Orion <span>220/380V Trifásico</span>",
             "Parafusadeira E Furadeira <span>Stanley</span>",
             "Parafusadeira Furadeira <span>Black Decker</span>",
             "Parafusadeira Furadeira <span>Black Decker</span>",
@@ -35,12 +35,12 @@ global.parafusadeira.addEventListener("change", function () {
     global.setParagrafoPopUpAllText([
         [
             [
-                "Empunhadura 100% emborrachada e ergonômica para uma maior comodidade com Led para visualização em lugares de difíceis acesso e Luz com identificação do nível da bateria",
-                "Bateria Ions Litio - 12V", "Velocidade Variável e Reversível", "Carregador Bivolt e manual",
+                "A coladeira de fita de borda duplo coleiro modelo CBD-1260 Possamai, proporciona uma colagem perfeita em MDF, compensados, aglomerados e madeiras em geral. Este modelo é equipado com dois coleiros para uso simultâneo possibilitando o dobro da produção diária, um sistema de corte manual, sendo indicado para corte de fitas finas em PVC. Estrutura robusta e construída com elevado conceito de qualidade, aliado a produtividade e baixo custo.",
+                "Espessura da fita de borda: 0,4 à 1,00 mm", "Dimensões da mesa (útil): 390 x 1600 mm", "Dimensões da embalagem: 1310 x 1095 x 1250 mm <br> Velocidade de avanço: 2,2 à 5,2 m/min",
             ],
             [
-                "Parafusadeira/Furadeira 12V Black&Decker C/ 13 Acessórios e Caixa Transparente - LD12SP-BRA Furadeira Parafusadeira 3/8 bateria 12 volts com 13 acessórios LD12SP da Black Decker é Ideal para uso em trabalhos rotineiros, instalações, montagens e manutenções. Perfura: metal, madeira e gesso. Acompanha a Furadeira Parafusadeira LD12SP: caixa plástica com tampa transparente, 10 bits, 2 brocas, 1 extensor magnético e carregador.",
-                "Perfuração: Metal 6,5mm", "Perfuração:  Madeira 15mm", "Perfuração:  Capacidade de perfuração Aço (mm):6,5",
+                "PA fabricação de móveis e esquadrias requer equipamentos profissionais e cada vez mais flexíveis. O acesso aos mais variados tipos de matéria-prima tem exigido máquinas versáteis, por isso a INMES desenvolveu a DG-505, que conta com um rápido sistema regulagem de espessura proporcionando flexibilidade no dia a dia.",
+                "", "", "",
             ],
             [
                 "Parafusadeira Furadeira Stanley SCD700C2K 1/2 Maleta e 2 Baterias 20V Max Íon Parafusadeira/Furadeira de Impacto 20V Max Íon de Lítio. ",
