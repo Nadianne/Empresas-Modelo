@@ -1,0 +1,449 @@
+.sessao-imagem {
+    position: relative;
+    background-color: #024f31;
+    display: block;
+    width: 100%;
+    opacity: 0.9;
+    padding: 0px 0px 240px;
+}
+
+.sessao-imagem::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/madeira.png);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.sessao-imagem h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+
+.sessao-imagem h1 .span-0 {
+    display: block;
+}
+
+.sessao-imagem h1 .span-1 {
+    text-transform: uppercase;
+    color: #FAFF00;
+    font-weight: 900;
+}
+
+.sessao-imagem h1 .span-2 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.sessao-imagem p {
+    color: white;
+}
+
+.sessao-imagem div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+main {
+    background-color: #d3d3d393;
+    color: #0A3625;
+    padding-bottom: 35px;
+}
+
+main .opcoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+main .opcoes a {
+    color: black;
+    background-color: #FDF10F;
+    padding: 10px 0px 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -20px;
+}
+
+.preferencia {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.preferencia div {
+    display: flex;
+}
+
+.preferencia img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+main .span1 {
+    display: block;
+    font-weight: 500;
+    color: #0A3625;
+}
+
+main .span2 {
+    font-weight: 900;
+    color: #0A3625;
+}
+
+.produto {
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.selecao-sofa {
+    display: flex;
+    background-color: #0A3625;
+    margin: 60px 0;
+}
+
+.selecao-sofa img {
+    width: 60%;
+}
+
+.selecao-sofa div {
+    background-color: #0A3625;
+    width: 40%;
+}
+
+.selecao-sofa .span-1 {
+    text-transform: uppercase;
+    color: #FAFF00;
+    font-weight: 900;
+    font-size: 46px;
+    margin: 10% 0 0 12%;
+}
+
+
+.selecao-sofa h2 {
+    display: block;
+    font-weight: 900;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    margin: -12px 0 0px 15%;
+}
+
+.selecao-sofa h1 {
+    color: white;
+    font-weight: 500;
+    margin: -11px 0 0px 19%;
+    font-size: 46px;
+}
+
+.selecao-sofa span {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.selecao-sofa .renove-sala {
+    margin: -11px 0 0px 27%;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.PainelNogal .bordered-img {
+    width: 300px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    margin-left: 200px;
+    transition: all 0.3s ease;
+  }
+  
+  .PainelNogal .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .PainelNogal .descricao-container {
+    display: none;
+  }
+  
+  .PainelNogal .bordered-img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 1; 
+  }
+  
+  .PainelNogal .bordered-img:active {
+    transform: scale(1); 
+  }
+  
+  .PainelNogal .bordered-img.enlarged {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+  }
+
+.PainelNogal p {
+    font-size: 25px; 
+    white-space: normal; 
+    margin-left: 500px;
+    margin-bottom: 250px;
+    font-weight: bold;
+  }
+
+  
+
+  .PainelNogal h1 {
+    font-size: 15px;
+    white-space: normal; 
+    margin-left: -150px;
+    margin-bottom: 150px;
+    font-weight: medium;
+  }
+
+  .PainelNogal h2 {
+    font-size: 12px;
+    white-space: normal; 
+    margin-left: -320px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+  }
+
+  .PainelNogal .text-container {
+    
+    margin-left: -420px;
+    margin-bottom: 250px;
+  }
+
+  main .compra {
+    font-weight: 1000;
+    color:#ffffff;
+ 
+}
+
+.PainelNogal .compra{
+    margin-left: -120px;
+    margin-bottom: -80px;
+    border: 8px solid;
+    border-radius: 50px; 
+    background-color:  #0A3625;
+    border: 8px solid  #0A3625;
+    border-radius: 50px;
+}
+@media screen and (max-width: 915px) {
+    main .opcoes a {
+        width: 130px;
+    }
+
+    main .compra {
+        font-weight: 800;
+        color:#ffffff;
+    }
+
+    .PainelNogal .bordered-img {
+        width: 200px;
+        margin-top: 45px;
+        margin-bottom: 35px;
+        margin-left: 200px;
+        transition: all 0.3s ease;
+    }
+
+    .PainelNogal .compra {
+        margin-left: -90px;
+        margin-bottom: -80px;
+        border: 2px solid;
+        border-radius: 30px; 
+        background-color:  #0A3625;
+        border: 2px solid  #0A3625;
+        border-radius: 30px;
+    }
+    
+    .PainelNogal p {
+        font-size: 12px; 
+        margin-left: 450px;
+        margin-bottom: 150px;
+        font-weight: bold;
+    }
+
+    .PainelNogal h1 {
+        font-size: 8px;
+        white-space: normal; 
+        margin-left: -70px;
+        margin-bottom: 100px;
+        font-weight: medium;
+    }
+
+    .PainelNogal h2 {
+        font-size: 9px;
+        white-space: normal; 
+        margin-left: -170px;
+        margin-bottom: 30px;
+        font-weight: lighter;
+    }
+
+    .PainelNogal .text-container {
+        margin-left: -400px;
+        margin-bottom: 250px;
+    }
+
+
+
+ 
+    .selecao-sofa {
+        margin: 30px 0;
+    }
+
+    .selecao-sofa .span-1 {
+        font-size: 30px;
+        margin: 5% 0 0 5%;
+    }
+
+    .selecao-sofa h2 {
+        font-size: 20px;
+        margin: -9px 0 0px 9%;
+    }
+
+    .selecao-sofa h1 {
+        margin: -8px 0 0px 13%;
+        font-size: 30px;
+    }
+
+    .selecao-sofa .renove-sala {
+        margin: -11px 0 0px 19%;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    main .opcoes a {
+        font-size: 10px;
+        width: 100px;
+        border-radius: 15px;
+    }
+
+    
+  main .compra {
+    font-weight: 800;
+    color:#ffffff;
+ 
+}
+
+    .PainelNogal .compra{
+        margin-left: -70px;
+        margin-bottom: -80px;
+        border: 2px solid;
+        border-radius: 30px; 
+        background-color:  #0A3625;
+        border: 2px solid  #0A3625;
+        border-radius: 30px;
+    }
+    
+
+       
+.PainelNogal p {
+    font-size: 10px; 
+    margin-left: 460px;
+    margin-bottom: 150px;
+    font-weight: bold;
+  }
+
+  
+
+  .PainelNogal h1 {
+    font-size: 6px;
+    white-space: normal; 
+    margin-left: -60px;
+    margin-bottom: 100px;
+    font-weight: medium;
+  }
+
+  .PainelNogal h2 {
+    font-size: 7px;
+    white-space: normal; 
+    margin-left: -128px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+  }
+
+  .PainelNogal .text-container {
+    
+    margin-left: -420px;
+    margin-bottom: 250px;
+  }
+
+    .PainelNogal .bordered-img {
+        width: 150px;
+        margin-top: 45px;
+        margin-bottom: 35px;
+        margin-left: 30px;
+        transition: all 0.3s ease;
+      }
+
+
+    .sessao-imagem h1 {
+        font-size: 26px;
+    }
+
+    .sessao-imagem p {
+        font-size: 12px;
+    }
+
+    .preferencia div {
+        font-size: 12px;
+    }
+
+    .preferencia img {
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    .selecao-sofa {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .selecao-sofa img {
+        width: 100%;
+    }
+
+    .selecao-sofa div {
+        width: 100%;
+        align-self: center;
+    }
+
+    .selecao-sofa .span-1 {
+        font-size: 30px;
+        margin: 5% 0 0 20%;
+    }
+
+    .selecao-sofa h2 {
+        font-size: 20px;
+        margin: -9px 0 0px 24%;
+    }
+
+    .selecao-sofa h1 {
+        margin: -8px 0 0px 29%;
+        font-size: 30px;
+    }
+
+    .selecao-sofa .renove-sala {
+        margin: -11px 0 0px 35%;
+        font-size: 18px;
+    }
+}

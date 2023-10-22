@@ -1,0 +1,32 @@
+
+.PainelNogal p {
+    font-size: 25px; 
+    white-space: normal; 
+    margin-left: 500px;
+    margin-bottom: 250px;
+    font-weight: bold;
+  }
+
+  
+
+  .PainelNogal h1 {
+    font-size: 15px;
+    white-space: normal; 
+    margin-left: -230px;
+    margin-bottom: 150px;
+    font-weight: medium;
+  }
+
+  .PainelNogal h2 {
+    font-size: 12px;
+    white-space: normal; 
+    margin-left: -300px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+  }
+
+  .PainelNogal .text-container {
+    
+    margin-left: -420px;
+    margin-bottom: 250px;
+  }
