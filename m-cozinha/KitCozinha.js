@@ -3,7 +3,7 @@ global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([4]);
+    global.setTamProdutosIndicados([5]);
     global.setImgAllPath(["../imagens-moveis/kit/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -12,7 +12,7 @@ global.KitCozinha.addEventListener("change", function () {
         'Cozinha Compacta 6 Portas',
         'Cozinha Kits Paraná 12 Portas com 4 Prateleiras',
         'Cozinha intense compacta 10 portas',
-        'Cabeceira Casal 4 Gavetas',
+        'Cozinha Modulada 05 Peças Freijó Off White',
         
     ],
    
@@ -24,7 +24,7 @@ global.KitCozinha.addEventListener("change", function () {
             "Cozinha Compacta 6 Portas <span>Sabrina</span>",
             "Cozinha Kits Paraná <span>Versalhes</span>",
             "Cozinha intense compacta <span> 10 portas</span>",
-            "Cabeceira Casal <span>4 Gavetas</span>",
+            "Cozinha Modulada 05 Peças <span> 05 Peças 09 Portas 02 Gavetas com Bancada </span>",
         ],
     
     ]);
@@ -47,8 +47,8 @@ global.KitCozinha.addEventListener("change", function () {
                 "Dimensões:<br> Altura: 204,5cm", "Largura: 222,2cm", "Profundidade: 46,8cm",
             ],
             [
-                "Ajustável para colchão box 1,38 a 1,58m, possui dois aparadores de cabeceira com tampo e base de 25mm e duas gavetas em cada lado.",
-                "Dimensões:<br> Altura: 108cm", "Largura: 151m", "Profundidade: 405mm",
+                "Acabamento em Pintura uv. 09 Portas com dobradiças de amortecimento sendo 02 com pistão à gás e 02 com detalhes frisados. 02 Gavetas com corrediças telescópicas. Prateleiras internas e nichos com amplo espaço. 01 Nicho para eletrodoméstico. Pés e puxadores de plástico. Bancada Gourmet",
+                "Dimensões:<br> Altura: 224 cm", "Largura: 270 cm", "Profundidade: 47 cm",
             ],
            
         ]
