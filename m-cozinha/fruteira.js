@@ -3,7 +3,7 @@ global.Fruteira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Fruteira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
+    global.setTamProdutosIndicados([7]);
     global.setImgAllPath(["../imagens-moveis/fruteira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -13,6 +13,8 @@ global.Fruteira.addEventListener("change", function () {
         'Fruteira Balcão',
         'Fruteira 2 Cestos',
         'Fruteira Armario',
+        'Fruteira Luna Amendoa',
+        'Armário Fruteira',
     
     ],
 
@@ -25,6 +27,8 @@ global.Fruteira.addEventListener("change", function () {
             "Balcão De Cozinha <span>Com Fruteira</span>",
             "Fruteira 2 Cestos <span> Tampo Em Granito</span>",
             "Fruteira Armario <span>2 Portas</span>",
+            "Fruteira Luna <span> 3 cestas metálicas</span>",
+            "Armário Fruteira <span>1 Porta 2 Cestas </span>",
 
         ],
 
@@ -50,6 +54,14 @@ global.Fruteira.addEventListener("change", function () {
             [
                 "Armário Multiuso Prático se adapta a todos os espaços, organizando e decorando ambientes como cozinha.",
                 "Dimensões:<br> Altura: 87,00cm", "Largura:  87,00cm", "Profundidade: 42,00cm",
+            ],
+            [
+                "Balcão Fruteira Luna possui tampo com suporte para Forno/Micro, assim como espaços para acondicionar e organizar objetos, sendo ideal para compor ambientes como cozinhas. Possui puxador plástico na cor Bronze e 3 cestas metálicas, ideal para pequenos ambientes.",
+                "Dimensões:<br> Altura: 74,00cm", "Largura:  62,00cm", "Profundidade: 45,00cm",
+            ],
+            [
+                "O Multiuso Fruteira Lyon Branco possui nichos para Forno/Micro, assim como espaços para acondicionar e organizar objetos, sendo ideal para compor ambientes como cozinhas. Possui puxador plástico na cor Bronze, pés plásticos, e aramados metálicos como detalhes . Produto em MDP com acabamento em Pintura UV.",
+                "Dimensões:<br> Altura: 117,00cm", "Largura:  68,00cm", "Profundidade: 42,00cm",
             ],
            
         ],
