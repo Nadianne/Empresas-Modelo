@@ -3,7 +3,7 @@ global.mdf.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["mdf"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([28]);
+    global.setTamProdutosIndicados([56]);
     global.setImgAllPath(["../imagens-industria/mdf/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -35,7 +35,35 @@ global.mdf.addEventListener("change", function () {
         'Elmo Aracruz 06mm',
         'Elmo Aracruz 15mm',    
         'Elmo Palmares 06mm',
-        'Elmo Palmares 15mm',
+        'Elmo Palmares 15mm',     
+        'Carvalho Caeté 06mm',
+        'Carvalho Caeté 15mm',     
+        'Cupuaçu 06mm',
+        'Cupuaçu 15mm',
+        'Freijó 06mm',
+        'Freijó 15mm',    
+        'Guaraná 06mm',
+        'Guaraná 15mm',   
+        'Ingá 06mm',
+        'Ingá 15mm',
+        'Macanaíba 06mm',
+        'Macanaíba 15mm',  
+        'Nogueira Arroio 06mm',
+        'Nogueira Arroio 15mm',    
+        'Nogal Terena 06mm',
+        'Nogal Terena 15mm',  
+        'Vila Velha 06mm',
+        'Vila Velha 15mm',  
+        'Nogueira Carajás 06mm',
+        'Nogueira Carajás 15mm',
+        'Pimenta do Reino 06mm',
+        'Pimenta do Reino 15mm',
+        'Nogueira Goiatacá 06mm',
+        'Nogueira Goiatacá 15mm',
+        'Nogueira Caiapó 06mm',
+        'Nogueira Caiapó 15mm',
+        'Tapioca 06mm',
+        'Tapioca 15mm',
     ],
 
     ]);
@@ -69,7 +97,33 @@ global.mdf.addEventListener("change", function () {
             "Elmo Aracruz<span> 06mm</span>",
             "Elmo Aracruz<span> 15mm</span>",           
             "Elmo Palmares<span> 06mm</span>",
-            "Elmo Palmares<span> 15mm</span>",    
+            "Elmo Palmares<span> 15mm</span>",               
+            "Carvalho Caeté<span> 06mm</span>",
+            "Carvalho Caeté<span> 15mm</span>",               
+            "Cupuaçu<span> 06mm</span>",
+            "Cupuaçu<span> 15mm</span>", 
+            "Freijó<span> 06mm</span>",
+            "Freijó<span> 15mm</span>", 
+            "Guaraná<span> 06mm</span>",
+            "Guaraná<span> 15mm</span>",
+            "Ingá<span> 06mm</span>",
+            "Ingá<span> 15mm</span>",       
+            "Macanaíba<span> 06mm</span>",
+            "Macanaíba<span> 15mm</span>",
+            "Nogueira Arroio<span> 06mm</span>",
+            "Nogueira Arroio<span> 15mm</span>", 
+            "Vila Velha<span> 06mm</span>",
+            "Vila Velha<span> 15mm</span>",  
+            "Nogueira Carajás<span> 06mm</span>",
+            "Nogueira Carajás<span> 15mm</span>",   
+            "Pimenta do Reino<span> 06mm</span>",
+            "Pimenta do Reino<span> 15mm</span>",   
+            "Nogueira Goiatacá<span> 06mm</span>",
+            "Nogueira Goiatacá<span> 15mm</span>",  
+            "Nogueira Caiapó<span> 06mm</span>",
+            "Nogueira Caiapó<span> 15mm</span>",
+            "Tapioca<span> 06mm</span>",
+            "Tapioca<span> 15mm</span>",
 
         ],
 
@@ -188,8 +242,118 @@ global.mdf.addEventListener("change", function () {
                 "<br>O Quilombo dos Palmares é considerado o maior símbolo de resistência contra a escravidão no Brasil. Elmo Palmares, um padrão madeirado de tonalidade clara e agradável que possui veios marcados proporcionando discrição e autenticidade ao mobiliário. Extremamente versátil e atemporal se encaixa perfeitamente dentro do nicho de padrões essencial.",
                 "","","",
             ],
-      
-           
+            [
+                "<br>Os Caetés foram um povo indígena brasileiro, oriundo do estado de Alagoas, no século XVI. Carvalho Caeté, apresenta-se como uma estrutura marcante e extremamente linheira, trazendo na sua tonalidade as madeiras cinzas e versatilidade na sua aplicação horizontal ou vertical. Um padrão para atender aqueles que buscam criar ambientes sofisticados, porém com uma proposta mais atualizada.",
+                "","","",
+            ],
+            [
+                "<br>Os Caetés foram um povo indígena brasileiro, oriundo do estado de Alagoas, no século XVI. Carvalho Caeté, apresenta-se como uma estrutura marcante e extremamente linheira, trazendo na sua tonalidade as madeiras cinzas e versatilidade na sua aplicação horizontal ou vertical. Um padrão para atender aqueles que buscam criar ambientes sofisticados, porém com uma proposta mais atualizada.",
+                "","","",
+            ],
+            [
+                "<br>Cupuaçu é um fruto originário da Amazônia. Um padrão de tonalidade suave com textura que convida ao toque. Inspirado na tendência e nas estruturas dos tecidos feito à mão, proporciona frescor, leveza e sofisticação. Sua cor clara transmite a sensação de aconchego aos ambientes e móveis.",
+                "","","",
+            ],
+            [
+                "<br>Cupuaçu é um fruto originário da Amazônia. Um padrão de tonalidade suave com textura que convida ao toque. Inspirado na tendência e nas estruturas dos tecidos feito à mão, proporciona frescor, leveza e sofisticação. Sua cor clara transmite a sensação de aconchego aos ambientes e móveis.",
+                "","","",
+            ],
+            [
+                "<br>Freijó, madeira brasileira de estrutura clássica e tendência memorável em virtude da sua atemporalidade e infinitas composições com outros elementos e cores. Disposição de suaves movimentos, catedrais alongadas, veios enegrecidos e tonalidade variando do mel ao dourado, ideal para trazer a naturalidade da terra para o acabamento. Características tão particulares tornam esse padrão inconfundível e de aposta assertiva.",
+                "","","",
+            ],
+            [
+                "<br>Freijó, madeira brasileira de estrutura clássica e tendência memorável em virtude da sua atemporalidade e infinitas composições com outros elementos e cores. Disposição de suaves movimentos, catedrais alongadas, veios enegrecidos e tonalidade variando do mel ao dourado, ideal para trazer a naturalidade da terra para o acabamento. Características tão particulares tornam esse padrão inconfundível e de aposta assertiva.",
+                "","","",
+            ],
+            [
+                "<br>O Guaraná é uma fruta típica da Amazônia. Inspirador, aconchegante e inovador, o padrão traz um bege aquecido em uma estrutura de tecido similar ao linho, com a trama um pouco mais aberta e uma pegada artesanal. Um acabamento convidativo e perfeito para utilizar como elemento surpresa nos mobiliários de outros ambientes, além dos dormitórios e closets. ",
+                "","","",
+            ],
+            [
+                "<br>O Guaraná é uma fruta típica da Amazônia. Inspirador, aconchegante e inovador, o padrão traz um bege aquecido em uma estrutura de tecido similar ao linho, com a trama um pouco mais aberta e uma pegada artesanal. Um acabamento convidativo e perfeito para utilizar como elemento surpresa nos mobiliários de outros ambientes, além dos dormitórios e closets. ",
+                "","","",
+            ],
+            [
+                "<br>É na Floresta Amazônica que se encontra a maior diversidade de espécies do Ingá. O padrão apresenta a delicadeza dos tecidos em uma mescla de tons acinzentados, com sua estrutura similar à lã, sua tonalidade fria traz um equilíbrio com sua rusticidade para o acabamento. Ideal para trazer conforto e aconchego para o ambiente.",
+                "","","",
+            ],
+            [
+                "<br>É na Floresta Amazônica que se encontra a maior diversidade de espécies do Ingá. O padrão apresenta a delicadeza dos tecidos em uma mescla de tons acinzentados, com sua estrutura similar à lã, sua tonalidade fria traz um equilíbrio com sua rusticidade para o acabamento. Ideal para trazer conforto e aconchego para o ambiente.",
+                "","","",
+            ],
+            [
+                "<br>Uma homenagem a clássica madeira regional do Espírito Santo, a Macanaíba vem de forma ressignificada e afetiva, isso faz com que o padrão fique muito mais leve, convidativo e aconchegante. A suavidade da madeira, com movimento uniforme, segue a tendência das estruturas ricas em detalhes naturais e dos tons escuros com um toque de dourado. Ideal para projetos que a intensão é trazer a nostalgia de forma sucinta. Quando combinado a tons claros e brilhantes, predomina seu lado natural, acolhedor e delicado.",
+                "","","",
+            ],
+            [
+                "<br>Uma homenagem a clássica madeira regional do Espírito Santo, a Macanaíba vem de forma ressignificada e afetiva, isso faz com que o padrão fique muito mais leve, convidativo e aconchegante. A suavidade da madeira, com movimento uniforme, segue a tendência das estruturas ricas em detalhes naturais e dos tons escuros com um toque de dourado. Ideal para projetos que a intensão é trazer a nostalgia de forma sucinta. Quando combinado a tons claros e brilhantes, predomina seu lado natural, acolhedor e delicado.",
+                "","","",
+            ],
+            [
+                "<br>A Nogueira Arroio trás detalhes e texturas que remetem o suave movimento dos riachos. Tem coloração marrom intenso, o que o torna mais uniforme e versátil, possibilitando seu uso em diversos tipos de acabamentos. Um painel de MDF que alinha no mesmo ambiente uma decoração moderna e sofisticada.",
+                "","","",
+            ],
+            [
+                "<br>A Nogueira Arroio trás detalhes e texturas que remetem o suave movimento dos riachos. Tem coloração marrom intenso, o que o torna mais uniforme e versátil, possibilitando seu uso em diversos tipos de acabamentos. Um painel de MDF que alinha no mesmo ambiente uma decoração moderna e sofisticada.",
+                "","","",
+            ],
+            [
+                "<br>O padrão Nogal Terena carrega a beleza da lâmina de madeira natural. É um convite à contemplação e à conexão com o primordial, oferecendo amplitude e equilíbrio aos ambientes.",
+                "","","",
+            ],
+            [
+                "<br>O padrão Nogal Terena carrega a beleza da lâmina de madeira natural. É um convite à contemplação e à conexão com o primordial, oferecendo amplitude e equilíbrio aos ambientes.",
+                "","","",
+            ],
+            [
+                "<br>Desembarcando em Vila Velha, onde inicia-se a colonização do solo espírito santense. O clássico desenho do carvalho com aspecto rústico, porém conectado totalmente com o momento atual que traz na sua coloração a madeira rosada. O padrão jovem, prático e versátil torna-se perfeito para cozinhas, dormitórios e ambientes de interiores, nos quais desejam o efeito de luz e amplitude. Sua tonalidade contrasta suavidade com sofisticação. Uma ótima opção para ambientes clássicos com um toque despojado. ",
+                "","","",
+            ],
+            [
+                "<br>Desembarcando em Vila Velha, onde inicia-se a colonização do solo espírito santense. O clássico desenho do carvalho com aspecto rústico, porém conectado totalmente com o momento atual que traz na sua coloração a madeira rosada. O padrão jovem, prático e versátil torna-se perfeito para cozinhas, dormitórios e ambientes de interiores, nos quais desejam o efeito de luz e amplitude. Sua tonalidade contrasta suavidade com sofisticação. Uma ótima opção para ambientes clássicos com um toque despojado. ",
+                "","","",
+            ],
+            [
+                "<br>O padrão Nogueira Carajás é inspirado nas belezas da fauna e da flora, e é originalmente extraído da nogueira, prevalecendo seus veios marcantes e catedrais sinuosas de tons terrosos, proporcionando naturalidade e aconchego para o ambiente.",
+                "","","",
+            ],
+            [
+                "<br>O padrão Nogueira Carajás é inspirado nas belezas da fauna e da flora, e é originalmente extraído da nogueira, prevalecendo seus veios marcantes e catedrais sinuosas de tons terrosos, proporcionando naturalidade e aconchego para o ambiente.",
+                "","","",
+            ],
+            [
+                "<br>A Pimenta do Reino é utilizada desde os tempos mais antigos, dando um sabor picante e apetitoso à comida brasileira. Padrão unicolor atemporal que compõe muito bem com todos os outros acabamentos. O cinza intenso, tem estilo urbano, despojado e contemporâneo. Perfeitamente para projetos com design industrial e jovem.",
+                "","","",
+            ],
+            [
+                "<br>A Pimenta do Reino é utilizada desde os tempos mais antigos, dando um sabor picante e apetitoso à comida brasileira. Padrão unicolor atemporal que compõe muito bem com todos os outros acabamentos. O cinza intenso, tem estilo urbano, despojado e contemporâneo. Perfeitamente para projetos com design industrial e jovem.",
+                "","","",
+            ],
+            [
+                "<br>Os Goitacazes, foram um grupo indígena brasileiro que habitou a região entre o Rio São Mateus, no atual estado do Espírito Santo e o Rio Paraíba do Sul, no atual estado do Rio de Janeiro, até os fins do século XVIII. Nogueira Goitacá, traz um padrão muito fiel a lâmina da madeira trabalhando perfeitamente a parte sensorial. Os tons de marrom e cinza permitem combinação com toda a paleta. O efeito perolizado e o brancal dão ainda mais naturalidade ao acabamento. ",
+                "","","",
+            ],
+            [
+                "<br>Os Goitacazes, foram um grupo indígena brasileiro que habitou a região entre o Rio São Mateus, no atual estado do Espírito Santo e o Rio Paraíba do Sul, no atual estado do Rio de Janeiro, até os fins do século XVIII. Nogueira Goitacá, traz um padrão muito fiel a lâmina da madeira trabalhando perfeitamente a parte sensorial. Os tons de marrom e cinza permitem combinação com toda a paleta. O efeito perolizado e o brancal dão ainda mais naturalidade ao acabamento. ",
+                "","","",
+            ],
+            [
+                "<br>Os Caiapós são índios, que vivem em uma extensa área localizada nos estados do Mato Grosso e do Pará, ao longo dos afluentes do rio Xingu. Nogueira Caiapó, remete a busca pelo essencial, uma diferenciação em relação às tendências sazonais e de curta duração. De tonalidade amendoada, busca ressaltar a naturalidade da madeira com nuances de catedrais e detalhes da estrutura linheira. A aparência autêntica desta nogueira, que assume uma posição mais discreta, mas com um reﬁnamento despojado garantindo seu encanto.",
+                "","","",
+            ],
+            [
+                "<br>Os Caiapós são índios, que vivem em uma extensa área localizada nos estados do Mato Grosso e do Pará, ao longo dos afluentes do rio Xingu. Nogueira Caiapó, remete a busca pelo essencial, uma diferenciação em relação às tendências sazonais e de curta duração. De tonalidade amendoada, busca ressaltar a naturalidade da madeira com nuances de catedrais e detalhes da estrutura linheira. A aparência autêntica desta nogueira, que assume uma posição mais discreta, mas com um reﬁnamento despojado garantindo seu encanto.",
+                "","","",
+            ],
+            [
+                "<br>Herança indígena, a tapioca é base de alguns dos mais famosos quitutes do receituário nacional. O padrão Tapioca, traz o branco na textura tear, deixando esse acabamento muito mais convidativo, confortável e aconchegante. O efeito sensorial agrega mais versatilidade aos projetos de pegada clean e minimalista.",
+                "","","",
+            ],
+            [
+                "<br>Herança indígena, a tapioca é base de alguns dos mais famosos quitutes do receituário nacional. O padrão Tapioca, traz o branco na textura tear, deixando esse acabamento muito mais convidativo, confortável e aconchegante. O efeito sensorial agrega mais versatilidade aos projetos de pegada clean e minimalista.",
+                "","","",
+            ],
         ],
    
     ]);
