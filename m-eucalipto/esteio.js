@@ -3,7 +3,7 @@ global.esteio.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Esteio"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([7]);
+    global.setTamProdutosIndicados([4]);
     global.setImgAllPath(["../imagens-industria/varao/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
