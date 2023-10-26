@@ -1,0 +1,287 @@
+.sessao-imagem {
+    position: relative;
+    background-color: #024f31;
+    display: block;
+    width: 100%;
+    opacity: 0.9;
+    padding: 0px 0px 240px;
+}
+
+.sessao-imagem::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../m-eletrica/eletrica.jpg);
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+.botao-voltar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d9ff00;
+    color: #1f0202;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sessao-imagem h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+
+.sessao-imagem h1 .span-0 {
+    display: block;
+}
+
+.sessao-imagem h1 .span-1 {
+    text-transform: uppercase;
+    color: #FAFF00;
+    font-weight: 900;
+}
+
+.sessao-imagem h1 .span-2 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.sessao-imagem p {
+    color: white;
+}
+
+.sessao-imagem div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+main {
+    background-color: #d3d3d393;
+    padding-bottom: 35px;
+    padding-top: 100px;
+}
+
+main .span1 {
+    display: block;
+    font-weight: 500;
+    color: #0A3625;
+}
+
+main .span2 {
+    font-weight: 900;
+    color: #0A3625;
+}
+
+.body-topo {
+    display: flex;
+    width: 100%;
+    color: #0A3625;
+}
+
+.body-topo .categorias {
+    width: 180px;
+    justify-content: start;
+    margin-left: 30px;
+}
+
+.body-topo .categorias div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.categorias label {
+    font-weight: 500;
+}
+
+label[for="guarda-roupa"] {
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #D9D9D9;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #949494;
+    border-radius: 50%;
+    outline: none;
+    margin-right: 5px;
+}
+
+input[type="radio"]:checked {
+    background-color: #0A3625;
+}
+
+input[type="radio"]:not(:checked):hover {
+    background-color: #0a36255e;
+    transition: 1000ms;
+}
+
+.body-topo .categorias h2 {
+    font-weight: 900;
+}
+
+.body-topo .categorias h3 {
+    margin-top: 50px;
+}
+
+.body-topo .categorias p {
+    color: black;
+}
+
+.produtos-indicado h2 {
+    margin-bottom: 15px;
+}
+
+.produtos-indicado {
+    margin: 0px 5% 0 5%;
+    display: block;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.protudos-das-categorias {
+    margin-bottom: 25px;
+}
+
+.artc-topo {
+    max-width: 1420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto {
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.selecao-cama {
+    display: flex;
+    background-color: #FFE607;
+    margin: 60px 0;
+    color: #0A3625;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.selecao-cama img {
+    width: 60%;
+}
+
+.selecao-cama div {
+    background-color: #FFE607;
+    width: 40%;
+    display: block;
+
+}
+
+.selecao-cama h1 {
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.selecao-cama h2 {
+    display: block;
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.selecao-cama p {
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.selecao-cama .renove-sala {
+    margin: -11px 0 0px 27%;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.mais-vendidos {
+    margin: 0px 5% 0px;
+    overflow-x: auto;
+    width: 90%;
+    white-space: nowrap;
+    height: 270px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 915px) {
+    main .opcoes a {
+        width: 130px;
+    }
+
+    .mais-vendidos {
+        height: 200px;
+    }
+
+    .selecao-cama {
+        margin: 30px 0;
+    }
+
+    .selecao-cama h1 {
+        font-size: 36px;
+    }
+
+    .selecao-cama h2 {
+        font-size: 32px;
+    }
+
+    .selecao-cama p {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    main .opcoes a {
+        font-size: 14px;
+        width: 70px;
+        border-radius: 15px;
+    }
+
+    .mais-vendidos {
+        height: 180px;
+    }
+
+    .sessao-imagem h1 {
+        font-size: 28px;
+    }
+
+    .sessao-imagem p {
+        font-size: 15px;
+    }
+
+    .selecao-cama {
+        margin: 40px 0;
+        display: flex;
+        background-color: #FFE607;
+    }
+
+    .selecao-cama img {
+        width: 60%;
+    }
+
+    .selecao-cama h1 {
+        font-size: 29px;
+    }
+
+    .selecao-cama h2 {
+        font-size: 24px;
+    }
+
+    .selecao-cama p {
+        font-size: 24px;
+    }
+}
