@@ -13,17 +13,48 @@ export var labelSerrote = document.querySelector('label[for="Serrote"]');
 export var Rolo = document.getElementById("Rolo");
 export var labelRolo = document.querySelector('label[for="Rolo"]');
 
-export var Beliche = document.getElementById("Beliche");
-export var labelBeliche = document.querySelector('label[for="Beliche"]');
+export var Serra = document.getElementById("Serra");
+export var labelSerra = document.querySelector('label[for="Serra"]');
 
-export var Cadeira = document.getElementById("Cadeira");
-export var labelCadeira = document.querySelector('label[for="Cadeira"]');
+export var Furadeira = document.getElementById("Furadeira");
+export var labelFuradeira = document.querySelector('label[for="Furadeira"]');
 
-export var Multiuso = document.getElementById("Multiuso");
-export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
+export var Lixadeira = document.getElementById("Lixadeira");
+export var labelLixadeira = document.querySelector('label[for="Lixadeira"]');
 
-export var Colchão = document.getElementById("Colchão");
-export var labelColchao = document.querySelector('label[for="Colchão"]');
+export var Esmerilhadeira = document.getElementById("Esmerilhadeira");
+export var labelEsmerilhadeira = document.querySelector('label[for="Esmerilhadeira"]');
+
+export var Lavadora = document.getElementById("Lavadora");
+export var labelLavadora = document.querySelector('label[for="Lavadora"]');
+
+export var Talhadeira = document.getElementById("Talhadeira");
+export var labelTalhadeira = document.querySelector('label[for="Talhadeira"]');
+
+export var Aparador = document.getElementById("Aparador");
+export var labelAparador = document.querySelector('label[for="Aparador"]');
+
+
+export var Grampos = document.getElementById("Grampos");
+export var labelGrampos = document.querySelector('label[for="Grampos"]');
+
+export var Soprador = document.getElementById("Soprador");
+export var labelSoprador = document.querySelector('label[for="Soprador"]');
+
+export var Compressor = document.getElementById("Compressor");
+export var labelCompressor = document.querySelector('label[for="Compressor"]');
+
+export var Tupia = document.getElementById("Tupia");
+export var labelTupia = document.querySelector('label[for="Tupia"]');
+
+
+export var Torno = document.getElementById("Torno");
+export var labelTorno = document.querySelector('label[for="Torno"]');
+
+
+export var Pistola = document.getElementById("Pistola");
+export var labelPistola = document.querySelector('label[for="Pistola"]');
+
 
 export var ultimoLabel = labelPincel;
 
