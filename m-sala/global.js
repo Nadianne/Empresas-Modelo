@@ -10,8 +10,8 @@ export var labelRack = document.querySelector('label[for="Rack"]');
 export var KitCozinha = document.getElementById("KitCozinha");
 export var labelKitCozinha = document.querySelector('label[for="KitCozinha"]');
 
-export var Cama = document.getElementById("Cama");
-export var labelCama = document.querySelector('label[for="Cama"]');
+export var Painel = document.getElementById("Painel");
+export var labelPainel = document.querySelector('label[for="Painel"]');
 
 export var Beliche = document.getElementById("Beliche");
 export var labelBeliche = document.querySelector('label[for="Beliche"]');
