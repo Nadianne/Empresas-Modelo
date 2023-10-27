@@ -3,7 +3,7 @@ global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
+    global.setTamProdutosIndicados([6]);
     global.setImgAllPath(["../imagens-moveis/kit/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -13,6 +13,7 @@ global.KitCozinha.addEventListener("change", function () {
         'Cozinha Kits Paraná 12 Portas com 4 Prateleiras',
         'Cozinha intense compacta 10 portas',
         'Cozinha Modulada 05 Peças Freijó Off White',
+        'Cozinha Completa Ferrara Nogueira / Off White',
         
     ],
    
@@ -24,7 +25,7 @@ global.KitCozinha.addEventListener("change", function () {
             "Cozinha Compacta 6 Portas <span>Sabrina</span>",
             "Cozinha Kits Paraná <span>Versalhes</span>",
             "Cozinha intense compacta <span> 10 portas</span>",
-            "Cozinha Modulada 05 Peças <span> 05 Peças 09 Portas 02 Gavetas com Bancada </span>",
+            "Cozinha completa <span>Ferrara Nogueira / Off White</span>",
         ],
     
     ]);
@@ -49,6 +50,10 @@ global.KitCozinha.addEventListener("change", function () {
             [
                 "Acabamento em Pintura uv. 09 Portas com dobradiças de amortecimento sendo 02 com pistão à gás e 02 com detalhes frisados. 02 Gavetas com corrediças telescópicas. Prateleiras internas e nichos com amplo espaço. 01 Nicho para eletrodoméstico. Pés e puxadores de plástico. Bancada Gourmet",
                 "Dimensões:<br> Altura: 224 cm", "Largura: 270 cm", "Profundidade: 47 cm",
+            ],
+            [
+                "Cozinha Ferrara traz a tona todo o conceito de amplitude e organização para o ambiente, amplas repartições e nichos compõe a peças para melhor dispor de objetos e afins, contém também espaço para forno ou micro, trazendo a praticidade de ter tudo em um só produto. Além de respeitar o meio ambiente a cozinha Ferrara vem com o acabamento com pintura fosca e textura sensível ao toque.",
+                "Dimensões:<br> Altura: 198 cm", "Largura: 180,2 cm", "Profundidade: 38,8 cm",
             ],
            
         ]

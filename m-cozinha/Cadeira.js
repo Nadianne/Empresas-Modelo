@@ -3,7 +3,7 @@ global.Cadeira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Cadeira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([3]);
+    global.setTamProdutosIndicados([4]);
     global.setImgAllPath(["../imagens-moveis/cadeira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -11,7 +11,7 @@ global.Cadeira.addEventListener("change", function () {
         'Cadeira Carraro Neo ',
         'Cadeiras Sala Jantar',
         'Conjunto de Cadeiras',
-        'Armário Multiuso Com Chave',
+        'Cadeiras de Jantar',
         'Armário Multiuso Ariel',
         
     ],
@@ -23,7 +23,7 @@ global.Cadeira.addEventListener("change", function () {
             "Cadeira Carraro Neo <span>Grafite E Preto</span>",
             "Cadeiras Sala Jantar <span>Cromado/Courano Preto</span>",
             "Conjunto de Cadeiras de Aço <span>Carraro</span>",
-            "Armário Multiuso <span>Com chave</span>",
+            "4 Cadeiras de Jantar Palha <span>Madeira Maciça Mel Bege</span>",
             "Armário Multiuso Ariel <span>2 Portas</span>",
         ],
     
@@ -43,8 +43,8 @@ global.Cadeira.addEventListener("change", function () {
                 "Dimensões:<br> Altura: 57cm", "Largura: 46cm", "Profundidade: 90cm",
             ],
             [
-                "O Armário Multiuso 2 Portas com Chave Max Plus da Zanzini é ideal para quem procura um móvel que se destaca no ambiente, possuindo a função multiuso, ou seja, pode ser considerado um produto para cozinha, escritório, área de serviço e afins.",
-                "Dimensões:<br> Altura:  187cm", "Largura: 60,9cm", "Profundidade: 37,3cm",
+                "A Cadeira Estofada possui formato anatômico e vai deixar seu ambiente muito mais bonito e sofisticado. Mantendo todo conforto que o móvel precisa ainda conta com enorme elegância. ",
+                "Dimensões:<br> Altura: 92cm", "Altura: 92cm", "Altura: 92cm",
             ],
             [
                 "O Armário Multiuso Ariel Móveis Sul, 2 Portas é perfeito para quem busca otimização de espaço e beleza em um único item, ele possui 2 portas com puxadores em plástico, rodapés e 4 prateleiras internas.",
