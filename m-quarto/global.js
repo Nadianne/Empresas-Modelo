@@ -25,6 +25,9 @@ export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
 export var Colchão = document.getElementById("Colchão");
 export var labelColchao = document.querySelector('label[for="Colchão"]');
 
+export var Mesa = document.getElementById("Mesa");
+export var labelMesa = document.querySelector('label[for="Mesa"]');
+
 export var ultimoLabel = labelGuardaRoupa;
 
 /**********************************************/

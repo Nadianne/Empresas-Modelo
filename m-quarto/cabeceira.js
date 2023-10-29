@@ -3,7 +3,7 @@ global.Cabeceira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Cabeceira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([11]);
+    global.setTamProdutosIndicados([10]);
     global.setImgAllPath(["../imagens-moveis/cabeceira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
