@@ -3,7 +3,7 @@ global.Cabeceira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Cabeceira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5]);
+    global.setTamProdutosIndicados([11]);
     global.setImgAllPath(["../imagens-moveis/cabeceira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -13,6 +13,11 @@ global.Cabeceira.addEventListener("change", function () {
         'Cabeceira casal Casal/Queen',
         'Cabeceira Panan Gênova',
         'Cabeceira Casal 4 Gavetas',
+        'Cabeceira Extensível Móveis ',
+        'Cabeceira Extensível Móveis Branca',
+        'Cabeceira Ripada Regulável',
+        'Cabeceira de Casal Extensível Branca',
+        'Cabeceira de Casal Extensível',
         
     ],
    
@@ -25,6 +30,11 @@ global.Cabeceira.addEventListener("change", function () {
             "Cabeceira Casal/Queen<span>Extensível com Mesas</span>",
             "Cabeceira Panan<span> Gênova</span>",
             "Cabeceira Casal <span>4 Gavetas</span>",
+            "Cabeceira Extensível Móveis <span>Europa Santorini</span> ",     
+            "Cabeceira Extensível Móveis Branca <span>Europa Santorini</span> ",         
+            "Cabeceira Ripada Regulável <span>Mila</span> ",     
+            "Cabeceira Extensível de casais Branca <span>Carraro</span> ",
+            "Cabeceira Extensível de casais <span>Carraro</span> ",   
         ],
     
     ]);
@@ -49,6 +59,26 @@ global.Cabeceira.addEventListener("change", function () {
             [
                 "Ajustável para colchão box 1,38 a 1,58m, possui dois aparadores de cabeceira com tampo e base de 25mm e duas gavetas em cada lado.",
                 "Dimensões:<br> Altura: 108cm", "Largura: 151m", "Profundidade: 405mm",
+            ],
+            [
+                "A cabeceira de cama embeleza o ambiente, esta é uma de suas qualidades e atributos, mas ela também tem sua utilidade prática. Ela pode ter uma finalidade estética ou ser usada para proteger a parede das manchas produzidas pela fricção. A cabeceira Santorini da Móveis Europa possui 2 mesinhas de cabeceira, 4 gavetas, sendo 2 com chave e 2 nichos para guardar seus pertences e objetos. Produzida em MDF na cor brauna, tem o grande diferencial que é ser extensível, ou seja pode ser usada nos tamanhos casal ou queen.",
+                "Dimensões:<br> Altura: 127.5cm", "Largura: 248cm", "Profundidade: 37.5cm",
+            ],
+            [
+                "A cabeceira de cama embeleza o ambiente, esta é uma de suas qualidades e atributos, mas ela também tem sua utilidade prática. Ela pode ter uma finalidade estética ou ser usada para proteger a parede das manchas produzidas pela fricção. A cabeceira Santorini da Móveis Europa possui 2 mesinhas de cabeceira, 4 gavetas, sendo 2 com chave e 2 nichos para guardar seus pertences e objetos. Produzida em MDF na cor brauna, tem o grande diferencial que é ser extensível, ou seja pode ser usada nos tamanhos casal ou queen.",
+                "Dimensões:<br> Altura: 127.5cm", "Largura: 248cm", "Profundidade: 37.5cm",
+            ],
+            [
+                "Acompanha duas mesas de cabeceira com 1 gaveta e 1 nicho em cada uma- Gavetas com corrediças telescópicas e puxadores de alumínio- Aplique ripado em MDF nas laterais- Moderna e versátil, faz a diferença na decoração do quarto- Produto em MDF/MDP",
+                "Dimensões:<br> Altura: 118,3cm", "Largura: 268cm", "Profundidade: 268cm",
+            ],
+            [
+                "A Cabeceira Carraro é a peça ideal para fazer a diferença na decoração. Com detalhe em aço cromado transmite modernidade para o quarto e consegue facilmente harmonizar com outros elementos do ambiente.",
+                "Dimensões:<br> Altura:  106,5cm", "Largura: 153cm", "Profundidade: 10cm",
+            ],
+            [
+                "A Cabeceira Carraro é a peça ideal para fazer a diferença na decoração. Com detalhe em aço cromado transmite modernidade para o quarto e consegue facilmente harmonizar com outros elementos do ambiente.",
+                "Dimensões:<br> Altura:  106,5cm", "Largura: 153cm", "Profundidade: 10cm",
             ],
            
         ]
