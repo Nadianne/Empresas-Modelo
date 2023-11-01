@@ -3,7 +3,7 @@ global.guardaRoupa.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Guarda-roupa de Casal", "Guarda-roupa de Solteiro"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([12, 4]);
+    global.setTamProdutosIndicados([16, 4]);
     global.setImgAllPath(["../imagens-moveis/guarda-roupa/casal/c", "../imagens-moveis/guarda-roupa/solteiro/s"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -19,7 +19,11 @@ global.guardaRoupa.addEventListener("change", function () {
         'Guarda-Roupa Verona com 1 Espelho',
         'Guarda-roupa Casal MDF 2 Portas',
         'Guarda-roupa Casal com espelho',
-        'Guarda Roupa Tuboarte'
+        'Guarda Roupa Tuboarte',
+        'Guarda Roupas Panan Blumenau',
+        'Guarda Roupa Panan Cecilia ',
+        'Guarda Roupas Casal 2 Portas ',
+        'Roupeiro Madri 2,64m 3 Portas',
     ],
     [
         'Guarda-roupa Solteiro 2 portas',
@@ -43,6 +47,10 @@ global.guardaRoupa.addEventListener("change", function () {
             "Guarda-roupa Casal MDF <span>2 Portas</span>",
             "Guarda-roupa Casal <span>com espelho</span>",
             "Guarda Roupa <span>Tuboarte</span>",
+            "Guarda Roupas Panan Blumenau <span>2 Portas e Espelho</span>",
+            "Guarda Roupa Panan Cecilia  <span> Cinamomo/off White</span>",
+            "Guarda Roupas Casal 2 Portas <span>3 Gavetas E Espelho</span>",
+            "Roupeiro Madri 2,64m 3 Portas <span>de Correr com Espelho </span>"
         ],
         [
             "Guarda-roupa Solteiro <span>2 portas</span>",
@@ -101,11 +109,27 @@ global.guardaRoupa.addEventListener("change", function () {
                 "Na hora de mobiliar o seu quarto é importante pensar em peças que tragam aconchego e segurança, mas que também deixem a decoração com um toque leve e sofisticado.",
                 "Dimensões:<br> Altura: 208cm", "Largura: 161cm", "Profundidade: 41,5cm",
             ],
+            [
+                "O guarda roupa Blumenau da Panan é perfeito, possui 243cm de largura e 55cm de profundidade, assim você tem espaço de sobra para guardar suas roupas e acessórios. O espelho na porta é fixado com cola especial e parafusos, para lhe proporcionar total segurança!",
+                "Dimensões:<br> Altura: 208cm", "Largura: 161cm", "Profundidade: 41,5cm",
+            ],
+            [
+                "Ele é espaçoso, moderno, planejado e super prático. Seu interior conta com prateleira, ideal para você organizar seu perfume, creme de pele e acessórios! As portas laterais tem o interior amplo com cabideiros e espaços para roupas longas como vestidos e palitós ",
+                "Dimensões:<br> Altura: 231 cm", "Largura: 234 cm", "Profundidade: 55 cm",
+            ],
+            [
+                "O guarda roupas casal 2 portas de correr 3 gavetas e espelho flexcolor ilhéus da panan é o guarda roupa ideal para o quarto, destacando por apresentar colmeias que permitem ampla organização, e sendo confeccionado com produtos de alta qualidade e maior durabilidade.",
+                "Dimensões:<br> Altura: 210 cm", "Largura: 184 cm", "Profundidade: 55 cm",
+            ],
+            [
+                "Feito em 100% MDF, esse roupeiro conta com o que há de melhor no mercado, com acabamento que só a panan consegue fazer, esse produto vai renovar o seu quarto, com design clean e uma aparencia linda. Conta com 3 portas de correr e gavetas internas com corrediças telescópicas para mais conforto.",
+                "Dimensões:<br> Altura: 240 cm", "Largura: 264 cm", "Profundidade: 62 cm",
+            ],
         ],
         [
             [
                 "Guarda-roupa Solteiro Kiev 2 Portas 4 Gavetas 100% Mdf Brauna/preto - Europa Móveis é Produzido Em 100% Mdf Na Escala De Brilho Semi-brilho.",
-                "Dimensões:<br> Altura: 235cm", "Largura: 170cm", "Profundidade: 56cm",
+                "Dimensões:<br> Altura: 240 cm", "Largura: 243 cm", "Profundidade: 55,1 cm",
             ],
             [
                 "Guarda-roupa solteiro isabela 2 portas 4 gavetas off white - pnr móveis é produzido em mdf na escala de brilho semi-brilho",
