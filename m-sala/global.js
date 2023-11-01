@@ -13,14 +13,14 @@ export var labelKitCozinha = document.querySelector('label[for="KitCozinha"]');
 export var Painel = document.getElementById("Painel");
 export var labelPainel = document.querySelector('label[for="Painel"]');
 
-export var Beliche = document.getElementById("Beliche");
-export var labelBeliche = document.querySelector('label[for="Beliche"]');
+export var Mesa = document.getElementById("Mesa");
+export var labelMesa = document.querySelector('label[for="Mesa"]');
 
 export var Cadeira = document.getElementById("Cadeira");
 export var labelCadeira = document.querySelector('label[for="Cadeira"]');
 
-export var Multiuso = document.getElementById("Multiuso");
-export var labelMultiuso = document.querySelector('label[for="Multiuso"]');
+export var Buffet = document.getElementById("Buffet");
+export var labelBuffet = document.querySelector('label[for="Buffet"]');
 
 export var Colchão = document.getElementById("Colchão");
 export var labelColchao = document.querySelector('label[for="Colchão"]');

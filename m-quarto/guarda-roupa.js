@@ -3,7 +3,7 @@ global.guardaRoupa.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Guarda-roupa de Casal", "Guarda-roupa de Solteiro"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([16, 4]);
+    global.setTamProdutosIndicados([17, 5]);
     global.setImgAllPath(["../imagens-moveis/guarda-roupa/casal/c", "../imagens-moveis/guarda-roupa/solteiro/s"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -24,12 +24,14 @@ global.guardaRoupa.addEventListener("change", function () {
         'Guarda Roupa Panan Cecilia ',
         'Guarda Roupas Casal 2 Portas ',
         'Roupeiro Madri 2,64m 3 Portas',
+        'Guarda-Roupa de Casal 6 portas', 
     ],
     [
         'Guarda-roupa Solteiro 2 portas',
         'Guarda-roupa Solteiro Isabela',
         'Guarda Roupa Royalli Baby',
         'Guarda Roupa Solteiro 3 portas',
+        'Guarda Roupa Tóquio 4 Portas',
     ]
     ]);
     
@@ -50,13 +52,15 @@ global.guardaRoupa.addEventListener("change", function () {
             "Guarda Roupas Panan Blumenau <span>2 Portas e Espelho</span>",
             "Guarda Roupa Panan Cecilia  <span> Cinamomo/off White</span>",
             "Guarda Roupas Casal 2 Portas <span>3 Gavetas E Espelho</span>",
-            "Roupeiro Madri 2,64m 3 Portas <span>de Correr com Espelho </span>"
+            "Roupeiro Madri 2,64m 3 Portas <span>de Correr com Espelho </span>",     
+            "Guarda Roupa de Casal 6 portas <span>Carraro</span>"
         ],
         [
             "Guarda-roupa Solteiro <span>2 portas</span>",
             "Guarda-roupa Solteiro <span>Isabela</span>",
             "Guarda Roupa <span>Royalli</span>",
             "Guarda-Roupa Solteiro <span>3 portas</span>",
+            "Guarda Roupa Tóquio 4 Portas <span>2 Gavetas Poquema Cappuccino</span>",
         ],
     ]);
     global.setParagrafoPopUpAllText([
@@ -125,6 +129,10 @@ global.guardaRoupa.addEventListener("change", function () {
                 "Feito em 100% MDF, esse roupeiro conta com o que há de melhor no mercado, com acabamento que só a panan consegue fazer, esse produto vai renovar o seu quarto, com design clean e uma aparencia linda. Conta com 3 portas de correr e gavetas internas com corrediças telescópicas para mais conforto.",
                 "Dimensões:<br> Altura: 240 cm", "Largura: 264 cm", "Profundidade: 62 cm",
             ],
+            [
+                "Guarda Roupa de Casal 6 portas entre elas 2 portas com detalhes ripados com 4 gavetas corrediças telescópicas, interna com prateleiras, cabideiro de alumínio, espaço para acomodar sapatos, puxadores em MDF, molduras laterais em 25 mm e com tudo isso dobradiças 35 mm com amortecedores.",
+                "Dimensões:<br> Altura: 230 cm", "Largura: 260 cm", "Profundidade: 52 cm",
+            ],
         ],
         [
             [
@@ -142,6 +150,10 @@ global.guardaRoupa.addEventListener("change", function () {
             [
                 "Guarda-Roupa Solteiro Moval Lima 3 Portas 2 Gavetas Se você procura um Guarda-Roupa Solteiro com design moderno e compacto e excelente distribuição interna, o modelo Lima da marca Moval é uma excelente opção!",
                 "Dimensões:<br> Altura: 182cm", "Largura: 82cm", "Profundidade: 47cm",
+            ],
+            [
+                "Chegou a hora de escolher o guarda roupa para seu quarto e procura por qualidade e preço baixo, aqui você encontra. Apresentamos a você o Guarda Roupa Solteiro 4 Portas da linha Tóquio desenvolvido pela Poquema, conta com lindo design na cor Branco Brilho, amplo espaço interno, repartições para melhor organizar suas roupas e acessórios. Não deixe de aproveitar, garanta já o seu!",
+                "Dimensões:<br> Altura: 190 cm", "Largura: 110 cm", "Profundidade: 47cm",
             ],
 
         ]

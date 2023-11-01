@@ -3,7 +3,7 @@ global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([10]);
+    global.setTamProdutosIndicados([15]);
     global.setImgAllPath(["../imagens-moveis/kit/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -18,7 +18,11 @@ global.KitCozinha.addEventListener("change", function () {
         'Cozinha Modulada 10 Portas Kits Paraná',
         'Cozinha Compacta 6 Portas Poquema',
         'Armário de Cozinha 8 Portas',
-        'Armário De Cozinha Freijó Gris '
+        'Armário De Cozinha Freijó Gris ',
+        'Cozinha Urbane Kits Paraná',
+        'Armário De Cozinha Completa 10 Portas',
+        'Cozinha Compacta 8 Portas Poquema',
+        'Kit para Cozinha Barbara Capuccino'
         
     ],
    
@@ -36,7 +40,11 @@ global.KitCozinha.addEventListener("change", function () {
             "Cozinha Modulada 10 Portas <span>Kits Paraná</span>",
             "Cozinha Compacta 6 Portas <span>Poquema</span>",
             "Armário de Cozinha 8 Portas <span>Kits Paraná</span>",
-            "Armário De Cozinha Freijó Gris <span>6 Portas 1 Gaveta</span>"
+            "Armário De Cozinha Freijó Gris <span>6 Portas 1 Gaveta</span>",
+            "Cozinha Urbane <span>Kits Paraná</span>",
+            "Armário De Cozinha Completa 10 Portas <span>Freijó/vanilla</span>",
+            "Cozinha Compacta 8 Portas 1 Gaveta <span>Coral Poquema</span>",
+            "Kit para Cozinha Barbara Capuccino <span>Poquema</span>",
         ],
     
     ]);
@@ -85,6 +93,22 @@ global.KitCozinha.addEventListener("change", function () {
             [
                 "Esse Magnifico Armário irá se tornar o charme da sua cozinha, seu design diferenciado. Dispõe nicho superior que pode ser utilizado para decoração, 6 portas todas com dobradiças metálicas, 1 gaveta e um grande espaço para acomodar micro-ondas ou forno elétrico. Puxadores em ergonômico plástico metalizado, Pés reguláveis em plástico resistente, Acabamento em pintura fosca e textura. Aproveite e Leve para a sua casa!",
                 "Dimensões:<br> Altura: 176 cm ", "Largura: 121,5 cm", "Profundidade: 36.3cm",
+            ],
+            [
+                "A cozinha urbane é um exemplo de elegância e sofisticação na decoração de cozinhas. Seus armários superiores recuados são um dos seus principais diferenciais, com tendência de design para mobiliários de alto padrão, esses armários apresentam portas sem puxadores, com sistema de abertura avançado, onde as portas são maiores que a estrutura do armário, garantindo uma abertura confortável e um visual mais clean ao mobiliário da cozinha, outro diferencial dessa cozinha é o módulo especial para forno elétrico ou microondas, com portas superiores que oferecem amplo espaço interno. Além disso, abaixo do forno elétrico ou microondas, o módulo inferior possui espaço ainda maior, com capacidade para guardar todos os utensílios que o cliente precisa para o dia a dia na cozinha. ",
+                "Dimensões:<br> Altura: 217 cm", "Largura: 260 cm", "Profundidade: 31,3 cm",
+            ],
+            [
+                "O Armário de Cozinha Intense, amplo e versátil, foi projetado para garantir praticidade no seu dia a dia! Possui 10 portas e 2 gavetas espaçosas com corrediças telescópicas que oferecem um deslizar suave das gavetas.",
+                "Dimensões:<br> Altura: 204,5 cm", "Largura: 222,2 cm", "Profundidade: 46,8 cm",
+            ],
+            [
+                "A cozinha compacta coral contém 8 portas e 1 gaveta para se enquadrar perfeitamente no seu ambiente. Com sua estrutura em mdp e acabamento em pintura uv trás funcionalidade e modernidade para a sua cozinha. características: estrutura em mdp pintura uv 8 portas 1 gaveta corrediças.",
+                "Dimensões:<br> Altura: 172 cm", "Largura: 120 cm", "Profundidade: 35 cm",
+            ],
+            [
+                "Chegou a hora de inovar sua cozinha e procura por armários de qualidade e com preços baixos, aqui você encontra. Apresentamos o Kit para Cozinha da linha Barbara desenvolvida pela Poquema pensando em você que não tem muito espaço, mas não abre mão da organização e modernidade, conta com lindo design na cor Capuccino Off White, amplo espaço interno com repartições para melhor organizar seus utensílios, fabricado com materiais de ótimas qualidades proporcionando maior durabilidade ao móvel.",
+                "Dimensões:<br> Altura: 1830 mm", "Largura: 1600 mm", "Profundidade: 400 mm",
             ],
         ]
     ]);

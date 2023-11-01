@@ -3,7 +3,7 @@ global.Cadeira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Cadeira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([4]);
+    global.setTamProdutosIndicados([9]);
     global.setImgAllPath(["../imagens-moveis/cadeira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -12,7 +12,11 @@ global.Cadeira.addEventListener("change", function () {
         'Cadeiras Sala Jantar',
         'Conjunto de Cadeiras',
         'Cadeiras de Jantar',
-        'Armário Multiuso Ariel',
+        'Cadeira Miami Azul ',
+        'Cadeira Sem Braço',
+        'Cadeira Aviv Fratini',
+        'Cadeira Janaina - Nude',
+        'Cadeira Poltrona',
         
     ],
    
@@ -24,7 +28,11 @@ global.Cadeira.addEventListener("change", function () {
             "Cadeiras Sala Jantar <span>Cromado/Courano Preto</span>",
             "Conjunto de Cadeiras de Aço <span>Carraro</span>",
             "4 Cadeiras de Jantar Palha <span>Madeira Maciça Mel Bege</span>",
-            "Armário Multiuso Ariel <span>2 Portas</span>",
+            "Cadeira Miami Azul <span>Petróleo</span>",
+            "Cadeira Sem Braço <span>Sofia-rivatti - Incolor</span>",
+            "Cadeira Aviv Estrutura <span>Polipropileno Fratini</span>",        
+            "Cadeira Janaina - Nude <span>Janaina</span>",
+            "Cadeira Poltrona Clarice Sidera <span>Com Apoio De Braço </span>"
         ],
     
     ]);
@@ -47,8 +55,24 @@ global.Cadeira.addEventListener("change", function () {
                 "Dimensões:<br> Altura: 92cm", "Altura: 92cm", "Altura: 92cm",
             ],
             [
-                "O Armário Multiuso Ariel Móveis Sul, 2 Portas é perfeito para quem busca otimização de espaço e beleza em um único item, ele possui 2 portas com puxadores em plástico, rodapés e 4 prateleiras internas.",
-                "Dimensões:<br> Altura: 180,00cm", "Largura: 56,60cm", "Profundidade: 33,00cm",
+                "Cadeira Miami Azul Petróleo - trazendo um modelo moderno e prático para sua sala de jantar e seu ambiente de conforto, o modelo Miami é composto pelo seu encosto e assento em polipropileno e base em aço pintado.",
+                "Dimensões:<br> Altura: 90 cm", "Largura: 43 cm", "Profundidade: 40 cm",
+            ],
+            [
+                "Cadeira sem braço pc sofia-rivatti se você procura por um móvel prático, bonito e resistente, aí vai uma dica: cadeira sofia sem braço da rivatti. A cadeira tem estrutura e acabamento em policarbonato de altíssima qualidade, que proporciona muito mais resistência. Ela suporta até 120 kg de peso máximo, o que dá mais tranquilidade ao sentar. Além disso, ela é bastante versátil e pode ser usada tanto na sala de jantar quanto na área externa, o que dá mais praticidade no dia a dia. Para sua maior comodidade, a cadeira já vem montada. ",
+                "Dimensões:<br> Altura: 97 cm", "Largura: 36 cm", "Profundidade: 49 cm",
+            ],
+            [
+                "Imponente e detalhista, a cadeira Aviv é ideal para ser usada em sua residência ou ambientes corporativos. Por ser uma cadeira monobloco, ela é empilhável, resistente e de fácil limpeza e manutenção. Sua variedade de cores permite que seja combinada com vários ambientes.",
+                "Dimensões:<br> Altura: 83 cm", "Largura: 51 cm", "Profundidade: 56 cm",
+            ],
+            [
+                "Sendo a maior importadora de móveis de design do Brasil, a Rivatti é especializada na comercialização de produtos de alta decoração, oferecendo assim mais de 500 itens e 1850 variações de cores e tecidos de produtos de qualidade e estilos diferenciados.",
+                "Dimensões:<br> Altura: 82 cm", "Largura: 44 cm", "Profundidade do assento: 42 cm",
+            ],
+            [
+                "A Cadeira Clarice também conhecida como Sidera, Nest ou Web, apresenta perfeita harmonia na sua estrutura de desenho vazado, sendo um modelo descontraído e elegante, com sua base em madeira e assento ergonômico em polipropileno, conquistou o gosto decoradores e arquitetos.",
+                "Dimensões:<br> Altura: 80 cm", "Largura: 62 cm", "Profundidade: 57 cm",
             ],
            
         ]
