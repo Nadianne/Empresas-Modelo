@@ -3,7 +3,7 @@ global.Serra.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Serra"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([9]);
+    global.setTamProdutosIndicados([10]);
     global.setImgAllPath(["../imagens-madereira/Serra/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -16,7 +16,8 @@ global.Serra.addEventListener("change", function () {
         'Serra Circular 7.1/4 127v DWT',
         'Serra mármore 127v DWT',
         'Serra Tico Tico Skil 400w',
-        'c ',
+        'Eixo para serra circular',
+        'Serra Circular',
     ],
 
     ]);
@@ -32,6 +33,7 @@ global.Serra.addEventListener("change", function () {
             "Serra mármore <span> 127v DWT</span>",
             "Serra Tico Tico Skil <span>127v 400w</span>",
             "Eixo para serra circular <span> 3/8 | 5/8 | 3/4</span>",
+            "Serra Circular de Bancada <span>10 Pol. 1800W</span> "
 
         ],
 
@@ -73,7 +75,13 @@ global.Serra.addEventListener("change", function () {
             [
                 "Eixo para serra circular. Aplicação: Marcenaria marmorarias, construção civil, industrias e outros <br> 3/8 <br> 5/8 <br> 3/4",
                 "","",""
+            ],
+            
+            [
+                "A serra circular de bancada SCD 1800 possui 1800W de potência, lâmina de serra de 10” (254 mm) e mesa de corte espaçosa. Realiza cortes em diferentes ângulos, possui guia lateral, esquadro para ângulos, proteção da lâmina em acrílico e regulagem de ângulo e de altura da Serra. Ideal para cortar madeira e derivados, usada em marcenarias, construções, entre outros.<br>- Características:<br>Possui guia lateral, esquadro para ângulos, proteção da lâmina em acrílico e regulagem de ângulo e de altura da Serra<br>Realiza Cortes em diferentes ângulos e alturas<br>Mesa de Corte prática e espaçosa",
+                "","",""
             ]
+           
            
         ],
    

@@ -3,7 +3,7 @@ global.Chave.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Chave"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([10]);
+    global.setTamProdutosIndicados([11]);
     global.setImgAllPath(["../imagens-madereira/Chave/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -18,6 +18,7 @@ global.Chave.addEventListener("change", function () {
         'Chave fixa 12x13mm',
         'Chave de fenda 3/16x3',
         'Chave de fenda 3/16x4',
+        'Chave biela em L',
         
     ],
    
@@ -36,6 +37,7 @@ global.Chave.addEventListener("change", function () {
             "Chave fixa 12x13mm <span>cromada vonder</span>",
             "Chave de fenda vonder estrela <span>3/16x3</span>",
             "Chave de fenda vonder estrela <span> 1/16x4</span>",
+            "Chave biela em L <span>Vonder</span>",
         ],
     
     ]);
@@ -80,6 +82,10 @@ global.Chave.addEventListener("change", function () {
             [
                 " Produzida em aço cromo vanádio, proporcionando maior resistência e durabilidade. Possui acabamento niquelado que confere maior resistência contra oxidação/corrosão. Conta com ponta magnetizada que facilita tanto a colocação quanto a retirada de parafusos em locais de difícil acesso. Indicada para fixar e soltar parafusos com fenda simples.",
                 "Largura da ponta:3/16 - 4,7 mm", "Comprimento da haste:3 - 76 mm", "Material da haste:Aço cromo vanádio",
+            ],
+            [
+                "Chave Biela L Material Em Aço Carbono <br> Modelos Disponível:",
+                "09mm<br>10mm<br>11mm", "12mm<br>13mm<br>14mm<br>", "",
             ],
            
         ]

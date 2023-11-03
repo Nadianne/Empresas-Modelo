@@ -55,6 +55,30 @@ export var labelTorno = document.querySelector('label[for="Torno"]');
 export var Pistola = document.getElementById("Pistola");
 export var labelPistola = document.querySelector('label[for="Pistola"]');
 
+export var Alicate = document.getElementById("Alicate");
+export var labelAlicate = document.querySelector('label[for="Alicate"]');
+
+export var Trena = document.getElementById("Trena");
+export var labelTrena = document.querySelector('label[for="Trena"]');
+
+export var Marreta = document.getElementById("Marreta");
+export var labelMarreta = document.querySelector('label[for="Marreta"]');
+
+export var Martelo = document.getElementById("Martelo");
+export var labelMartelo = document.querySelector('label[for="Martelo"]');
+
+export var Espacador = document.getElementById("Espacador");
+export var labelEspacador = document.querySelector('label[for="Espacador"]');
+
+export var Estilete = document.getElementById("Estilete");
+export var labelEstilete = document.querySelector('label[for="Estilete"]');
+
+export var Escala  = document.getElementById("Escala ");
+export var labelEscala = document.querySelector('label[for="Escala "]');
+
+export var Oculos  = document.getElementById("Oculos");
+export var labelOculos  = document.querySelector('label[for="Oculos"]');
+
 
 export var ultimoLabel = labelPincel;
 

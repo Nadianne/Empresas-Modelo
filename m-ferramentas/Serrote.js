@@ -3,15 +3,15 @@ global.Serrote.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Serrote"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([1]);
+    global.setTamProdutosIndicados([4]);
     global.setImgAllPath(["../imagens-madereira/Serrote/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
         'Serrote De Costa 14 Polegadas ',
-        'Mesa de Jantar ',
-        'Mesa Redonda Copa ',
-        'Cômoda 5 Gavetas',
+        'Serrote Profissional Supercut',
+        'Serrote Profissional 20 Polegadas',
+        'Serrote Profissional 24 Polegadas',
         'Guarda-roupa Casal com Espelho 6 Portas',
         
     ],
@@ -21,9 +21,9 @@ global.Serrote.addEventListener("change", function () {
     global.setH1PopUpAll([
         [
             "Serrote De Costa 14 Polegadas <span>VONDER</span>",
-            "Mesa de Jantar <span>Alvin </span>",
-            "Mesa Redonda Copa <span>Carraro</span>",
-            "Cômoda 5 Gavetas<span> Seul Móveis Sul</span>",
+            "Serrote Profissional Supercut <span>Tramontina Master 22 polegadas</span>",
+            "Serrote Profissional <span>Stanley 20 Polegadas</span>",
+            "Serrote Profissional <span>Stanley 24 Polegadas</span>",
         ],
     
     ]);
@@ -34,16 +34,16 @@ global.Serrote.addEventListener("change", function () {
                 "Comprimento de corte do serrote: 14 - 355 mm", "Comprimento de corte do serrote: 14 - 355 mm", " Material da lâmina do serrote: Aço temperado <br> Material do cabo do serrote: Plástico rígido ABS ",
             ],
             [
-                " A mesa de jantar Alvin é opção certa para você! Com design moderno, ela possui a estrutura em aço e o tampo em vidro, o que é super moderno, elegante.",
-                "Dimensões:<br> Altura: 63,00cm", "Largura: 63,00cm", "Profundidade: 90,00cm",
+                "O Serrote Supercut Tramontina Master. Projetado para o corte de diferentes tipos de madeira, ele traz materiais de qualidade na sua composição. Com lâmina em aço, apresenta tripla afiação, que proporciona um corte mais preciso. Além disso, a lâmina vem com têmpera especial nos dentes, aumentando a resistência. Prezando também pelo conforto do usuário, ele traz cabo ergonômico. É uma ferramenta completa e essencial para você ter por perto.",
+                "", "", "",
             ],
             [
-                "A Mesa de Jantar 4 Lugares Vercelli da Carraro, é a melhor opção para quem busca Organização, Estilo e Elegância!",
-                "Dimensões:<br> Altura: 76,50cm", "Largura: 100cm", "Profundidade: 100cm",
+                "Serrote profissional de 20 polegadas com 08 dentes por polegadas e Lâmina de aço temperado. Possui dentes travados e polidos e cabo de madeira.",
+                "", "", "",
             ],
             [
-                "Cômoda Seul possui 5 gavetas com corrediças metálicas sendo ideal para acondicionar e organizar objetos, indicado para compor ambientes em seu quarto ou closet.",
-                "Dimensões:<br> Altura: 67,5cm", "Largura: 91,5cm", "Profundidade:  37,7cm",
+                "Cabo em madeira tratada com Lâmina de aço SAE 1070 temperado e Dentes travados e polidos para um corte até 37% mais rápido. Possui Esquadro de 0° e 90° e Comprimento lâmina: 24 polegadas. ",
+                "", "", "",
             ],
            
         ]
