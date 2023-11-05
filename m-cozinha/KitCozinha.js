@@ -3,7 +3,7 @@ global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([15]);
+    global.setTamProdutosIndicados([18]);
     global.setImgAllPath(["../imagens-moveis/kit/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -22,7 +22,10 @@ global.KitCozinha.addEventListener("change", function () {
         'Cozinha Urbane Kits Paraná',
         'Armário De Cozinha Completa 10 Portas',
         'Cozinha Compacta 8 Portas Poquema',
-        'Kit para Cozinha Barbara Capuccino'
+        'Kit para Cozinha Barbara Capuccino',
+        'Cozinha Compacta 08 Portas Freijó Titânio',
+        'Armário Cozinha 12 Portas Amêndoa ',
+        'Cozinha Compacta 06 Portas 01 Gaveta Luara'
         
     ],
    
@@ -45,6 +48,9 @@ global.KitCozinha.addEventListener("change", function () {
             "Armário De Cozinha Completa 10 Portas <span>Freijó/vanilla</span>",
             "Cozinha Compacta 8 Portas 1 Gaveta <span>Coral Poquema</span>",
             "Kit para Cozinha Barbara Capuccino <span>Poquema</span>",
+            "Cozinha Compacta 08 Portas 02 Gavetas <span>200cm Luna</span>",
+            "Armário Cozinha 12 Portas 1 Gaveta <span>Amêndoa Branco</span>",
+            "Cozinha Compacta 06 Portas 01 Gaveta <span>Luara Carvalho</span>",
         ],
     
     ]);
@@ -109,6 +115,18 @@ global.KitCozinha.addEventListener("change", function () {
             [
                 "Chegou a hora de inovar sua cozinha e procura por armários de qualidade e com preços baixos, aqui você encontra. Apresentamos o Kit para Cozinha da linha Barbara desenvolvida pela Poquema pensando em você que não tem muito espaço, mas não abre mão da organização e modernidade, conta com lindo design na cor Capuccino Off White, amplo espaço interno com repartições para melhor organizar seus utensílios, fabricado com materiais de ótimas qualidades proporcionando maior durabilidade ao móvel.",
                 "Dimensões:<br> Altura: 1830 mm", "Largura: 1600 mm", "Profundidade: 400 mm",
+            ],
+            [
+                "Estrutura em mdf. Acabamento em Pintura uv Com 08 Portas com dobradiças de amortecimento e 02 Gavetas com corrediças telescópicas. Nichos com amplo espaço e prateleiras internas e Pés e puxadores de plástico.",
+                "Dimensões:<br> Altura: 203 cm", "Largura: 200 cm", "Profundidade: 45 cm",
+            ],
+            [
+                "O Armário de Cozinha Clara é um produto amplo e versátil podendo ser utilizado como completo de cozinha ou peça única, com estrutura de mdp ecologicamente correto, traz 12 portas sendo duas com vidro temperado, uma gaveta, nicho organizador decorativo, portas deslizantes com corrediças metálicas, espaço para dispor micro-ondas e demais aparelhos de utilidade doméstica, pés reguláveis de acordo com o piso e toda qualidade que só a Poliman oferece em seus produtos. ",
+                "Dimensões:<br> Altura: 175 cm", "Largura: 180 cm", "Profundidade: 38 cm",
+            ],
+            [
+                "Estrutura em MDP com acabamento em Pintura UV06 Portas articuladas com dobradiças metálicas 01 Gaveta com Corrediças Metálicas Puxadores em Polímero Espaço para Eletrodoméstico com Design moderno e sofisticado",
+                "Dimensões:<br> Altura: 190 cm", "Largura: 140 cm", "Profundidade: 38 cm",
             ],
         ]
     ]);

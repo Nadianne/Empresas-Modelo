@@ -73,8 +73,8 @@ export var labelEspacador = document.querySelector('label[for="Espacador"]');
 export var Estilete = document.getElementById("Estilete");
 export var labelEstilete = document.querySelector('label[for="Estilete"]');
 
-export var Escala  = document.getElementById("Escala ");
-export var labelEscala = document.querySelector('label[for="Escala "]');
+export var Escala  = document.getElementById("Escala");
+export var labelEscala = document.querySelector('label[for="Escala"]');
 
 export var Oculos  = document.getElementById("Oculos");
 export var labelOculos  = document.querySelector('label[for="Oculos"]');
