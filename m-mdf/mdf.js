@@ -1,9 +1,9 @@
 import * as global from './global.js';
 global.mdf.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
-    global.setSubCategoriasTitulo(["mdf"])
+    global.setSubCategoriasTitulo(["MDF Placas do Brasil"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([56]);
+    global.setTamProdutosIndicados([62]);
     global.setImgAllPath(["../imagens-industria/mdf/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -64,6 +64,12 @@ global.mdf.addEventListener("change", function () {
         'Nogueira Caiapó 15mm',
         'Tapioca 06mm',
         'Tapioca 15mm',
+        'Hortência 06mm',
+        'Hortência 15mm',      
+        'Alva 06mm',
+        'Alva 15mm',
+        'Carvalho Arandu 06mm',
+        'Carvalho Arandu 15mm',
     ],
 
     ]);
@@ -112,6 +118,8 @@ global.mdf.addEventListener("change", function () {
             "Macanaíba<span> 15mm</span>",
             "Nogueira Arroio<span> 06mm</span>",
             "Nogueira Arroio<span> 15mm</span>", 
+            "Nogal Terena 06mm",
+            "Nogal Terena 15mm ",
             "Vila Velha<span> 06mm</span>",
             "Vila Velha<span> 15mm</span>",  
             "Nogueira Carajás<span> 06mm</span>",
@@ -124,6 +132,12 @@ global.mdf.addEventListener("change", function () {
             "Nogueira Caiapó<span> 15mm</span>",
             "Tapioca<span> 06mm</span>",
             "Tapioca<span> 15mm</span>",
+            "Hortência<span> 06mm</span>",
+            "Hortência<span> 15mm</span>",
+            "Alva<span> 06mm</span>",
+            "Alva<span> 15mm</span>",
+            "Carvalho Arandu<span> 06mm</span>",
+            "Carvalho Arandu<span> 15mm</span>",
 
         ],
 
@@ -352,6 +366,30 @@ global.mdf.addEventListener("change", function () {
             ],
             [
                 "<br>Herança indígena, a tapioca é base de alguns dos mais famosos quitutes do receituário nacional. O padrão Tapioca, traz o branco na textura tear, deixando esse acabamento muito mais convidativo, confortável e aconchegante. O efeito sensorial agrega mais versatilidade aos projetos de pegada clean e minimalista.",
+                "","","",
+            ],
+            [
+                "<br>A hortênsia traz um significado muito importante, simbolizando devoção, dignidade e pureza de sentimento. Reflete a valorização de um estilo de vida mais simplificado, transmitindo paz e harmonia.",
+                "","","",
+            ],
+            [
+                "<br>A hortênsia traz um significado muito importante, simbolizando devoção, dignidade e pureza de sentimento. Reflete a valorização de um estilo de vida mais simplificado, transmitindo paz e harmonia.",
+                "","","",
+            ],
+            [
+                "<br>Alva, a primeira luz do dia. Momento em que o sol nasce no horizonte, que celebra o despertar. A cada alva uma nova oportunidade de ser feliz. Iluminando e energizando a atmosfera dos projetos.",
+                "","","",
+            ],
+            [
+                "<br>Alva, a primeira luz do dia. Momento em que o sol nasce no horizonte, que celebra o despertar. A cada alva uma nova oportunidade de ser feliz. Iluminando e energizando a atmosfera dos projetos.",
+                "","","",
+            ],
+            [
+                "<br>Atendendo aos anseios naturais, Carvalho Arandu traz boas vibrações, leveza e atemporalidade. Sua suavidade explora a elegância das madeiras finas em tonalidade clara.",
+                "","","",
+            ],
+            [
+                "<br>Atendendo aos anseios naturais, Carvalho Arandu traz boas vibrações, leveza e atemporalidade. Sua suavidade explora a elegância das madeiras finas em tonalidade clara.",
                 "","","",
             ],
         ],
