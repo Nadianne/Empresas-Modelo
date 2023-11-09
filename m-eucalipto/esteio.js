@@ -4,7 +4,7 @@ global.esteio.addEventListener("change", function () {
     global.setSubCategoriasTitulo(["Esteio"])
     global.setSubcategoriaIndex(0);
     global.setTamProdutosIndicados([4]);
-    global.setImgAllPath(["../imagens-industria/varao/"]);
+    global.setImgAllPath(["../imagens-industria/eucalipto/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[

@@ -4,7 +4,7 @@ global.estaca.addEventListener("change", function () {
     global.setSubCategoriasTitulo(["Estaca"])
     global.setSubcategoriaIndex(0);
     global.setTamProdutosIndicados([3]);
-    global.setImgAllPath(["../imagens-industria/Estaca/"]);
+    global.setImgAllPath(["../imagens-industria/eucalipto/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
     global.setDefinicaoDoProduto([[
