@@ -3,7 +3,7 @@ global.guardaRoupa.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Guarda-roupa de Casal", "Guarda-roupa de Solteiro"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([17, 5]);
+    global.setTamProdutosIndicados([17, 4]);
     global.setImgAllPath(["../imagens-moveis/guarda-roupa/casal/c", "../imagens-moveis/guarda-roupa/solteiro/s"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
