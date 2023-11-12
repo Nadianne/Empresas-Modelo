@@ -3,7 +3,7 @@ global.Fruteira.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Fruteira"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([7]);
+    global.setTamProdutosIndicados([8]);
     global.setImgAllPath(["../imagens-moveis/fruteira/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -15,6 +15,7 @@ global.Fruteira.addEventListener("change", function () {
         'Fruteira Armario',
         'Fruteira Luna Amendoa',
         'Armário Fruteira',
+        'Multiuso Fruteira',
     
     ],
 
@@ -29,6 +30,7 @@ global.Fruteira.addEventListener("change", function () {
             "Fruteira Armario <span>2 Portas</span>",
             "Fruteira Luna <span> 3 cestas metálicas</span>",
             "Armário Fruteira <span>1 Porta 2 Cestas </span>",
+            "Armário Fruteira <span>com tampo granito </span>",
 
         ],
 
@@ -62,6 +64,10 @@ global.Fruteira.addEventListener("change", function () {
             [
                 "O Multiuso Fruteira Lyon Branco possui nichos para Forno/Micro, assim como espaços para acondicionar e organizar objetos, sendo ideal para compor ambientes como cozinhas. Possui puxador plástico na cor Bronze, pés plásticos, e aramados metálicos como detalhes . Produto em MDP com acabamento em Pintura UV.",
                 "Dimensões:<br> Altura: 117,00cm", "Largura:  68,00cm", "Profundidade: 42,00cm",
+            ],
+            [
+                "A Rack Multiuso Aspen é versátil, pode ser utilizado conforme sua necessidade, seja para apoiar o forno micro-ondas, o bebedouro, os eletros portáteis em geral e até armazenar as frutas e os vegetais. Fabricado em aço, com tampo em Granito e cestas removíveis, tudo mais higiênico e fácil de limpar.",
+                "Dimensões:<br> Altura: 95,00cm", "Largura:  65,00cm", "Profundidade: 40,00cm",
             ],
            
         ],

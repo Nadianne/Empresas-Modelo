@@ -3,7 +3,7 @@ global.Painel.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Painel"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([14]);
+    global.setTamProdutosIndicados([20]);
     global.setImgAllPath(["../imagens-moveis/Painel/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -22,6 +22,15 @@ global.Painel.addEventListener("change", function () {
         'Painel para TV até 65 Polegadas',
         'Painel para TV até 70 Polegadas',
         'Painel para TV até 70 Polegadas',
+        'Painel para TV até 47 Polegadas',
+        'Painel para TV até 60 Polegadas',
+        'Painel para TV até 75 Polegadas',
+        'Painel para TV até 70 Polegadas',
+        'Painel Para TV Até 42 Polegadas',
+        'Painel Para TV Até 80 Polegadas',
+
+
+
 
         
     ],
@@ -43,8 +52,13 @@ global.Painel.addEventListener("change", function () {
             "Painel para TV até 55'<span>Vitória </span> ",
             "Painel para TV até 65'<span>Leoni </span> ",
             "Painel para TV até 70'<span>Marin </span> ",
-            "Painel para TV até 70'<span>Treviso </span> ",
-
+            "Painel para TV até 70'<span>Treviso</span> ",
+            "Painel para TV até 47'<span>Taurus</span> ",
+            "Painel para TV até 60'<span>Búzios</span> ",
+            "Painel para TV até 75'<span>Naturalle/Titanium</span> ",
+            "Painel para TV até 70'<span>Colibri</span> ",
+            "Painel Para TV Até 42' <span>Navi </span>",
+            "Painel Para TV Até 80' <span>Hanôver </span>",
         ],
     
     ]);
@@ -63,7 +77,7 @@ global.Painel.addEventListener("change", function () {
                 "Dimensões:<br> Altura:  108 cm", "Largura: 136 cm ", "Profundidade: 18 cm",
             ],
             [
-                "OPainel para TV até 65 polegadas Sala de Estar Essence Nature/Off White - Frade Movelaria tem um design excepcional, sua estrutura é desenvolvida com matéria-prima de alta qualidade e durabilidade, com porta basculante que facilita a abertura com leveza e maciez, além disso, oferece espaços para itens decorativos e eletrônicos. Sua sala de estar vai ganhar um visual gracioso com a presença deste Painel Home Suspenso Essence",
+                "O Painel para TV até 65 polegadas Sala de Estar Essence Nature/Off White - Frade Movelaria tem um design excepcional, sua estrutura é desenvolvida com matéria-prima de alta qualidade e durabilidade, com porta basculante que facilita a abertura com leveza e maciez, além disso, oferece espaços para itens decorativos e eletrônicos. Sua sala de estar vai ganhar um visual gracioso com a presença deste Painel Home Suspenso Essence",
                 "Dimensões:<br> Altura: 150cm", "Largura: 180cm", "Profundidade: 34cm",
             ],
             [
@@ -106,8 +120,30 @@ global.Painel.addEventListener("change", function () {
                 "O Painel Treviso é um produto que vai ser o destaque da sua sala de estar, com uma estética contemporânea e muito elegante. O painel central conta com charmosos cantos arredondados e iluminação em fitas de LED, que destacam os detalhes ripados atrás do painel central, sendo que este abriga TV's de até 70', garantindo o melhor do entretenimento para sua família. ",
                 "Dimensões:<br> Altura:  180 cm", "Largura: 210 cm", "Profundidade: 32,5 cm ",
             ],
-          
-           
+            [
+                "A Estante Home Taurus é ideal para sua sala! Uma estante robusta que possui um designer moderno e inovador, diferente dos demais no mercado, ele renovará totalmente o ambiente de sua sala tornando ainda mais atrativa. Ele possui 5 rodízios (os frontais com trava) que facilitam o seu deslocamento caso necessário, principalmente na hora da faxina. Possui um amplo tampo com espessura de 40mm, nichos, e várias prateleiras que são ideais para acomodar os mais variados tipos de objetos de decoração, bem como aparelhos eletrônicos que complemente sua tv.",
+                "Dimensões:<br> Altura:  175 cm", "Largura: 160 cm", "Profundidade: 38,5 cm ",
+            ],
+            [
+                "O Home Búzios é o móvel que você procura para sua casa! Robusto, ele comporta Tvs de até 60 polegadas. Possui Prateleira Superior e Base em MDP de 25mm, prateleiras de vidro com suportes metálicos e duas gavetas com corrediças metálicas.",
+                "Dimensões:<br> Altura:  189 cm", "Largura: 160 cm", "Profundidade: 40,00 cm ",
+            ],
+            [
+                "O Painel Nassau combina a estética contemporânea com a autenticidade das ripas para criar uma peça que é verdadeiramente excepcional. Ele não é apenas um móvel, é uma declaração de bom gosto e estilo. Com um design moderno, ele combina nichos com frisos decorativos, prateleira superior, gaveta com corrediças telescópicas reforçada e espaço para TV's de até 75 polegadas.",
+                "Dimensões:<br> Altura:  218 cm", "Largura: 180 cm", "Profundidade: 35,50 cm ",
+            ],
+            [
+                "Precisa de um móvel para destacar sua TV e dar um toque especial ao ambiente? O Painel Enseada suporta TVs de até 70' e possui prateleira superior para você expor seus itens de decoração favoritos. Experimente também combiná-lo com os nossos racks bancada Itapuã ou Tijuca. Tudo isso com cores únicas, design e qualidade Colibri Móveis.",
+                "Dimensões:<br> Altura:  108 cm", "Largura: 180 cm", "Profundidade: 17,70 cm ",
+            ],
+            [
+                "Painel ideal para qualquer sala. seu designer contemporâneo com linhas retas agrega muito mais charme e requinte ao ambiente, possui dois nichos, excelentes para acomodar objetos decorativos, aparelhos eletrônicos etc. Foi elaborado em MDP 15mm que garante resistência e durabilidade ao móvel. ",
+                "Dimensões:<br> Altura:  90 cm", "Largura: 120 cm", "Profundidade: 28,00 cm ",
+            ],
+            [
+                "Uma obra-prima de design que irá transformar seu espaço! Com ripas autênticas em MDF, com luminária LED tipo cascata que agrega ainda mais charme e requinte ao móvel. Este painel é um verdadeiro espetáculo visual. Projetado com precisão para abrigar TVs de até 80 polegadas, ele cria uma experiência cinematográfica imersiva, trazendo o entretenimento para o centro do seu lar. ",
+                "Dimensões:<br> Altura:  160,50 cm", "Largura: 217 cm", "Profundidade: 34,00 cm ",
+            ],
         ]
     ]);
     global.setPath();

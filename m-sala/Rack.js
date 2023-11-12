@@ -3,7 +3,7 @@ global.Rack.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Rack"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([3]);
+    global.setTamProdutosIndicados([6]);
     global.setImgAllPath(["../imagens-moveis/rack/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -11,8 +11,9 @@ global.Rack.addEventListener("change", function () {
         'Rack Cristal',
         'Rack Dili ',
         'Rack EDN ',
-        'Cômoda 5 Gavetas',
-        'Guarda-roupa Casal com Espelho 6 Portas',
+        'Rack Valencia',
+        'Rack Paládio',
+        'Rack Milão'
         
     ],
    
@@ -23,7 +24,9 @@ global.Rack.addEventListener("change", function () {
             "Rack Cristal <span> Permobili - Savana/Off White</span>",
             "Rack Dili <span>Nobre/off White</span>",
             "Rack EDN <span>Branco</span>",
-            "Cômoda 5 Gavetas<span> Seul Móveis Sul</span>",
+            "Rack Valencia <span>Off White Nature</span>",
+            "Rack Paládio <span>Off White/Cinamomo</span>",
+            "Rack Milão <span>Nogal Off White</span>",
         ],
     
     ]);
@@ -45,6 +48,18 @@ global.Rack.addEventListener("change", function () {
             [
                 "Cômoda Seul possui 5 gavetas com corrediças metálicas sendo ideal para acondicionar e organizar objetos, indicado para compor ambientes em seu quarto ou closet.",
                 "Dimensões:<br> Altura: 67,5cm", "Largura: 91,5cm", "Profundidade:  37,7cm",
+            ],
+            [
+                "Rack Valencia Off White Nature 2076256 Bechara Com uma linha de produtos inovadores, A Móveis Bechara trás produções com alto nível de modernidade. O Rack Valencia é de design moderno e retrô, é ideal para quem busca levar personalidade a sua sala de estar, com seus pés de madeira e sua porta em mdf com design de curvas com frisos que redefine o conceito de estilo e funcionalidade. Um móvel que com certeza irá renovar seu ambiente.",
+                "Dimensões:<br> Altura: 62,5cm", "Largura: 120,0cm", "Profundidade:  38,00cm",
+            ],
+            [
+                "Rack Paládio 1.4 com Painel Kenzo possuem design contemporâneo, deixa seu espaço perfeito e organizado. Com muito estilo e elegância, sua sala muito mais compacta e moderna. ",
+                "Dimensões:<br> Altura: 90,00cm", "Largura: 136,0cm", "Profundidade:  18,00cm",
+            ],
+            [
+                "Um Home Robusto Tem Como Diferencial Sua Estrutura, A Qual É Elaborado Em Mdp Com Espessura De 15mm, Tampo Para Tv E Base Emoldurado Com Espessura Total De 40mm. Puxadores Em Aluminio Anodizado. Possui Rodízios Em Sua Base Que Facilitam O Deslocamento Do Móvel Caso Necessário, Quatro Dos Rodízios Possuem Calota Cromada. Para Tv's De Até 47 Polegadas.",
+                "Dimensões:<br> Altura: 175,00cm", "Largura: 160,0cm", "Profundidade:  38,50cm",
             ],
            
         ]

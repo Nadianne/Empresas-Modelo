@@ -3,7 +3,7 @@ global.KitCozinha.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Kit Cozinha"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([18]);
+    global.setTamProdutosIndicados([21]);
     global.setImgAllPath(["../imagens-moveis/kit/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -25,7 +25,10 @@ global.KitCozinha.addEventListener("change", function () {
         'Kit para Cozinha Barbara Capuccino',
         'Cozinha Compacta 08 Portas Freijó Titânio',
         'Armário Cozinha 12 Portas Amêndoa ',
-        'Cozinha Compacta 06 Portas 01 Gaveta Luara'
+        'Cozinha Compacta 06 Portas 01 Gaveta Luara',
+        'Cozinha Nice 8 Portas 1 Gaveta Poliman Móveis',
+        'Cozinha Nice 8 Portas 1 Gaveta Poliman Móveis',
+        'Kit Cozinha 12 Portas 1 Gaveta Poliman Móveis',
         
     ],
    
@@ -50,7 +53,9 @@ global.KitCozinha.addEventListener("change", function () {
             "Kit para Cozinha Barbara Capuccino <span>Poquema</span>",
             "Cozinha Compacta 08 Portas 02 Gavetas <span>200cm Luna</span>",
             "Armário Cozinha 12 Portas 1 Gaveta <span>Amêndoa Branco</span>",
-            "Cozinha Compacta 06 Portas 01 Gaveta <span>Luara Carvalho</span>",
+            "Cozinha Nice 8 Portas 1 Gaveta <span>Carvalho Oak/Off White</span>",
+            "Cozinha Nice 8 Portas 1 Gaveta <span> Carvalho/Grafite</span>",
+            "Kit Cozinha Completa 12 Portas 1 Gaveta <span>Clara Amêndoa Com Branco</span>",
         ],
     
     ]);
@@ -127,6 +132,18 @@ global.KitCozinha.addEventListener("change", function () {
             [
                 "Estrutura em MDP com acabamento em Pintura UV06 Portas articuladas com dobradiças metálicas 01 Gaveta com Corrediças Metálicas Puxadores em Polímero Espaço para Eletrodoméstico com Design moderno e sofisticado",
                 "Dimensões:<br> Altura: 190 cm", "Largura: 140 cm", "Profundidade: 38 cm",
+            ],
+            [
+                "O Kit Cozinha 8 portas 1 gaveta é um produto amplo e versátil podendo ser utilizado como complemento de cozinha ou peça única. Perfeita combinação com os mais variados ambientes. Portas em MDP com pintura UV brilhante.",
+                "Dimensões:<br> Altura: 175 cm", "Largura: 120 cm", "Profundidade: 39 cm",
+            ],
+            [
+                "O Kit Cozinha 8 portas 1 gaveta é um produto amplo e versátil podendo ser utilizado como complemento de cozinha ou peça única. Perfeita combinação com os mais variados ambientes. Portas em MDP com pintura UV brilhante.",
+                "Dimensões:<br> Altura: 175 cm", "Largura: 120 cm", "Profundidade: 39 cm",
+            ],
+            [
+                "O Kit Cozinha 12 portas 1 gaveta Clara da Poliman Móveis é um produto amplo e versátil podendo ser utilizado como complemento de cozinha ou peça única, com estrutura em mdp, traz 12 portas sendo duas com detalhe em vidro proporcionando charme a peça, uma gaveta com corrediças metálicas, nicho organizador decorativo, espaço para dispor micro-ondas e demais aparelhos de utilidade doméstica, puxadores em polímero e pés fixos que garantem firmeza ao produto. Disponível em padrões de cores que combinam com diversos ambientes. Qualidade que só a Poliman oferece em seus produtos.",
+                "Dimensões:<br> Altura: 175 cm", "Largura: 180 cm", "Profundidade: 37,5 cm",
             ],
         ]
     ]);
