@@ -3,7 +3,7 @@ global.guardaRoupa.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Guarda-roupa de Casal", "Guarda-roupa de Solteiro"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([17, 4]);
+    global.setTamProdutosIndicados([21, 4]);
     global.setImgAllPath(["../imagens-moveis/guarda-roupa/casal/c", "../imagens-moveis/guarda-roupa/solteiro/s"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -25,6 +25,10 @@ global.guardaRoupa.addEventListener("change", function () {
         'Guarda Roupas Casal 2 Portas ',
         'Roupeiro Madri 2,64m 3 Portas',
         'Guarda-Roupa de Casal 6 portas', 
+        'Guarda Roupas Casal 2 Portas',
+        'Guarda-Roupa Casal Com Espelho 2 Portas',
+        'Guarda Roupa Panan Cecilia 6 Portas',
+        'Guarda Roupa Casal 3 Portas de correr',
     ],
     [
         'Guarda-roupa Solteiro 2 portas',
@@ -53,7 +57,11 @@ global.guardaRoupa.addEventListener("change", function () {
             "Guarda Roupa Panan Cecilia  <span> Cinamomo/off White</span>",
             "Guarda Roupas Casal 2 Portas <span>3 Gavetas E Espelho</span>",
             "Roupeiro Madri 2,64m 3 Portas <span>de Correr com Espelho </span>",     
-            "Guarda Roupa de Casal 6 portas <span>Carraro</span>"
+            "Guarda Roupa de Casal 6 portas <span>Carraro</span>",
+            "Guarda Roupa de Casal 2 portas <span>Ilhéus Panan</span>",
+            "Guarda Roupa de Casal 2 portas <span>Blumenau</span>",
+            "Guarda Roupa Panan Cecilia 6<spann> Com Pés Cinamomo/off White</span>",
+            "Guarda Roupa Casal 3 Portas <span>Com Espelho E Pés Madri Avelã/pérola  </span>"
         ],
         [
             "Guarda-roupa Solteiro <span>2 portas</span>",
@@ -132,6 +140,22 @@ global.guardaRoupa.addEventListener("change", function () {
             [
                 "Guarda Roupa de Casal 6 portas entre elas 2 portas com detalhes ripados com 4 gavetas corrediças telescópicas, interna com prateleiras, cabideiro de alumínio, espaço para acomodar sapatos, puxadores em MDF, molduras laterais em 25 mm e com tudo isso dobradiças 35 mm com amortecedores.",
                 "Dimensões:<br> Altura: 230 cm", "Largura: 260 cm", "Profundidade: 52 cm",
+            ],
+            [
+                "O guarda roupa casal 2 portas de correr 3 gavetas e espelho flexcolor ilhéus da panan é o guarda roupa ideal para o quarto, destacando por apresentar colmeias que permitem ampla organização, e sendo confeccionado com produtos de alta qualidade e maior durabilidade. ",
+                "Dimensões:<br> Altura: 210 cm", "Largura: 184 cm", "Profundidade: 55 cm",
+            ],
+            [
+                "O Guarda Roupa Casal Blumenau é moderno e pode deixar o seu quarto muito mais charmoso! Possui duas portas de correr, sendo uma com espelho, quatro gavetas internas, nove prateleiras e três cabideiros, o que proporcionará mais espaço para manter seus objetos organizados. Seu material é altamente resistente, prolongando a durabilidade da peça. A linha da Panan Móveis tem tudo isso e muito mais para deixar seu cantinho ainda mais lindo.",
+                "Dimensões:<br> Altura: 240 cm", "Largura: 243 cm", "Profundidade: 55,1 cm",
+            ],
+            [
+                "Procurando um guarda roupa? O Cecilia é perfeito para você!Ele é espaçoso, moderno, planejado e super prático. Seu interior conta com prateleira, ideal para você organizar seu perfume, creme de pele e acessórios!As portas laterais tem o interior amplo com cabideiros e espaços para roupas longas como vestidos e palitós. Ah, ele ainda possui espaço para sapatos! Garanta já o seu Cecilia e mantenha tudo organizado pertinho de você! ",
+                 "Dimensões:<br> Altura: 231 cm", "Largura: 234 cm", "Profundidade: 55 cm",
+            ],
+             [
+                "Guarda Roupa Casal 3 Portas De Correr com Espelho E Pés Madri Avelã/pérola - Panan",
+                 "Dimensões:<br> Altura: 240 cm", "Largura: 264 cm", "Profundidade: 62 cm",
             ],
         ],
         [
