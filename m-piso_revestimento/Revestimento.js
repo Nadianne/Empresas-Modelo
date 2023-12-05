@@ -3,7 +3,7 @@ global.Revestimento.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Revestimento"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([9]);
+    global.setTamProdutosIndicados([13]);
     global.setImgAllPath(["../imagens-madereira/revestimento/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -17,7 +17,10 @@ global.Revestimento.addEventListener("change", function () {
         'Revestimento Triunfo Unique  ',
         'Revestimento triunfo bello  ',
         'Revestimento HD Elegance ',
-        
+        'Revestimento HD Madrepérola ',
+        'Revestimento HD Brilho Mix',
+        'Revestimento Ravello Cielo',
+        'Revestimento Ravello Carrara',
     ],
    
     ]);
@@ -33,6 +36,10 @@ global.Revestimento.addEventListener("change", function () {
             "Revestimento Triunfo Unique  <span> 33x57 HD</span>",
             "Revestimento triunfo bello  <span> 33x57 Bello</span>",
             "Revestimento HD  <span> 33x57 Elegance Extra</span>",
+            "Revestimento HD  Madrepérola<span> 33X57cm Branco e Preto</span>",
+            "Revestimento HD Brilho Mix<span> 33x57 Brilhante</span>",
+            "Revestimento Ravello Cielo Grigio<span> 33x59 Brilhante</span>",
+            "Revestimento Ravello Carrara Puro<span> 33x59 Brilhante</span>",
         ],
     
     ]);
@@ -74,7 +81,22 @@ global.Revestimento.addEventListener("change", function () {
                 "<br>Revestimento 33x57 Elegance HD Extra TRIUNFO.",
                 "Marca: Triunfo", "Formato: 33 x 57cm", "Caixa: 2.50 metros",
             ],
-           
+            [
+                "<br>Revestimento de parede bold 33x57cm HD Madrepérola Lyara branco e preto Triunfo",
+                "Marca: Triunfo", "Comprimento (cm): 33,000 <br>Largura (cm): 0,800", "Altura (cm): 57,000",
+            ],
+            [
+                "<br>Revestimento Triunfo Brilhante 33x57cm com formato retângular para uso interno",
+                "Marca: Triunfo", "Comprimento (cm): 33,000", "Altura (cm): 57,000",
+            ],
+            [
+                "<br>Revestimento Triunfo Brilhante 33x59cm com formato retângular para uso interno",
+                "Marca: Triunfo", "Comprimento (cm): 33,000", "Altura (cm): 59,000",
+            ],
+            [
+                "<br>Revestimento  Cerâmico Ravello Carrara Puro 33x59cm com formato retângular para uso interno",
+                "Marca: Triunfo", "Comprimento (cm): 33,000", "Altura (cm): 59,000",
+            ],
         ]
     ]);
     global.setPath();

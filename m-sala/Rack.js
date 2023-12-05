@@ -3,7 +3,7 @@ global.Rack.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Rack"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([6]);
+    global.setTamProdutosIndicados([8]);
     global.setImgAllPath(["../imagens-moveis/rack/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -13,7 +13,9 @@ global.Rack.addEventListener("change", function () {
         'Rack EDN ',
         'Rack Valencia',
         'Rack Paládio',
-        'Rack Milão'
+        'Rack Milão',
+        'Rack Búzios',
+        'Rack Milão',
         
     ],
    
@@ -26,6 +28,8 @@ global.Rack.addEventListener("change", function () {
             "Rack EDN <span>Branco</span>",
             "Rack Valencia <span>Off White Nature</span>",
             "Rack Paládio <span>Off White/Cinamomo</span>",
+            "Rack Milão <span>Nogal Off White</span>",
+            "Rack Búzios <span> Naturalle/Off White</span>",
             "Rack Milão <span>Nogal Off White</span>",
         ],
     
@@ -61,7 +65,14 @@ global.Rack.addEventListener("change", function () {
                 "Um Home Robusto Tem Como Diferencial Sua Estrutura, A Qual É Elaborado Em Mdp Com Espessura De 15mm, Tampo Para Tv E Base Emoldurado Com Espessura Total De 40mm. Puxadores Em Aluminio Anodizado. Possui Rodízios Em Sua Base Que Facilitam O Deslocamento Do Móvel Caso Necessário, Quatro Dos Rodízios Possuem Calota Cromada. Para Tv's De Até 47 Polegadas.",
                 "Dimensões:<br> Altura: 175,00cm", "Largura: 160,0cm", "Profundidade:  38,50cm",
             ],
-           
+            [
+                " Bechara Móveis é o móvel que você procura para sua casa, Robusto, ele comporta Tvs de até 60 polegadas. Possui Prateleira Superior e Base em mdp de 25mm, prateleiras de vidro com suportes metálicos e duas gavetas com corrediças metálicas. Em sua base possui 6 rodízios sendo os frontais com acabamento cromado e trava, proporcionando maior mobilidade para o produto.",
+                "Dimensões:<br> Altura: 189,00cm", "Largura: 160,0cm", "Profundidade:  40,00cm",
+            ],
+            [
+                "Um Home Robusto Tem Como Diferencial Sua Estrutura, A Qual É Elaborado Em Mdp Com Espessura De 15mm, Tampo Para Tv E Base Emoldurado Com Espessura Total De 40mm. Puxadores Em Aluminio Anodizado. Possui Rodízios Em Sua Base Que Facilitam O Deslocamento Do Móvel Caso Necessário, Quatro Dos Rodízios Possuem Calota Cromada. Para Tv's De Até 47 Polegadas.",
+                "Dimensões:<br> Altura: 175,00cm", "Largura: 160,0cm", "Profundidade:  38,50cm",
+            ],
         ]
     ]);
     global.setPath();
