@@ -3,7 +3,7 @@ global.Colchão.addEventListener("change", function () {
     global.produtosIndicados.innerHTML = '';
     global.setSubCategoriasTitulo(["Colchão","Colchão de Solteiro", "Colchão para berço"])
     global.setSubcategoriaIndex(0);
-    global.setTamProdutosIndicados([5,7,2]);
+    global.setTamProdutosIndicados([8,7,2]);
     global.setImgAllPath(["../imagens-moveis/colchao/casal/","../imagens-moveis/colchao/solteiro/","../imagens-moveis/colchao/berco/"]);
     global.produtosIndicados.appendChild(global.createH2(global.subCategoriasTitulo[global.subcategoriaIndex]));
 
@@ -13,6 +13,9 @@ global.Colchão.addEventListener("change", function () {
         'Colchão Ortobom Freedom',
         'Colchão Gold Ultra Gel Ortobom',
         'Colchão Exclusive Casal Ortobom',
+        'Colchão Elegant Superpocket Ortobom',
+        'Colchão Gold Ultra Gel Casal',
+        'Colchão Light Superpocket Ortobom',
         
     ],
     [
@@ -40,7 +43,10 @@ global.Colchão.addEventListener("change", function () {
             "Colchão Casal <span>com Espuma</span>",
             "Colchão Ortobom <span>Freedom</span>",
             "Colchão Gold <span>Ultra Gel</span>",
-            "Colchão Exclusive Casal Ortobom<span>Ortobom</span>",
+            "Colchão Exclusive Casal <span>Ortobom</span>",
+            "Colchão Elegant Superpocket <span>Ortobom</span>",
+            "Colchão Gold Ultra Gel Casal <span>Ortobom</span>",
+            "Colchão Light Superpocket <span>Ortobom</span>",
         ],
         [
             "Colchão Solteiro Ortobom <span>Nanolastic Elegant</span>",
@@ -79,6 +85,18 @@ global.Colchão.addEventListener("change", function () {
             [
                 "Novo Colchão Exclusive é um clássico entre os colchões de mola, sua estrutura é composta pelo avançado molejo Nanolastic que possui a menor molécula de carbono do mercado.",
                 "Dimensões:<br> Altura: 0,30m", "Largura: 1,38m", "Profundidade: 1,88m",
+            ],
+            [
+                "Novo Colchão Elegant Superpocket é revestido em Bambú Fresh em Malha de Poliéster com Viscose que oferece um toque muito mais refrescante e confortável, sua lateral é em Camurça. Tem sua estrutura em molas Superpocket ensacadas individualmente, que reduzem a vibração ao longo de sua superfície, garantindo mais conforto e perfeita acomodação, além de permitir que uma pessoa se movimente sem incomodar quem está ao lado. Possui Ortopillow com camada extra de conforto e bordado em matelassê, que maximiza a sensação de maciez. O Elegant Superpocket recebe tratamento antialérgico e antiácaro, preocupação extra com sua saúde. Devido a tecnologia No Turn, o Elegant Superpocket não precisa ser virado.",
+                "Dimensões:<br> Altura: 28,00 cm", "Largura: 138,00 cm", "Profundidade: 188,00 cm",
+            ],
+            [
+                "Colchão Gold Ultra Gel Casal (138x188x32) - Espuma Viscogel D45, molas Pocket - Ortobom sobre O produto Gold Ultra Gel é o representante Super Premium dentre os produtos Ortobom. Sua estrutura é composta pelo molejo Superpocket (ensacadas individualmente) que fazem o peso de um corpo não interferir no conforto do outro. Possui em sua camada de conforto a inovadora espuma Viscogel D45, que é a espuma com a mais alta tecnóloga do mercado e que se adapta como nenhuma outra a temperatura e contornos do seu corpo. Possui Malha Belga Super Soft de alta qualidade no tampo, que proporciona conforto e uma beleza sem igual, sua lateral é confeccionada em Camurça 3D que apresenta um visual único ao produto. ",
+                "Dimensões:<br> Altura: 0,32m", "Largura: 1,38m", "Profundidade: 1,88m",
+            ],
+            [
+                "Colchão Light Superpocket tem sua estrutura em molas ensacadas que reduzem a vibração ao longo de sua superfície, garantindo mais conforto e perfeita acomodação, além de permitir que uma pessoa se movimente sem incomodar quem está ao lado.",
+                "Dimensões:<br> Altura: 26 cm ", "Largura: 138 cm ", "Profundidade: 188 cm ",
             ],
            
         ],
